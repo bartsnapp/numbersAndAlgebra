@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="upcaEg.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.2766005"
+     inkscape:cx="422.5"
+     inkscape:cy="500.17718"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="811"
+     inkscape:window-height="799"
+     inkscape:window-x="1445"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0" />
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       id="perspective10"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       style="fill:#000000"
+       x="383.34589"
+       y="531.79443"
+       width="1"
+       height="35"
+       id="rect4526" />
+    <rect
+       style="fill:#000000"
+       x="385.34589"
+       y="531.79443"
+       width="1"
+       height="35"
+       id="rect4528" />
+    <rect
+       style="fill:#000000"
+       x="387.34589"
+       y="531.79443"
+       width="2"
+       height="30"
+       id="rect4530" />
+    <rect
+       style="fill:#000000"
+       x="391.34589"
+       y="531.79443"
+       width="2"
+       height="30"
+       id="rect4532" />
+    <rect
+       style="fill:#000000"
+       x="395.34589"
+       y="531.79443"
+       width="1"
+       height="30"
+       id="rect4534" />
+    <rect
+       style="fill:#000000"
+       x="398.34589"
+       y="531.79443"
+       width="2"
+       height="30"
+       id="rect4536" />
+    <rect
+       style="fill:#000000"
+       x="401.34589"
+       y="531.79443"
+       width="4"
+       height="30"
+       id="rect4538" />
+    <rect
+       style="fill:#000000"
+       x="406.34589"
+       y="531.79443"
+       width="1"
+       height="30"
+       id="rect4540" />
+    <rect
+       style="fill:#000000"
+       x="409.34589"
+       y="531.79443"
+       width="3"
+       height="30"
+       id="rect4542" />
+    <rect
+       style="fill:#000000"
+       x="413.34589"
+       y="531.79443"
+       width="1"
+       height="30"
+       id="rect4544" />
+    <rect
+       style="fill:#000000"
+       x="415.34589"
+       y="531.79443"
+       width="3"
+       height="30"
+       id="rect4546" />
+    <rect
+       style="fill:#000000"
+       x="420.34589"
+       y="531.79443"
+       width="1"
+       height="30"
+       id="rect4548" />
+    <rect
+       style="fill:#000000"
+       x="422.34589"
+       y="531.79443"
+       width="1"
+       height="30"
+       id="rect4550" />
+    <rect
+       style="fill:#000000"
+       x="424.34589"
+       y="531.79443"
+       width="4"
+       height="30"
+       id="rect4552" />
+    <rect
+       style="fill:#000000"
+       x="429.34589"
+       y="531.79443"
+       width="1"
+       height="35"
+       id="rect4554" />
+    <rect
+       style="fill:#000000"
+       x="431.34589"
+       y="531.79443"
+       width="1"
+       height="35"
+       id="rect4556" />
+    <rect
+       style="fill:#000000"
+       x="433.34589"
+       y="531.79443"
+       width="1"
+       height="35"
+       id="rect4558" />
+    <text
+       x="408.34589"
+       y="571.79443"
+       style="font-size:10px;text-align:center;text-anchor:middle;fill:#000000"
+       xml:space="preserve"
+       id="text4560"><tspan
+         style="-inkscape-font-specification:sans;font-family:sans"
+         id="tspan4635">0  123456  5</tspan></text>
+  </g>
+</svg>

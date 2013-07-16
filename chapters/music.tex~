@@ -1,0 +1,1494 @@
+\chapter{Harmony of Numbers}
+
+\begin{quote}
+%Nature uses as little as possible of anything.  
+
+Let us despise the barbaric neighings [of war] which echo through
+these noble lands, and awaken our understanding and longing for the
+harmonies.
+
+\hfill---Johannes Kepler
+\end{quote}
+
+
+
+\section{Clocks}
+
+It is now time to think about clocks. Consider the usual run-of-the-mill clock:
+\[
+\includegraphics{../graphics/clock.pdf}
+\]
+\begin{ques}
+Suppose you start grading papers at $3$ o'clock and then $5$ hours
+pass. What time is it? Now suppose that you find more papers to grade,
+and $5$ more hours pass---now what time is it? How do you do these
+problems? Why are there so many papers to grade?
+\end{ques}
+\QM
+
+We have a mathematical way of writing these questions:
+\begin{align*}
+3 + 5 &\equiv 8 \pmod{12} \\
+8 + 5 &\equiv 1 \pmod{12} 
+\end{align*}
+We call arithmetic on clocks \textbf{modular arithmetic}.
+\index{modular arithmetic} Being rather fearless in our quest for
+knowledge, we aren't content to stick with $12$ hour clocks:
+\[
+\includegraphics{../graphics/moreclocks.pdf}
+\]
+
+\begin{ques}
+Suppose you are working on a $2$ hour clock:
+\[
+\includegraphics{../graphics/twoclock.pdf}
+\]
+Suppose you started at time zero, and finished after 10245
+hours. 
+\begin{enumerate}
+\item Where is the hand of the clock pointing? 
+\item How does the answer change if you are working on a $5$ hour
+  clock?
+\item What if you are working on a $7$ hour clock?
+\end{enumerate}
+\end{ques}
+\QM
+
+
+
+
+OK---clocks are great. Here is something slightly different: Denote
+the set of all integers that are $r$ away from a multiple of $5$ by
+$[r]_5$. So for example:
+\[
+[0]_5 = \{\dots,-15,-10,-5,0,5,10,15,\dots\}
+\]
+Write down the following sets:
+\begin{align*}
+[1]_5 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} \\
+[2]_5 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} \\
+[3]_5 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} \\
+[4]_5 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} \\
+[5]_5 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} 
+\end{align*}
+
+\begin{ques} With our work above, see if you can answer the following:
+\begin{enumerate}
+\item Explain why one could say that $[4]_5 = [9]_5$.
+\item Explain why one could say that $[2]_5 = [-3]_5$.
+\item Explain what you think is meant by the expression:
+\[
+[1]_5 + [2]_5 = [3]_5
+\]
+\item Explain what you think is meant by the expression:
+\[
+[1]_5 + [4]_5 = [0]_5
+\]
+\end{enumerate}
+\end{ques}
+\QM
+
+
+
+\begin{ques}
+How many interpretations of modular arithmetic can you give?
+\end{ques}
+\QM
+
+OK---I know I was supposed to leave that question for you, but there
+is one interpretation that I just gotta tell you about---check this out:
+\[
+a \equiv b \pmod{m} \qquad \Leftrightarrow \qquad a - b = m\cdot q
+\]
+
+\begin{ques} What is the deal with the junk above? How does it help you solve congruences like
+\[
+3x \equiv 1 \pmod{11}?
+\]
+\end{ques}
+\QM
+
+\begin{ques}
+Is it the case that 
+\[
+5+x \equiv 2 + x \pmod{3}
+\]
+for all integers $x$? Why or why not? Use each of the interpertations
+of modular arithemetic above to answer this question.
+\end{ques}
+\QM
+
+
+
+
+
+
+
+\newpage
+
+\subsection*{Problems for Section \thesection}\hrule\vspace{1ex}
+
+\begin{enumerate}
+\item Solve the following equations/congruences, expressing your
+  answer as a number between $0$ and the relevant modulus:
+\begin{enumerate}
+\item $3 + x = 10$
+\item $3 + x \equiv 10 \pmod{12}$
+\item $3 + x \equiv 10 \pmod{7}$
+\item $3 + x \equiv 10 \pmod{6}$
+\item $3 + x \equiv 10 \pmod{5}$
+\item $3 + x \equiv 10 \pmod{3}$
+\item $3 + x \equiv 10 \pmod{2}$
+\end{enumerate}
+In each case explain your reasoning.
+\item Solve the following equations/congruences, expressing your
+  answer as a number between $0$ and the relevant modulus:
+\begin{enumerate}
+\item $10 + x = 1$
+\item $10 + x \equiv 1 \pmod{12}$
+\item $10 + x \equiv 1 \pmod{11}$
+\item $10 + x \equiv 1 \pmod{9}$
+\item $10 + x \equiv 1 \pmod{5}$
+\item $10 + x \equiv 1 \pmod{3}$
+\item $10 + x \equiv 1 \pmod{2}$
+\end{enumerate}
+In each case explain your reasoning.
+\item Solve the following equations/congruences, expressing your
+  answer as a number between $0$ and the relevant modulus:
+\begin{enumerate}
+\item $217 + x = 1022$
+\item $217 + x \equiv 1022 \pmod{100}$
+\item $217 + x \equiv 1022 \pmod{20}$
+\item $217 + x \equiv 1022 \pmod{12}$
+\item $217 + x \equiv 1022 \pmod{5}$
+\item $217 + x \equiv 1022 \pmod{3}$
+\item $217 + x \equiv 1022 \pmod{2}$
+\end{enumerate}
+In each case explain your reasoning.
+\item Solve the following equations/congruences, expressing your
+  answer as a number between $0$ and the relevant modulus:
+\begin{enumerate}
+\item $11+x \equiv 7 \pmod{2}$
+\item $11+x \equiv 7 \pmod{3}$
+\item $11+x \equiv 7 \pmod{5}$
+\item $11+x \equiv 7 \pmod{8}$
+\item $11+x \equiv 7 \pmod{10}$
+\end{enumerate}
+In each case explain your reasoning.
+
+\item List out $6$ elements of $[3]_4$, including 3 positive and 3
+  negative elements. Explain your reasoning.
+\item List out $6$ elements of $[6]_7$, including 3 positive and 3
+  negative elements. Explain your reasoning.
+\item List out $6$ elements of $[7]_6$, including 3 positive and 3
+  negative elements. Explain your reasoning.
+
+\item One day you walk into a mathematics classroom and you see the
+  following written on the board:
+\begin{align*}
+[4]_6 &=\{\dots, -14,-8,-2,4,10,16,22,\dots\}\\
+\left[\frac{1}{2}\right] &=\left\{\dots, \frac{-3}{-6}, \frac{-2}{-4},
+\frac{-1}{-2}, \frac{1}{2}, \frac{2}{4},\frac{3}{6},\dots\right\} 
+\end{align*}
+What is going on here? Can you figure out what $\left[\dfrac{3}{4}\right]$ would
+be? Explain your reasoning.
+
+\item If possible, solve the following equations/congruences,
+  expressing your answer as a number between $0$ and the relevant
+  modulus:
+\begin{enumerate}
+\item $3x = 1$
+\item $3x \equiv 1 \pmod{11}$
+\item $3x \equiv 1 \pmod{9}$
+\item $3x \equiv 1 \pmod{8}$
+\item $3x \equiv 1 \pmod{7}$
+\item $3x \equiv 1 \pmod{3}$
+\item $3x \equiv 1 \pmod{2}$
+\end{enumerate}
+In each case explain your reasoning.
+\item Solve the following congruences, expressing your answer as a
+  number between $0$ and the relevant modulus:
+\begin{enumerate}
+\item $11x \equiv 7 \pmod{2}$
+\item $11x \equiv 7 \pmod{3}$
+\item $11x \equiv 7 \pmod{5}$
+\item $11x \equiv 7 \pmod{8}$
+\item $11x \equiv 7 \pmod{10}$
+\end{enumerate}
+In each case explain your reasoning.
+\item Solve the following congruences or explain why there is no
+  solution, expressing your answer as a number between $0$ and the
+  relevant modulus:
+\begin{enumerate}
+\item $15x \equiv 7 \pmod{2}$
+\item $15x \equiv 7 \pmod{3}$
+\item $15x \equiv 7 \pmod{5}$
+\item $15x \equiv 7 \pmod{9}$
+\item $15x \equiv 7 \pmod{10}$
+\end{enumerate}
+In each case explain your reasoning.
+\item Make an ``addition table'' for arithmetic modulo $6$.
+\item Make an ``addition table'' for arithmetic modulo $7$.
+\item Make a ``multiplication table'' for arithmetic modulo $6$.
+\item Make a ``multiplication table'' for arithmetic modulo $7$.
+
+\item Explain the connection between writing an integer in base $b$ and
+  reducing an integer modulo $b$.
+
+\item Is 
+\[
+5 + x \equiv 12 + x \pmod{3}
+\]
+ever/always true? Explain your reasoning.
+\item Is 
+\[
+20 + x \equiv 32 + x \pmod{3}
+\]
+ever/always true? Explain your reasoning.
+
+\item Recalling that $i^2 = -1$, can you find ``$i$'' in the
+  integers modulo $5$?  Explain your reasoning.
+\item Recalling that $i^2 = -1$, can you find ``$i$'' in the
+  integers modulo $17$?
+  Explain your reasoning.
+\item Recalling that $i^2 = -1$, can you find ``$i$'' in the
+  integers modulo $13$?
+  Explain your reasoning.
+\item Recalling that $i^2 = -1$, can you find ``$i$'' in the
+  integers modulo $11$?  Explain your reasoning.
+
+
+\item Today is Saturday. What day will it be in 3281 days? Explain
+  your reasoning.
+\item It is now December. What month will it be in 219 months? What
+  about 111 months ago? Explain your reasoning.
+\item What is the remainder when $2^{999}$ is divided by $3$? Explain
+  your reasoning.
+\item What is the remainder when $3^{26}$ is divided by $7$? Explain
+  your reasoning.
+\item What is the remainder when $14^{30}$ is divided by $11$? Explain
+  your reasoning.
+\item What is the remainder when $5^{28}$ is divided by $11$? Explain
+  your reasoning.
+\item What is the units digit of $123^{456}$? Explain your reasoning.
+
+\item Factor $x^2 + 1$ over the integers modulo $2$. Explain your
+  reasoning.
+\item Factor $x^3 +x^2 +x+1$ over the integers modulo $2$. Explain your
+  reasoning.
+\item Factor $x^5 +x^4 +x+1$ over the integers modulo $2$. Explain your
+  reasoning.
+
+\end{enumerate}
+
+
+\newpage
+
+
+\section{In the Real World}
+
+Perhaps the coolest thing about mathematics is that you can actually
+solve ``real world'' problems. Let's stroll through some of these
+``real world'' problems.
+
+\subsection{Automotive Repair}
+
+\subsubsection{A Geometry Problem}
+
+One Thanksgiving Day I had a neat conversation with my cousin Chris at
+the dinner table. You see he works on cars---specifically vintage
+Italian sports cars. He had been doing some routine maintenance on one
+of his cars and needed to remove the steering wheel and the steering
+column.  All was fine until it came time to put the parts back
+together. The steering wheel was no longer centered! The car could
+drive down the street just fine, but when the car drove straight ahead
+the steering wheel was off by a rotation of 5 degrees to the
+right. This would not do!  This sounds like a geometry problem.
+
+
+\subsubsection{An Algebra Problem}
+
+How did this happen you ask?  Well the
+\index{steering!wheel}\textit{steering wheel} attaches to the car via
+the \index{steering!column}\textit{steering column}:
+\[
+\includegraphics{../graphics/wheelcolumn.pdf}
+\]
+there were $21$ notches on the back of the wheel, which connects to
+the column. There were also $17$ notches on the other end of the
+column that then connected to the car itself.
+
+Chris had noticed that moving the wheel 1 notch changed its position by 
+\[
+\frac{365}{21} \approx 17 \text{ degrees,}
+\]
+and that adjusting the columns by 1 notch changed its position by 
+\[
+\frac{365}{17} \approx 21 \text{ degrees.}
+\]
+Hmmm so if we want to center the wheel, we want to solve the following equation:
+\[
+17 w + 21 c = -5
+\]
+where $w$ represents how many notches we turn the wheel and $c$
+represents how many notches we turn the column. Ah! This sounds like
+an algebra problem! There is only one issue: We have two unknowns and
+a single variable.
+
+
+\begin{ques}
+How do we proceed from here? Can you solve the problem? Where does
+modular arithmetic factor in to the solution?
+\end{ques}
+\QM
+
+
+\subsection{Check Digits}
+
+Our world is full of numbers. Sometimes if you are in a large
+organization---say a large university---you feel a bit like a
+number. How do you know if you are the right number? Allow me to
+clarify. Most items you buy have some sort of \index{UPC} UPC
+(Universal Product Code) on them. This allows them to be put into a
+computer in an organized fashion. When you buying items in a grocery
+story, you want the item you scanned to come up---and not some other
+(potentially embarrassing!) item. To ensure you get what is coming to
+you, we have \index{check digits}\textit{check digits}. These are
+digits that ``check'' to make sure that the code has scanned
+correctly. Typically, what you see are either UPC-A codes or UPC-E codes. Here is an example of a UPC-A code:
+\[
+\includegraphics{../graphics/upcaEg.pdf}
+\]
+The check digit is the right most digit (in this case $4$). The check
+digit is not used in identifying the item, instead it is used purely
+to check if the other digits are correct. Here is how you check to see
+if a UPC-A code is valid:
+\begin{enumerate}
+\item Working modulo $10$, add the digits in the odd positions and
+  multiply by $3$:
+\begin{align*}
+0+2+7+0+0+1 &= 10\\
+10\cdot 3 &= 30 \\
+30 &\equiv 0 \pmod{10}.
+\end{align*}
+\item Working modulo $10$, add the digits in the even positions
+  (including the check digit):
+\begin{align*}
+4+5+2+5+0 +4 &= 20 \\
+20 &\equiv 0 \pmod{10}
+\end{align*}
+\item Add the outcomes from the previous steps together and take the
+  result modulo $10$:
+\[
+0 + 0  \equiv 0 \pmod{10}
+\]
+\end{enumerate}
+If the result is congruent to $0$ modulo $10$, as it is in this case,
+then you have a correct UPC-A number and you are good to go!
+
+We should note, sometimes at stores you see UPC-E codes:
+\[
+\includegraphics{../graphics/upceEg.pdf}
+\]
+%\begin{center}
+%\begin{pspicture}(1.5,1.2in)
+%\psbarcode{0123456}{includetext}{upce}
+%\end{pspicture}
+%\end{center}
+These are compressed UPC-A codes where $5$ zeros have been
+removed. The rules for transforming UPC-A codes to UPC-E codes are a
+bit tedious, so we'll skip them for now---though they are easy
+to look up on the internet.
+
+
+\begin{ques}
+Can you find a UPC-E code and verify that it is valid?
+\end{ques}
+\QM
+
+
+
+
+
+\newpage
+
+\subsection*{Problems for Section \thesection}\hrule\vspace{1ex}
+\begin{enumerate}
+
+\item Which of the following is a correct UPC-A number?% telescope 
+\begin{align*}
+&8\quad12556\;01041\quad0\\
+&8\quad12565\;01091\quad0\\
+&8\quad12556\;01091\quad0
+\end{align*}
+Explain your reasoning.
+
+
+\item  Which of the following is a correct UPC-A number?% telescope 
+\begin{align*}
+&7\quad17664\;13387\quad0\\
+&7\quad17669\;13387\quad0\\
+&7\quad17669\;73387\quad0
+\end{align*}
+Explain your reasoning.
+
+
+\item Find the missing digit in the following UPC-A number:
+\[
+8\quad14371\;0\blacksquare354\quad2
+\]
+Explain your reasoning.
+
+\item Find the missing digit in the following UPC-A number:
+\[
+0\quad76484\;86\blacksquare97\quad3
+\]
+Explain your reasoning.
+
+\item How similar can two different UPC numbers be? Explain your
+  reasoning.
+\item In the United States some bank check codes are nine digit
+  numbers
+\[
+a_1 a_2 a_3 a_4 a_5 a_6 a_7 a_8 a_9
+\] 
+where
+\[
+7a_1 + 3a_2 + 9a_3 + 7a_4 + 3a_5 + 9a_6 + 7 a_7 + 3a_8 \equiv a_9 \pmod{10}.
+\]
+\begin{enumerate}
+\item Give three examples of valid bank check codes.
+\item If adjacent digits were accidentally switched, could a machine
+  detect the error? Explain your reasoning.
+\end{enumerate}
+\item ISBN-10 numbers are ten digit
+  numbers
+\[
+a_1 a_2 a_3 a_4 a_5 a_6 a_7 a_8 a_9 a_{10}
+\] 
+where
+\[
+10a_1 + 9a_2 + 8a_3 + 7a_4 + 6a_5 + 5a_6 + 4a_7 + 3a_8 +2a_9+a_{10}\equiv 0 \pmod{11}.
+\]
+\begin{enumerate}
+\item Give three examples of ISBN-10 numbers.
+\item If adjacent digits were accidentally switched, could a machine
+  detect the error? Explain your reasoning.
+\end{enumerate}
+\end{enumerate}
+
+\newpage
+
+
+
+\section{The Binomial Theorem}
+
+\subsection{Varna-Sangita}
+
+In ancient Indian texts we find a description of a type of music
+called \textit{varna-sangita}.\index{varna-sangita} This is music made
+from a variation of long and short syllables. When performing a
+varna-sangita, one starts off with a given number of short syllables
+and ends with the same number of long syllables. In between these
+verses, every possible combination of long and short syllables is
+supposed to occur. If $s$ represents a short syllable and $l$
+represents a long syllable we might visualize this as:
+\[
+ssss  \xto{\text{every possible combination}} llll
+\]
+
+To check their work, the people of ancient India counted how many of
+each combination appeared in a song. Suppose we started with $sss$ and
+finished with $lll$. Our song should contain the following verses:
+\[
+sss,\qquad ssl,\qquad sls, \qquad lss, \qquad sll,\qquad lsl, \qquad lls,\qquad lll
+\]
+We can construct the following table to summarize what we have found:
+\[
+\begin{tabular}{|c|c|c|c|}\hline
+$3$ $s$'s & $2$ $s$'s and $1$ $l$ & $1$ $s$ and $2$ $l$'s & $3$ $l$'s \\ \hline
+1 & 3 & 3 & 1\\\hline
+\end{tabular}
+\]
+
+\begin{ques} 
+What would your table look like if you started with $ss$ and finished
+with $ll$? What about if you started with $ssss$ and finished with
+$llll$?
+\end{ques}
+\QM
+
+The vedics of the time gave a rule for making tables like the one
+above. Their rule was based on the following diagram:
+\[
+\includegraphics[scale=1]{../graphics/pascalsTri.pdf}
+\]
+Today people call this diagram \textbf{Pascal's
+  triangle}.\index{Pascal's!triangle}
+%\large %% Code used to help inkscape
+%\[
+%\begin{tabular}{rc@{}c@{}c@{}c@{}c@{}c@{}c@{}c@{}c@{}c@{}c@{}c@{}c@{}}
+%$n=0$:&    &    &   &    &    &    &  1\\
+%$n=1$:&    &    &   &    &    &  1 &    &  1\\
+%$n=2$:&    &    &   &    &  1 &    &  2 &    &  1\\
+%$n=3$:&    &    &   &  1 &    &  3 &    &  3 &    &  1\\
+%$n=4$:&    &    & 1 &    &  4 &    &  6 &    &  4 &    &  1\\
+%$n=5$:&    &  1 &    &  5 &    &  10 &    &  10 &    &  5 & & 1\\
+%$n=6$:&  1 &    &  6 &    &  15 &    &  20 &    &  15 & & 6 & & 1\\
+%\end{tabular}
+%\]
+%\[
+%\begin{tabular}{r}
+%$k=0$\\
+%$k=1$\\
+%$k=2$\\
+%$k=3$\\
+%$k=4$\\
+%$k=5$\\
+%$k=6$\\
+%\end{tabular}
+%\]
+
+\begin{ques}
+How does Pascal's triangle relate to varna-sangitas? Is there an easy
+way to produce the above diagram?
+\end{ques}
+\QM
+
+And now for something completely different\dots 
+
+\subsection{Expansions}
+
+Expand the following on a separate sheet of paper. Write the result
+of your work in the boxes below:
+\begin{align*}
+(a + b)^0 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} \\
+(a + b)^1 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} \\
+(a + b)^2 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} \\
+(a + b)^3 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} \\
+(a + b)^4 &=  \raisebox{-3mm}{\fbox{\rule[0mm]{0mm}{7mm}\hspace{50ex}}} 
+\end{align*}
+
+\begin{ques} Is there a nice way to organize this data?
+\end{ques}
+\QM
+
+\begin{ques}
+Can you explain the connection between expanding binomials and
+varna-sangitas?
+\end{ques}
+\QM
+
+
+\subsection{Come Together}
+
+Let's see if we can bring these ideas together. Let's denote the following symbol:
+\[
+\binom{n}{k} = \text{the number of ways we choose $k$ objects from $n$
+  objects}.\index{nchoosek@$\binom{n}{k}$}\index{nck@$_nC_k$}
+\]
+it is often said ``$n$ choose $k$'' and is sometimes denoted as $_n C_k$.
+
+\begin{ques}
+What exactly does $\binom{n}{k}$ mean in terms of varna-sangitas? What
+does $\binom{n}{k}$ mean in terms of expansion of binomials?
+\end{ques}
+\QM
+
+\begin{ques} How does $\binom{n}{k}$ relate to Pascal's triangle?
+\end{ques}
+\QM
+
+
+\begin{ques}
+Pascal claims:
+\[
+\binom{n}{k-1} +  \binom{n}{k} = \binom{n+1}{k}
+\]
+Explain how this single equation basically encapsulates the key
+to constructing Pascal's triangle.
+\end{ques}
+\QM
+
+\begin{ques}
+Suppose that an oracle tells you that
+\[
+\binom{n}{k} = \frac{n!}{k!(n-k)!}
+\]
+but we, being good skeptical people, are not convinced. How do we
+check this?
+\end{ques}
+\QM
+
+From the work above, we obtain a fabulous theorem:
+
+
+\begin{thm}[Binomial Theorem]\index{Binomial Theorem} 
+If $n$ is a nonnegative integer, then
+\[
+(a+b)^n = \binom{n}{0} a^nb^0 + \binom{n}{1} a^{n-1}b^1 + \dots + \binom{n}{n-1} a^{1}b^{n-1} + \binom{n}{n} a^{0}b^n.   
+\]
+\end{thm}
+
+
+\begin{ques} 
+This looks like gibberish to me. Tell me what it is saying. Also, why
+is the Binomial Theorem true?
+\end{ques}
+\QM
+
+
+\newpage
+
+\subsection*{Problems for Section \thesection}\hrule\vspace{1ex}
+\begin{enumerate}
+\item Write down the first $7$ rows of Pascal's triangle.
+\item Explain how $\binom{n}{k}$ corresponds to the entries of Pascal's
+  triangle. Feel free to draw diagrams and give examples.
+\item State the Binomial Theorem and give some examples of it in action.
+\item Explain the ``physical'' meaning of $\binom{n}{k}$. Give some
+  examples illustrating this meaning.
+\item\label{P:bfor} Explain how Pascal's triangle is formed. In your
+  explanation, use the notation $\binom{n}{k}$. If you were so
+  inclined to do so, could you state a single equation that basically
+  encapsulates your explanation above?
+\item Explain why the formula you found in Problem \ref{P:bfor} is
+  true.
+\item State the formula for $\binom{n}{k}$.
+\item Expand $(a + b)^5$ using the Binomial Theorem.
+\item Expand $(a - b)^7$ using the Binomial Theorem.
+\item Expand $(-a - b)^8$ using the Binomial Theorem.
+\item Expand $(a + (b + c))^3$ using the Binomial Theorem.
+\item Expand $(a - b - c)^3$ using the Binomial Theorem.
+\item\label{P:exp1} Let $n$ be a positive integer.
+\begin{enumerate}
+\item Try some experiments to guess when $9^n + 1^n$ is
+  divisible by $10$. What do you find? Clearly articulate your
+  conjecture.
+\item Use the Binomial Theorem to explain why your conjecture is
+  true. Hint: $10-9 = 1$.
+\end{enumerate}
+\item\label{P:exp2} Let $n$ be a positive integer.
+\begin{enumerate}
+\item Try some experiments to guess when $6^n + 4^n$ is divisible by
+  $10$. What do you find? Clearly articulate your conjecture.
+\item Use the Binomial Theorem to explain why your conjecture is
+  true. Hint: $10-6 = 4$.
+\end{enumerate}
+\item\label{P:exp3} Let $n$ be a positive integer.
+\begin{enumerate}
+\item Try some experiments to guess when $7^n - 3^n$ is divisible by
+  $10$. What do you find? Clearly articulate your conjecture.
+\item Use the Binomial Theorem to explain why your conjecture is
+  true. Hint: $10-3 = 7$.
+\end{enumerate}
+\item\label{P:exp4} Let $n$ be a positive integer.
+\begin{enumerate}
+\item Try some experiments to guess when $8^n - 2^n$ is divisible by
+  $10$. What do you find? Clearly articulate your conjecture.
+\item Use the Binomial Theorem to explain why your conjecture is
+  true. Hint: $10-2 = 8$.
+\end{enumerate}
+\item Generalize Problems \ref{P:exp1}, \ref{P:exp2}, \ref{P:exp3},
+  and \ref{P:exp4} above. Clearly articulate your new statement(s) and
+  explain why they are true.
+\item\label{P:e1} Which is larger, $(1 + 1/2)^2$ or $2$? Explain your
+  reasoning.
+\item\label{P:e2} Which is larger, $(1 + 1/5)^5$ or $2$? Explain your
+  reasoning.
+\item\label{P:e3} Which is larger, $(1 + 1/27)^{27}$ or $2$? Explain
+  your reasoning.
+\item\label{P:e4} Which is larger, $(1 + 1/101)^{101}$ or $2$? Explain
+  your reasoning.
+\item\label{P:e5} Which is larger, $(1.0001)^{10000}$ or $2$? Explain
+  your reasoning.
+\item Generalize Problems \ref{P:e1}, \ref{P:e2}, \ref{P:e3},
+  \ref{P:e4}, and \ref{P:e5} above. Clearly articulate your new
+  statement(s) and explain why it is true.
+\item Given a positive integer $n$, can you guess an upper bound for
+  $(1 + 1/n)^{n}$?
+\item Use the Binomial Theorem to explain why:
+\[
+\binom{n}{0} + \binom{n}{1} + \binom{n}{2} + \dots + \binom{n}{n} = 2^n
+\]
+What does this mean in terms of Pascal's Triangle?
+\item Use the Binomial Theorem to explain why when $n$ is a positive
+  integer:
+\[
+\binom{n}{0} - \binom{n}{1} + \binom{n}{2} + \dots + (-1)^n\binom{n}{n} = 0
+\]
+What does this mean in terms of Pascal's Triangle?
+\item Suppose I tell you:
+\[
+(1+x)^n = \binom{n}{0} + \binom{n}{1}x + \binom{n}{2}x^2+\dots +
+\binom{n}{n}x^n
+\]
+Explain how to deduce:
+\[
+(a+b)^n = \binom{n}{0}a^n + \binom{n}{1}a^{n-1}b +
+\binom{n}{2}a^{n-2}b^2+\dots + \binom{n}{n}b^n
+\]
+\end{enumerate}
+
+
+
+\newpage
+
+\section{Interlude of the Adders}
+
+
+If long division is a \textit{forgotten foe}\index{forgotten foes},
+then logarithms\index{logarithm} are a
+\textit{supervillan}\index{supervillan}. When aloof old Professor
+Rufus was trying to explain logarithms to his class, he merely wrote
+\[
+\log_b(a) = n \qquad\Leftrightarrow\qquad b^n = a
+\]
+and walked out of the room.
+
+\begin{ques}
+Can you give $3$ much needed examples of logarithms that are easily
+computed in one's head?
+\end{ques}
+\QM
+
+\begin{ques}
+Can you give $3$ much needed examples of logarithms that are more
+difficult to compute in one's head?
+\end{ques}
+\QM
+
+\begin{ques} 
+What conditions should be placed on $a$ and $b$ to make logarithms
+work nicely?
+\end{ques}
+\QM
+
+\begin{ques} What is $\log_b(1)$?
+\end{ques}
+\QM
+
+\begin{ques} What is $\log_b(0)$?
+\end{ques}
+\QM
+
+
+\begin{ques} What is $\log_1(1)$?
+\end{ques}
+\QM
+
+\begin{ques} Sketch the plot of $y = \log_b(x)$. 
+\end{ques}
+\QM
+
+
+\begin{ques} Why is this section named ``interlude of the adders?!''
+\end{ques}
+\QM
+
+
+
+\newpage
+
+\subsection*{Problems for Section \thesection}\hrule\vspace{1ex}
+\begin{enumerate}
+\item Explain what $\log_b(a) = n$ means.
+\item Sketch the plot of $y=\log_b(x)$ for some reasonable value of
+  $b$. Explain your procedure.
+\item Sketch the plot of $y=b^x$ for some reasonable value of
+  $b$. Explain your procedure. How does this plot compare to the one
+  in the previous question?
+\item What is $\log_x(x^3)$? Explain your reasoning.
+\item Given that $\ln(x) = \log_e(x)$, explain why is it no big deal
+  to say that $\ln(e^x) = x$.
+\item Compute $\log_{5}(125)$. Explain your reasoning.
+\item Compute $\log_{10}(10000)$. Explain your reasoning.
+\item Compute $\log_2(1024)$. Explain your reasoning.
+\item Compute $\log_{13}(169)$. Explain your reasoning.
+\item Compute $\log_{7}(2401)$. Explain your reasoning.
+\item Bound $\log_{2}(5)$ by two consecutive integers. Explain your reasoning.
+\item Bound $\log_{3}(43)$ by two consecutive integers. Explain your reasoning.
+\item Bound $\log_{11}(24)$ by two consecutive integers. Explain your
+  reasoning.
+\item Bound $\log_{10}(999)$ by two consecutive integers. Explain your
+  reasoning.
+\item Bound $\log_{10}(1032)$ by two consecutive integers. Explain
+  your reasoning.
+\item What is the connection between the number of digits in some
+  number $n$ and $\log_{10}(n)$? Explain your reasoning.
+\item How many digits does the number $100$ have in base $2$? What
+  does this have to do with $\log_2(100)$? Explain your reasoning.
+\item How many digits does the number $100$ have in base $3$? What
+  does this have to do with $\log_3(100)$? Explain your reasoning.
+\item How many digits does the number $100$ have in base $11$? What
+  does this have to do with $\log_{11}(100)$? Explain your reasoning.
+\item How many digits does the number $100$ have in base $42$? What
+  does this have to do with $\log_{42}(100)$? Explain your reasoning.
+\item How many digits does the number $100$ have in base $99$?  What
+  does this have to do with $\log_{99}(100)$? Explain your reasoning.
+\item How many digits does the number $100$ have in base $100$?  What
+  does this have to do with $\log_{100}(100)$? Explain your reasoning.
+\item How many digits does the number $100$ have in base $101$?  What
+  does this have to do with $\log_{101}(100)$? Explain your reasoning.
+\item Explain why $\log_b(a) + \log_b(c) = \log_b(a\cdot c)$.
+\item Explain why $\log_b(a) - \log_b(c) = \log_b(a/c)$.
+\item Explain why $c\cdot\log_b(a) = \log_b(a^c)$.
+\item Explain why $\log_b(a) = \dfrac{1}{\log_a(b)}$.
+\item Explain why $\log_b(a) = \dfrac{\log_c(a)}{\log_c(b)}$.
+\item People have often told me something like ``it is impossible to
+  fold a piece of paper more than $7$ times.'' What is meant by this
+  statement and is it even true? Explain your reasoning. Note if you
+  cannot solve this problem, no worries just say to yourself (aloud so
+  all can hear) ``I believe you can fold a piece of paper as much as
+  you want'' three times and then do the next problem and then come
+  back to this one.
+\item Take a sheet of paper. If you fold it once, the resulting folded
+  sheet of paper is twice as thick as the unfolded paper. If you fold
+  it again, the resulting folded sheet is 4 times as thick as the
+  unfolded piece of paper. How many times would you need to fold a
+  sheet of paper to make the resulting sheet of paper as thick as you
+  are tall? Explain your reasoning. Don't bother worrying about the
+  physical limitations of this problem.
+
+%%
+%% Ideas for new questions
+%% *) Mult by table
+%% 
+\end{enumerate}
+
+
+
+
+\newpage
+
+
+
+
+
+
+\section{Tonic, Dominant, Octave}
+
+Someone once told me ``Music is how math sounds.'' I'm not totally
+sure I believe them, but maybe there is some truth to what they are
+saying. Sound is made by compression waves in the air. Loosely
+speaking, the closer the compression waves come, the higher the pitch
+the sound is that we hear. We visualize these compression waves with a
+picture like this:
+\[
+\includegraphics[width=3in]{../graphics/basicWave.pdf}
+\]
+The peaks of the waves above represent high-pressure points where the
+air is very compressed, and the troughs of the waves above represent
+low-pressure points, where there are very few air molecules. 
+
+Let's call a sound produced by a single compression wave a \index{tone}
+\textit{tone}. When two tones are played at the same time, their waves
+act together like the sum of the individual waves. Let's
+see this in action. If we play the following two tones at the same
+time,
+\[
+\includegraphics[width=3in]{../graphics/superComb.pdf}
+\]
+we end up with 
+\[
+\includegraphics[width=3in]{../graphics/superSum.pdf}
+\]
+which is nothing more than every point on the first graph added to
+every point on the second graph. See how when the waves line up
+nicely, we get a nice big wave? See how when the waves disagree, our
+wave dwindles down to nothing?
+
+Since the time when people started making sounds, we've noticed that
+some tones sound better together than others. There is an easy
+rule-of-thumb that will tell you when two tones will sound ``right''
+together. If the graph of both waves combined has a lot of beats \index{beats}
+then it will probably sound ``wrong,'' see the example below:
+\[
+\begin{tabular}{ccc}
+\includegraphics[width=2in]{../graphics/minorComb.pdf}
+ & \raisebox{4ex}{\huge$\Rightarrow$} &
+\includegraphics[width=2in]{../graphics/minorSum.pdf}\\
+& & beats
+\end{tabular}
+\]
+If the beats are hard to see, then it will sound ``right.'' You can
+see this in the following example:
+\[
+\begin{tabular}{ccc}
+\includegraphics[width=2in]{../graphics/fifthComb.pdf}
+ & \raisebox{4ex}{\huge$\Rightarrow$ }&
+\includegraphics[width=2in]{../graphics/fifthSum.pdf} \\
+& & no beats
+\end{tabular}
+\]
+Now let's define some words:
+
+\begin{dfn} 
+The \textbf{wavelength}\index{wavelength!sinusoidal wave} of a
+sinusoidal wave is length of a complete wave, the distance from peak
+to peak or the distance from trough to trough.
+\end{dfn}
+
+\begin{dfn} 
+The \textbf{frequency}\index{frequency!sinusoidal wave} of a sinusoidal
+wave is the number of complete waves per unit time.
+\end{dfn}
+
+If we're talking about sound waves, then wavelength and frequency are related by the following equation:
+\begin{equation}\label{E:sin}
+w_s \cdot f = s\qquad\text{where}\qquad
+\begin{tabular}{l}
+$w_s$ is the wavelength of the sound wave\\
+$f$ is the frequency \\
+$s$ is the speed of sound 
+\end{tabular}
+\end{equation}
+
+
+
+\begin{dfn} 
+The tone that you start with is called the
+\textbf{tonic}.\index{tonic}
+\end{dfn}
+
+So let's start with the tonic, and add a tone whose wavelength is half
+that of the tonic:
+\[
+\begin{tabular}{ccc}
+\includegraphics[width=2in]{../graphics/octaveComb.pdf}
+ & \raisebox{4ex}{\huge$\Rightarrow$ }&
+\includegraphics[width=2in]{../graphics/octaveSum.pdf}
+\end{tabular}
+\]
+That looks like it sounds really ``right,'' as there are no beats to be seen.
+
+\begin{dfn}
+The tone whose wavelength is half that of the tonic is called the
+\textbf{octave}.\index{octave}
+\end{dfn}
+
+For some reason, the human ear and brain work together to identify the
+tonic and octave as \textit{the same} tone, with the octave just being
+twice as high. Now let's get a little crazy, we'll start with the
+tonic, and add a tone whose wavelength is $2/3$ that of the tonic:
+\[
+\begin{tabular}{ccc}
+\includegraphics[width=2in]{../graphics/fifthComb.pdf}
+ & \raisebox{4ex}{\huge$\Rightarrow$ }&
+\includegraphics[width=2in]{../graphics/fifthSum.pdf}
+\end{tabular}
+\]
+That looks like it sounds ``right'' too, no beats again.
+
+\begin{dfn}
+The tone whose wavelength is $2/3$ that of the tonic is called the
+\textbf{dominant}.\index{dominant}
+\end{dfn}
+
+The dominant is central to all of western music. The
+tonic-dominant-octave trio of tones is sometimes called a \textit{power
+  chord} for its powerful sound.
+
+\begin{ques}
+Starting with just these three notions: Tonic, dominant, and octave
+what tones would we want an instrument to be able to play?
+\end{ques}
+\QM
+
+We seek the answer to this question.
+
+\subsection{Instrument Building}
+
+Close your eyes, and imagine you are on a beach in Brazil, imagine
+yourself swimming in the gentle waves. While you are swimming, you
+decide that when you return to your home town you are finally going to
+build that stringed instrument that you've always wanted---perhaps a
+lytherette. You'd have to pick some frequency for the open
+string. OK---done.
+
+
+\begin{ques} What do waves look like on your stringed instrument?
+\end{ques}
+
+Let me explain a somewhat sticky point. The waves made by strings on
+instruments are not nice old sinusoidal waves, they are what we call
+\textit{standing waves}\index{standing waves}. Standing waves look
+like a vibrating string:
+\[
+\includegraphics[width=3in]{../graphics/stand.pdf}
+\]
+Notice how the string is attached at the dots on the left and right?
+Points like those are called \textit{nodes}\index{nodes}. While there
+are many places that nodes can be, for us nodes will always be at the
+endpoints of the string.
+
+\begin{dfn} 
+The \textbf{wavelength}\index{wavelength!standing wave} of a standing
+wave is twice the length from node to node.
+\end{dfn}
+
+\begin{dfn} 
+The \textbf{frequency}\index{frequency!standing wave} of a standing
+wave is the number of complete vibrations (up and down) per unit time.
+\end{dfn}
+
+If we're talking about strings on instruments, then wavelength and
+frequency are related by the following equation:
+\begin{equation}\label{E:standing}
+w_t \cdot f = c\qquad\text{where}\qquad
+\begin{tabular}{l}
+$w_t$ is the wavelength of the standing wave \\
+$f$ is the frequency \\
+\begin{minipage}{30ex}$c$ is a constant based on the mass and tension of the string\end{minipage}
+\end{tabular}
+\end{equation}
+
+\begin{ques} 
+If you pluck a string, what will the wavelength of the sound wave be?
+Use equations (\ref{E:sin}) and (\ref{E:standing}) to express your
+answer in terms of $w_t$, $f$, $c$ and $s$.
+\end{ques}
+\QM
+
+
+\begin{ques} 
+If you shorten a string's length by one-third, what will the
+wavelength of the new sound wave be?  Use equations (\ref{E:sin}) and
+(\ref{E:standing}) to express your answer in terms of $w_t$, $f$, $c$
+and $s$.
+\end{ques}
+\QM
+
+The upshot of the two questions above is that if you want to produce a
+tone whose wavelength is a fraction of another tone's wavelength, then
+your merely pluck a string whose length is the same fraction of the
+string that produced the original tone. Let's get back to instrument building.
+
+\begin{ques} 
+When building a musical instrument, what tones do you want to be able
+to play?
+\end{ques}
+
+I'll take this one! You want to be able to play tonic (open string),
+the dominant, and the octave. How do we make this happen? Let's
+imagine we are building a stringed instrument. Many stringed
+instruments use \textit{frets}\index{frets} (little metal things that
+help make new tones) to get the desired tones. To start, we'll want to
+put a fret $2/3$ along the length of the string:
+\[
+\includegraphics[width=3in]{../graphics/dom1.pdf}
+\]
+Additionally, we want to be able to play the dominant of this new tone
+as well. To do this, we'll might place a new fret
+\[
+\frac{2}{3}\cdot \frac{2}{3} = \frac{4}{9}
+\]
+of the length of the string. 
+\[
+\includegraphics[width=3in]{../graphics/pdom2.pdf}
+\]
+Hmmmm there is a slight problem though. This new fret would create a
+note \textit{higher} than the octave ($1/2$ the length of the
+string). We want all of our frets to be placed between the original
+tonic and octave. So let's move this fret over by lowering our new
+tone by an octave. The new wavelength will be twice as long, so we'll
+put a fret $8/9$ along the length of the string.
+\[
+\includegraphics[width=3in]{../graphics/dom2.pdf}
+\]
+Now repeat this process, adding a new fret for the dominant of the
+previously added tone, at each step ensuring that the fret be placed
+between $1/2$ and complete string length. Do this $12$ times, let's
+see what happens. Fill in the fractions in the boxes below---as a
+gesture of friendship, I've given you the correct decimal approximation
+for each fraction:
+\[
+\begin{array}{|r|c|c|c|c|c|c|}\hline
+\text{fraction} &\rule[0mm]{0mm}{7mm}            &            &            &            &            &            \\ \hline
+\bigstrut[t]\text{decimal}  & 0.666\dots & 0.888\dots & 0.592\dots & 0.790\dots & 0.526\dots & 0.702\dots \\ \hline
+\end{array}
+\]
+\[
+\begin{array}{|r|c|c|c|c|c|c|}\hline
+\text{fraction}  &\rule[0mm]{0mm}{7mm}           &            &            &            &            &            \\ \hline
+\bigstrut[t]\text{decimal}   & 0.936\dots & 0.624\dots & 0.832\dots & 0.554\dots & 0.739\dots & 0.493\dots \\ \hline
+\end{array}
+\]
+From this we find we should place a twelfth fret $0.493\dots$ along
+the length of the string. To the human ear, this tone will sound quite
+close to the octave of our starting tone (though slightly
+lower). Hence after twelve steps we \textit{appear} to be at the
+octave. If we were to put frets on our instrument at all of these
+divisions, we would have something like this:
+\begin{equation}\label{E:fboard}
+\begin{array}{c}
+\includegraphics{../graphics/fboard1.pdf}
+\end{array}
+\end{equation}
+Remember though, the twelfth fret is close to an octave, but not
+perfect!  Mathematically we might say
+\[
+\frac{2^n}{3^m} \approx \frac{1}{2}
+\]
+for some integers $n$ and $m$. We note that in our case $m = 12$ and
+$n$ is some other integer. Could we find integers $n$ and $m$ such that
+\[
+\frac{2^n}{3^m} =\frac{1}{2}?
+\]
+If so then we could write:
+\[
+2^{n+1} = 3^m \qquad\Leftrightarrow\qquad 2^{(n+1)/m} = 3
+\]
+\begin{ques}\index{Unique Factorization Theorem} 
+What does the Unique Factorization Theorem for integers say about the
+above expressions? How do we proceed from here?
+\end{ques}
+\QM 
+
+
+
+\newpage
+
+\subsection*{Problems for Section \thesection}\hrule\vspace{1ex}
+\begin{enumerate}
+\item Explain what the octave of a given tone is.
+\item Explain what the dominant of given tone is.
+\item Order the following wavelengths by which tone they produce from
+  lowest to highest.
+\begin{align*}
+&0.666\dots, 0.888\dots, 0.592\dots, 0.790\dots, 0.526\dots, 0.702\dots, \\
+&0.936\dots, 0.624\dots, 0.832\dots, 0.554\dots, 0.739\dots, 0.493\dots
+\end{align*}
+Explain your reasoning.
+\item Do the following tones sound ``right'' or ``wrong'' when played together?
+\[
+\begin{tabular}{ccc}
+\includegraphics[width=2in]{../graphics/octaveComb.pdf}
+ & \raisebox{4ex}{\huge$\Rightarrow$ }&
+\includegraphics[width=2in]{../graphics/octaveSum.pdf}
+\end{tabular}
+\]
+Explain your reasoning.
+\item Do the following tones sound ``right'' or ``wrong'' when played together?
+\[
+\begin{tabular}{ccc}
+\includegraphics[width=2in]{../graphics/fifthComb.pdf}
+ & \raisebox{4ex}{\huge$\Rightarrow$ }&
+\includegraphics[width=2in]{../graphics/fifthSum.pdf}
+\end{tabular}
+\]
+Explain your reasoning.
+\item Do the following tones sound ``right'' or ``wrong'' when played together?
+\[
+\begin{tabular}{ccc}
+\includegraphics[width=2in]{../graphics/minorComb.pdf}
+ & \raisebox{4ex}{\huge$\Rightarrow$ }&
+\includegraphics[width=2in]{../graphics/minorSum.pdf}
+\end{tabular}
+\]
+Explain your reasoning.
+\item Do the following tones sound ``right'' or ``wrong'' when played together?
+\[
+\begin{tabular}{ccc}
+\includegraphics[width=2in]{../graphics/p2Comb.pdf}
+ & \raisebox{4ex}{\huge$\Rightarrow$ }&
+\includegraphics[width=2in]{../graphics/p2Sum.pdf}
+\end{tabular}
+\]
+Explain your reasoning.
+\item Do the following tones sound ``right'' or ``wrong'' when played together?
+\[
+\begin{tabular}{ccc}
+\includegraphics[width=2in]{../graphics/p1Comb.pdf}
+ & \raisebox{4ex}{\huge$\Rightarrow$ }&
+\includegraphics[width=2in]{../graphics/p1Sum.pdf}
+\end{tabular}
+\]
+Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $2/3$? Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $3/4$? Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $7/8$? Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $6/13$? Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $7/13$? Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $2/3$ if we insist that the resulting wavelength is
+  between $1/2$ and $1$? Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $4/7$ if we insist that the resulting wavelength is
+  between $1/2$ and $1$? Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $5/8$ if we insist that the resulting wavelength is
+  between $1/2$ and $1$? Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $5/9$ if we insist that the resulting wavelength is
+  between $1/2$ and $1$? Explain your reasoning.
+\item What is the wavelength of the dominant over the tone of
+  wavelength $6/11$ if we insist that the resulting wavelength is
+  between $1/2$ and $1$? Explain your reasoning.
+\item Give a precise derivation of how we obtained the fret positions
+\begin{align*}
+&0.666\dots, 0.888\dots, 0.592\dots, 0.790\dots, 0.526\dots, 0.702\dots, \\
+&0.936\dots, 0.624\dots, 0.832\dots, 0.554\dots, 0.739\dots, 0.493\dots
+\end{align*}
+using the ideas of the tonic and dominant.
+
+\end{enumerate}
+
+
+
+
+\newpage
+
+
+\section{Rational and Irrational Temperament}
+
+
+
+In the last section, we were thinking about how to build a stringed
+instrument with frets. With this in mind, we came up with the
+following equation
+\[
+2^{\frac{n+1}{m}} = 3
+\]
+where $m$ is the number of divisions of the string that we would wish
+to make. Armed with the Unique Factorization Theorem for
+integers,\index{Unique Factorization Theorem} we could (and you will!)
+explain that there is no rational solution of
+\[
+2^x = 3,
+\]
+meaning that  finding appropriate values of $n$ and $m$ is
+actually impossible! It's a good thing that we are not the type of
+people to be deterred by the impossible. In light of our discussion
+above, we want to find a fraction:
+\[
+\frac{n+1}{m} \approx \log_2(3) = 1.58496250072115618145373894394\dots
+\]
+
+\begin{ques} 
+How do we find good fractional approximations of irrational numbers?
+\end{ques}
+
+In two words: Continued fractions.\index{continued fraction} Set:
+\[
+x_1 = 1.58496250072115618145373894394\dots
+\]
+Write $x$ in terms of its whole-number part and its fractional part:
+\[
+x_1 = \mathbf{1} + (x_1-1)
+\]
+Now look at the reciprocal of $(x_1-1)$:
+\begin{align*}
+x_2 &=\frac{1}{x_1-1} = 1.70951129135145477697619026217\dots\\
+x_2 &= \mathbf{1} + (x_2-1)
+\end{align*}
+Continue on:
+\begin{align*}
+x_3 &=\frac{1}{x_2-1} = 1.40942083965320900458240433081\dots\\
+x_3 &= \mathbf{1} + (x_3-1)
+\end{align*}
+Again, again!
+\begin{align*}
+x_4 &=\frac{1}{x_3-1} = 2.44247459618085927548717403238\dots\\
+x_4 &= \mathbf{2} + (x_4-2)
+\end{align*}
+One last time:
+\begin{align*}
+x_5 &=\frac{1}{x_4-2} = 2.26001675267082453593127612260\dots\\
+x_5 &= \mathbf{2} + (x_5-2)
+\end{align*}
+Whew, now I'm tired, we could continue on but I think it is time to
+stop. Let's see what our continued fraction looks like:
+\[
+\log_2(3) \approx 1 + \dfrac{1}{1+\dfrac{1}{1 + \dfrac{1}{2 + \dfrac{1}{2}}}}
+\]
+If we simplify this continued fraction into a regular old fraction we find:
+\[
+\log_2(3) \approx \frac{19}{12} = 1.58333333333\dots
+\]
+Check this out:
+\[
+2^{19/12} = 2.9966141537\dots
+\]
+This is really close to $3$, thus $2^{19/12}$ is a good approximation
+of $\log_2(3)$. Write
+\begin{align*}
+3&\approx 2^{19/12} \\
+\frac{2}{3} &\approx \frac{2}{2^{19/12}} \\
+&\approx \frac{1}{2^{7/12}}
+\end{align*}
+
+
+
+
+With this in mind, we will adopt the convention that
+the $n$th tone above the tonic will have a wavelength of exactly
+$1/2^{n/12}$ of the tonic:
+\[
+\includegraphics[width=3in]{../graphics/firstFret.pdf}
+\]
+In particular, since 
+\[
+\frac{1}{2^{1/12}} \cdot \frac{1}{2^{1/12}} = \frac{1}{2^{2/12}}
+\]
+if we work with wavelengths of $1/2^{n/12}$ of the tonic, we will
+obtain a nice approximation of every tone we produced before. After
+$7$ steps,
+\[
+\frac{1}{2^{7/12}} = 0.66741992\dots \approx \frac{2}{3}
+\]
+and additionally, 
+\[
+\frac{1}{2^{12/12}} = \frac{1}{2},
+\]
+so after twelve steps we are exactly at the octave! If we put a frets
+at the points $\frac{1}{2^{n/12}}$ letting $n$ run from $0$ to $12$, we'll obtain a picture like:
+\[
+\includegraphics{../graphics/eqFret.pdf}
+\]
+Let's compare this to our fret positions in diagram~(\ref{E:fboard}):
+\[
+\includegraphics{../graphics/bFret.pdf}
+\]
+\begin{ques} Will this really work?
+\end{ques}
+\QM
+
+\subsection{Equal Temperament}
+
+Spacing the division of the tones by making use of wavelengths that
+are $\frac{1}{2^{1/12}}$ of the tonic is called \textbf{equal
+  temperament}\index{equal temperament}. This is how modern guitars
+and pianos are tuned. People have also identified other ratios of the
+wavelength of the tonic that they thought sounded ``right.''
+Essentially, they have taken the idea that we should have as few
+``beats'' as possible to the extreme. When they do this, and attempt
+to have $12$ tones, they arrive at what is called \textbf{just
+  intonation}\index{just intonation}. When \textit{a
+  cappella}\index{\textit{a cappella}@acappella} groups sing and form
+chords, they usually sing using just intonation---the human brain
+seems to be somehow drawn to these sounds. Here are the ratios of the
+wavelength of the tonic used in just intonation:
+\begin{align*}
+&1/2,\quad 8/15,\quad 5/9,\quad 3/5,\quad 5/8,\quad 2/3,\\
+&32/45,\quad 3/4,\quad 4/5,\quad 5/6,\quad 8/9,\quad 24/25
+\end{align*}
+Let's compare these to the ratios used in equal temperament:
+\[
+\begin{tabular}{rr@{\,}c@{\,}lr@{\,}c@{\,}l}
+Tone & \multicolumn{3}{c}{Equal Temperament}   & \multicolumn{3}{c}{Just Intonation}   \\ \hline
+\bigstrut[t] $12$ & $1/2^{12/12}$ & $=$ & $0.5$         & $1/2$   & $=$& $0.5$      \\
+$11$ & $1/2^{11/12}$ & $=$ & $0.529\dots$  & $8/15$  & $=$& $0.533\dots$ \\
+$10$ & $1/2^{10/12}$ & $=$ & $0.561\dots$  & $5/9$   & $=$& $0.555\dots$    \\
+$9$  & $1/2^{9/12}$  & $=$ & $0.594\dots$  & $3/5$   & $=$& $0.6$ \\
+$8$  & $1/2^{8/12}$  & $=$ & $0.629\dots$  & $5/8$   & $=$& $0.625$ \\
+$7$  & $1/2^{7/12}$  & $=$ & $0.667\dots$  & $2/3$   & $=$& $0.666\dots$ \\
+$6$  & $1/2^{6/12}$  & $=$ & $0.707\dots$  & $32/45$ & $=$& $0.711\dots$ \\
+$5$  & $1/2^{5/12}$  & $=$ & $0.749\dots$  & $3/4$   & $=$& $0.75$ \\
+$4$  & $1/2^{4/12}$  & $=$ & $0.793\dots$  & $4/5$   & $=$& $0.8$ \\
+$3$  & $1/2^{3/12}$  & $=$ & $0.840\dots$  & $5/6$   & $=$& $0.833\dots$ \\
+$2$  & $1/2^{2/12}$  & $=$ & $0.890\dots$  & $8/9$   & $=$& $0.888\dots$ \\
+$1$  & $1/2^{1/12}$  & $=$ & $0.943\dots$  & $24/25$ & $=$& $0.96\dots$ \\ \hline
+\end{tabular}
+\]
+The real issue with just intonation comes with we try to raise every
+note up by a given number of steps. Suppose a singer has trouble
+singing in the range of some song, yet has no problems if we raise
+every note of the song up by $1$ half step. If our instrument is in
+equal temperament, then this shift of tones will have no adverse
+effects. However, if our instrument is in just intonation, then check
+out what happens:
+\begin{itemize}
+\item Let $24/25$ of a wavelength be the new tonic---this is 1 half
+  step.
+\item Now $7$ steps up will be $5/8$ of a wavelength.
+\end{itemize}
+Checking out the new ratio we find:
+\[
+\frac{5/8}{24/25} = 0.651042 
+\]  
+This is over a $2 \%$ difference from $2/3$ of the tonic. Believe it
+or not, this will be noticeably ``wrong'' to the human ear. With
+equal temperament, the tone will still be spot-on.
+
+These issues with musical instruments arise due to intrinsic
+differences between rational and irrational numbers. The tones that
+sound best to our ears are all defined by ratios of the wavelength of
+the tonic. However, moving up by these ratios is done via
+multiplication, and hence logarithms enter the scene. The Unique
+Factorization Theorem for integers\index{Unique Factorization Theorem}
+tells us that the ratios that we are most interested in cannot be
+obtained simply from the other ratios we are interested in. From all
+this arises a fascinating problem that everyone experiences without
+even realizing it!
+
+
+\newpage
+
+\subsection*{Problems for Section \thesection}\hrule\vspace{1ex}
+\begin{enumerate}
+\item Explain why $\log_2(3)$ is an irrational number.
+\item Explain why $\log_3(5)$ is an irrational number.
+\item Explain why $\log_3(6)$ is an irrational number.
+\item Explain why $\log_4(6)$ is an irrational number.
+\item Explain why $\log_9(10)$ is an irrational number.
+\item Find the simple continued fraction expansion of $5/3$. Explain
+  your reasoning.
+\item Find the simple continued fraction expansion of $15/11$. Explain
+  your reasoning.
+\item Find the simple continued fraction expansion of $22/17$. Explain
+  your reasoning.
+\item Using a calculator, find the first five terms in the simple
+  continued fraction expansion of $e$. What number do you get by only
+  considering the first term? The first two terms? The first three
+  terms? The first four? The first five?  Explain your reasoning.
+\item Using a calculator, find the first five terms in the simple
+  continued fraction expansion of $\pi$. What number do you get by
+  only considering the first term? The first two terms? The first
+  three terms? The first four? The first five?  Explain your
+  reasoning.
+\item Suppose you are building a stringed instrument. If the first
+  octave of $12$ tones has a length of $16$ inches, how long is the
+  next octave? What about the next octave? Explain your reasoning.
+\item A singer and a piano are playing a chord involving the sixth
+  tone. If the singer is singing in just intonation, and the piano is
+  in equal temperament, does the singer believe that the piano is
+  playing too high or too low? Explain your reasoning.
+\item A singer and a piano are playing a chord involving the seventh
+  tone. If the singer is singing in just intonation, and the piano is
+  in equal temperament, does the singer believe that the piano is
+  playing too high or too low? Explain your reasoning.
+\item A singer and a piano are playing a chord involving the fourth
+  tone. If the singer is singing in just intonation, and the piano is
+  in equal temperament, does the singer believe that the piano is
+  playing too high or too low? Explain your reasoning.
+\item A singer and a piano are playing a chord involving the twelfth
+  tone. If the singer is singing in just intonation, and the piano is
+  in equal temperament, does the singer believe that the piano is
+  playing too high or too low? Explain your reasoning.
+\item Some other cultures place $5$ tones between octaves. Can you
+  explain this if you know that they are trying to approximate
+  $\log_2(3)$?
+\item Light also has wave-like properties. The wavelengths of the
+  visible spectrum goes from around $380$ nm to $750$ nm. Sometimes
+  colors are depicted as being in a line, other times they are
+  depicted as being in a wheel. Can you use our discussion on music,
+  thinking about tonics and octaves to give a plausible resolution to
+  this paradox?
+
+%\item The tone whose wavelength is $3/4$ that of the tonic is called
+%  the \textbf{sub-dominant}.\index{sub-dominant} If we try to base a
+%  tuning system on this tone, we end up trying to approximate
+%  $\log_3{4}$. Can you explain why when people did this, they arrived
+%  at a $19$ tone system?
+
+
+%4/3 sub-dominant
+%5:4 mediant
+\end{enumerate}
+

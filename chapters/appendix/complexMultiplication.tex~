@@ -1,0 +1,65 @@
+\newpage
+\section{Geometry and Multiplying Complex Numbers}\label{A:complexMultiplication}
+
+
+Now we'll investigate the geometry of multiplying complex
+numbers. Louie Llama\index{Louie Llama} is here to help us out:
+\[
+\begin{tabular}{ccc}
+\includegraphics[scale=.5]{../graphics/llama.pdf} & \qquad $\leftrightsquigarrow$\qquad& \includegraphics{../graphics/llamaPlot.pdf}\\
+Louie Llama & & how we'll draw him
+\end{tabular}
+\]
+
+\begin{prob} 
+Here's Louie Llama hanging out near the point $0$ in the complex
+plane. Multiply him by $2$. Make a table and show in the plane below what happens.
+\[
+\includegraphics{../graphics/complexMult.pdf}
+\]
+\end{prob}
+
+\break
+
+\begin{prob} 
+Now multiply him by $i$. Make a table and show in the plane below what happens.
+\[
+\includegraphics{../graphics/complexPlane.pdf}
+\]
+\end{prob}
+
+\vfill
+
+\begin{prob} 
+Now multiply Louie Llama by $2+i$. Make a table and show in the plane below what happens.
+\[
+\includegraphics{../graphics/complexPlane.pdf}
+\]
+\end{prob}
+
+\vfill
+
+
+
+\begin{prob} 
+Now multiply Louie Llama by
+$\frac{1}{2}+\frac{\sqrt{3}}{2}i$. Make a table and show in the plane below what happens.
+\[
+\includegraphics{../graphics/complexPlane.pdf}
+\]
+\end{prob}
+
+
+\begin{prob} 
+Geometrically speaking, what does it mean to ``multiply'' complex
+numbers?
+\end{prob}
+
+
+
+
+\begin{prob}
+Explain what it means to ``multiply'' Louie Llama by a complex
+number. Considering the different cases above, describe the
+process(es) used when doing this.
+\end{prob}

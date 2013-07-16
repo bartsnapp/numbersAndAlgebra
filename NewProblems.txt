@@ -1,0 +1,15 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+NRICH
+
+
+WHEN THE MINUTE...
+A train leaves the station on time. After it has gone 8 miles the
+driver looks at his watch and sees that the hour hand is exactly
+over the minute hand.
+
+The average speed of the train over the 8 miles was 33mph.
+
+When did the train leave the station?

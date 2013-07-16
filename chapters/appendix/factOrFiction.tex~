@@ -1,0 +1,20 @@
+\newpage
+\section{Pascal's Triangle: Fact or Fiction?}
+
+Consider the numbers $\binom{n}{k}$.  These numbers can be arranged
+into a ``triangle'' form that is popularly called ``Pascal's
+Triangle''.  Assuming that the ``top'' entry is $\binom{0}{0}=1$, we
+write the numbers row by row, with $n$ fixed for each row.  Write out
+the first 7 rows of Pascal's Triangle.
+
+\vspace{4in}
+
+
+Note that there are many patterns to be found.  Your job is to justify
+the following patterns in the context of relevant models. Here are three patterns, can you explain them?
+\begin{enumerate}
+\item $\binom{n}{k} = \binom{n}{n-k}$.
+\item The sum of the entries in each row is $2^n$.
+\item $\binom{n}{k-1} + \binom{n}{k} = \binom{n+1}{k}$.
+\end{enumerate}
+

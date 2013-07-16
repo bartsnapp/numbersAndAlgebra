@@ -1,0 +1,39 @@
+\newpage
+\section{Picture Models for Equivalent Fractions}
+
+
+\begin{prob} 
+Draw pictures to explain why:
+\[
+\frac{2}{3} = \frac{4}{6}
+\]
+Explain how your pictures show this.
+\end{prob}
+
+
+\begin{prob} 
+Draw pictures to explain why:
+\[
+\frac{3}{6} = \frac{2}{4}
+\]
+Explain how your pictures show this.
+\end{prob}
+
+
+
+\begin{prob} 
+Given equivalent fractions with $0< a\le b$ and $0 < c\le d$:
+\[
+\frac{a}{b} = \frac{c}{d}
+\]
+Give a procedure for representing this equation with pictures.
+\end{prob}
+
+
+\begin{prob} 
+Explain why if $0< a\le b$ and $0 < c\le d$:
+\[
+\frac{a}{b} = \frac{c}{d}\qquad \text{if and only if}\qquad ad = bc
+\]
+Feel free to use pictures as part of your explanation.
+\end{prob}

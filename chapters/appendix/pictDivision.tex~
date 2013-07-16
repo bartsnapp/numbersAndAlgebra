@@ -1,0 +1,59 @@
+\newpage
+\section{Picture Yourself Dividing}
+
+
+We want to understand how to visualize 
+\[
+\frac{a}{b} \div \frac{c}{d}
+\]
+Let's see if we can ease into this like a cold swimming pool.
+
+\begin{prob}
+Draw a picture that shows how to compute:
+\[
+6\div 3
+\]
+Explain how your picture could be redrawn for other similar numbers. 
+\end{prob}
+
+\begin{prob}
+Try to use a similar process to the one you used in the first problem
+to draw a picture that shows how to compute:
+\[
+\frac{1}{4} \div 3
+\]
+Explain how your picture could be redrawn for other similar numbers. 
+\end{prob}
+
+
+\begin{prob}
+Try to use a similar process to the one you used in the first two problems
+to draw a picture that shows how to compute:
+\[
+3 \div \frac{1}{4}
+\]
+Explain how your picture could be redrawn for other similar numbers. 
+\end{prob}
+
+\begin{prob}
+Try to use a similar process to the one you used in the first three problems
+to draw a picture that shows how to compute:
+\[
+\frac{5}{3} \div \frac{1}{4}
+\]
+Explain how your picture could be redrawn for other similar numbers.
+\end{prob}
+
+\begin{prob}
+Explain how to draw pictures to visualize:
+\[
+\frac{a}{b} \div \frac{c}{d}
+\]
+\end{prob}
+
+\begin{prob}
+Use pictures to explain why:
+\[
+\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c}
+\]
+\end{prob}
