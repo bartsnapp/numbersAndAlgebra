@@ -25,6 +25,8 @@
 \excludecomment{teachingnote}
 \newcommand{\teachingnotes}{}
 
+\newenvironment{activitynote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Note:}{\end{bfseries}\end{itshape}\end{framed}}
+
 
 %\usepackage{showkeys} %%% This package will show you your labels
                        %%% and should be commented out for the 
@@ -197,7 +199,7 @@
 \renewcommand{\theenumi}{$(\mathrm{\alph{enumi}})$}
 \renewcommand{\labelenumi}{\theenumi}
 \chapter{Activities}
-\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+%\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
 
 \input{../chapters/appendix/bases.tex}
@@ -232,6 +234,10 @@
 
 \input{../chapters/appendix/crossMult.tex}
 
+\input{../chapters/appendix/decimals.tex}
+
+\input{../chapters/appendix/repeat.tex}
+
 \input{../chapters/appendix/ratios.tex}
 
 \input{../chapters/appendix/ratioAddition.tex}
@@ -240,13 +246,15 @@
 
 \input{../chapters/appendix/dreadedStoryProblem.tex}
 
-\input{../chapters/appendix/decimals.tex}
+\input{../chapters/appendix/walkTheLine.tex}
 
-\input{../chapters/appendix/repeat.tex}
+\input{../chapters/appendix/doesntAddUp.tex}
+
+\input{../chapters/appendix/gertrude.tex}
+
+\input{../chapters/appendix/billy.tex}
 
 \input{../chapters/appendix/hieroAlg.tex}
-
-\input{../chapters/appendix/walkTheLine.tex}
 
 \input{../chapters/appendix/otherSide.tex}
 
@@ -266,15 +274,9 @@
 
 %\input{../chapters/appendix/inverseFunctions.tex}
 
-\input{../chapters/appendix/gaussianInt.tex}
+%\input{../chapters/appendix/gaussianInt.tex}
 
 \input{../chapters/appendix/orderMod.tex}
-
-\input{../chapters/appendix/doesntAddUp.tex}
-
-\input{../chapters/appendix/gertrude.tex}
-
-\input{../chapters/appendix/billy.tex}
 
 %\input{../chapters/appendix/closeButNoCigar.tex}
 
@@ -313,4 +315,5 @@
 %%%% Index and References
 %\input{../chapters/back}
 %%%%
+
 \end{document}
