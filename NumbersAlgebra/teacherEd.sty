@@ -24,14 +24,13 @@
 %\usepgfplotslibrary{external} % should put graphics in separate files. 
 %\tikzexternalize{textbook} % named after main file
 
+
 \RequirePackage{morefloats}
 
 \usetikzlibrary{shadows}
 \usetikzlibrary{shapes}
 \usetikzlibrary{decorations}
 \tikzset{>=stealth} %% makes all arrows the same
-
-
 
 
 %% Font
@@ -127,6 +126,13 @@
 
 \renewcommand{\footnote}[1]{~(#1)}
 
+%\newenvironment{activitynote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Note:}{\end{bfseries}\end{itshape}\end{framed}}
+
+\NewEnviron{activitynote}{\marginnote{\BODY}}
+
+
+
+
 
 %\newcommand{\dd}[1]{\frac{d}{d #1}}
 \def\dd{\@ifnextchar[{\@with}{\@without}}
@@ -182,6 +188,7 @@ splittopskip=\topskip,skipbelow=\baselineskip,%
 skipabove=\baselineskip]},
   postfoothook=\end{mdframed} ]{thmStyle}%
 \declaretheorem[style=thmStyle,name=Lemma,numberwithin=section]{lemma}
+
 
 
 \declaretheoremstyle[
@@ -481,6 +488,7 @@ skipabove=\baselineskip]{warning}%
 %% \usepackage{pifont}
 %%\usepackage{mathabx}
 %% \usepackage{colortbl}
+
 \usepackage{threeparttable}
 \usepackage{wrapfig}
 \usepackage{multirow}
