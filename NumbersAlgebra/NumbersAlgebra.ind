@@ -1,168 +1,167 @@
 \begin{theindex}
 
-  \item Abel, \hyperpage{73}
+  \item Abel, \hyperpage{70}
   \item addition algorithm
-    \subitem banker's, \hyperpage{24}
-    \subitem basic, \hyperpage{16}
-    \subitem column, \hyperpage{23}
-    \subitem scaffolding, \hyperpage{23}
-  \item associativity, \hyperpage{14}
+    \subitem banker's, \hyperpage{23}
+    \subitem basic, \hyperpage{14}
+    \subitem column, \hyperpage{22}
+    \subitem scaffolding, \hyperpage{22}
+  \item associativity, \hyperpage{13}
 
   \indexspace
 
-  \item base-ten blocks, \hyperpage{104}, \hyperpage{107}
-  \item Binomial Theorem, \hyperpage{97}
+  \item base-ten blocks, \hyperpage{100}, \hyperpage{103}
+  \item Binomial Theorem, \hyperpage{93}
 
   \indexspace
 
-  \item $\C$, \hyperpage{76}
-  \item Cardano's formula, \hyperpage{72}
-  \item check digits, \hyperpage{90}
-  \item commutativity, \hyperpage{14}
-  \item completing the square, \hyperpage{67}, \hyperpage{145}
+  \item $\C$, \hyperpage{73}
+  \item Cardano's formula, \hyperpage{70}
+  \item check digits, \hyperpage{87}
+  \item commutativity, \hyperpage{13}
+  \item completing the square, \hyperpage{65}, \hyperpage{141}
   \item complex
-    \subitem conjugate, \hyperpage{81}
-    \subitem numbers, \hyperpage{76}
-    \subitem plane, \hyperpage{78}
-  \item composite number, \hyperpage{38}
+    \subitem conjugate, \hyperpage{78}
+    \subitem numbers, \hyperpage{73}
+    \subitem plane, \hyperpage{75}
+  \item composite number, \hyperpage{37}
 
   \indexspace
 
-  \item Diophantine equation, \hyperpage{47}
-  \item distributivity, \hyperpage{14}
-  \item dividend, \hyperpage{40}
-  \item divides, \hyperpage{37}
+  \item Diophantine equation, \hyperpage{45}
+  \item distributivity, \hyperpage{13}
+  \item dividend, \hyperpage{39}
+  \item divides, \hyperpage{36}
   \item division algorithm
-    \subitem long, with remainder, \hyperpage{19}
-    \subitem partial-quotients, \hyperpage{25}
-    \subitem polynomial, \hyperpage{32}
-    \subitem scaffolding, \hyperpage{25}
-    \subitem without remainder, \hyperpage{20}
-  \item Division Theorem
-    \subitem for integers, \hyperpage{41}, \hyperpage{127}
-    \subitem for polynomials, \hyperpage{31}
-  \item divisor, \hyperpage{40}
-  \item $d |hyperindexformat{\ n$}, 37
-
-  \indexspace
-
-  \item $\in$, \hyperpage{54}
-  \item $e$, \hyperpage{65}
-  \item Euclid, \hyperpage{47}
-  \item Euclid's Lemma, \hyperpage{49}
-  \item Euclidean Algorithm, \hyperpage{116}
-  \item Euclidean algorithm, \hyperpage{46}
-
-  \indexspace
-
-  \item factor, \hyperpage{37}
-  \item factor tree, \hyperpage{38}
-  \item Ferro-Tartaglia   method, \hyperpage{70}
-  \item forgotten foes, \hyperpage{40}
-  \item Fundamental Theorem
-    \subitem of Algebra, \hyperpage{78}
-    \subitem of Arithmetic, \hyperpage{50}
-
-  \indexspace
-
-  \item Galois, \hyperpage{73}
-  \item Gauss, \hyperpage{77}
-  \item GCD, \hyperpage{39}
-  \item greatest common divisor, \hyperpage{39}
-
-  \indexspace
-
-  \item integers, \hyperpage{34}
-
-  \indexspace
-
-  \item Knuth, \hyperpage{47}
-
-  \indexspace
-
-  \item least squares approximation, \hyperpage{146}
-  \item lemma, \hyperpage{49}
-  \item lemon, \hyperindexformat{\see{lemma}}{49}
-  \item long division, \hyperpage{19}, \hyperpage{40}
-  \item Lothar of the Hill People, \hyperpage{9}
-  \item Louie Llama, \hyperpage{151}, \hyperpage{153}
-
-  \indexspace
-
-  \item modular arithmetic, \hyperpage{84}
-  \item multiple, \hyperpage{37}
-  \item multiplication algorithm
-    \subitem basic, \hyperpage{17}
-    \subitem multi-digit, \hyperpage{25}
+    \subitem long, with remainder, \hyperpage{18}
+    \subitem partial-quotients, \hyperpage{24}
+    \subitem polynomial, \hyperpage{31}
     \subitem scaffolding, \hyperpage{24}
+    \subitem without remainder, \hyperpage{19}
+  \item Division Theorem
+    \subitem for integers, \hyperpage{39}, \hyperpage{123}
+    \subitem for polynomials, \hyperpage{29}
+  \item divisor, \hyperpage{39}
 
   \indexspace
 
-  \item $\binom{n}{k}$, \hyperpage{96}
-  \item $_nC_k$, \hyperpage{96}
+  \item $\in$, \hyperpage{52}
+  \item $e$, \hyperpage{63}
+  \item Euclid, \hyperpage{45}
+  \item Euclid's Lemma, \hyperpage{47}
+  \item Euclidean Algorithm, \hyperpage{112}
+  \item Euclidean algorithm, \hyperpage{44}
 
   \indexspace
 
-  \item Omicron Persei 8, \hyperpage{10}
+  \item factor, \hyperpage{36}
+  \item factor tree, \hyperpage{37}
+  \item Ferro-Tartaglia   method, \hyperpage{68}
+  \item forgotten foes, \hyperpage{38}
+  \item Fundamental Theorem
+    \subitem of Algebra, \hyperpage{74}
+    \subitem of Arithmetic, \hyperpage{48}
+
+  \indexspace
+
+  \item Galois, \hyperpage{70}
+  \item Gauss, \hyperpage{74}
+  \item GCD, \hyperpage{38}
+  \item greatest common divisor, \hyperpage{38}
+
+  \indexspace
+
+  \item integers, \hyperpage{33}
+
+  \indexspace
+
+  \item Knuth, \hyperpage{45}
+
+  \indexspace
+
+  \item least squares approximation, \hyperpage{142}
+  \item lemma, \hyperpage{47}
+  \item lemon, \hyperindexformat{\see{lemma}}{47}
+  \item long division, \hyperpage{18}, \hyperpage{38}
+  \item Lothar of the Hill People, \hyperpage{8}
+  \item Louie Llama, \hyperpage{147}, \hyperpage{149}
+
+  \indexspace
+
+  \item modular arithmetic, \hyperpage{81}
+  \item multiple, \hyperpage{36}
+  \item multiplication algorithm
+    \subitem basic, \hyperpage{16}
+    \subitem multi-digit, \hyperpage{24}
+    \subitem scaffolding, \hyperpage{23}
+
+  \indexspace
+
+  \item $\binom{n}{k}$, \hyperpage{92}
+  \item $_nC_k$, \hyperpage{92}
+
+  \indexspace
+
+  \item Omicron Persei 8, \hyperpage{9}
 
   \indexspace
 
   \item paradox
-    \subitem $1 = 0.999\dots$, \hyperpage{126}
+    \subitem $1 = 0.999\dots$, \hyperpage{122}
   \item Pascal's
-    \subitem pyramid, \hyperpage{165}
-    \subitem triangle, \hyperpage{95}
-  \item $\pi$, \hyperpage{65}
-  \item polynomial, \hyperpage{28}
-  \item prime number, \hyperpage{38}
+    \subitem pyramid, \hyperpage{161}
+    \subitem triangle, \hyperpage{91}
+  \item $\pi$, \hyperpage{63}
+  \item polynomial, \hyperpage{27}
+  \item prime number, \hyperpage{36}
 
   \indexspace
 
-  \item $\Q$, \hyperpage{54}
-  \item quotient, \hyperpage{40}
+  \item $\Q$, \hyperpage{52}
+  \item quotient, \hyperpage{39}
 
   \indexspace
 
-  \item $\R$, \hyperpage{64}
-  \item rational numbers, \hyperpage{54}
-  \item real numbers, \hyperpage{64}
-  \item remainder, \hyperpage{40}
-  \item repeating decimal, \hyperpage{127}
-  \item root, \hyperpage{62}
+  \item $\R$, \hyperpage{62}
+  \item rational numbers, \hyperpage{52}
+  \item real numbers, \hyperpage{62}
+  \item remainder, \hyperpage{39}
+  \item repeating decimal, \hyperpage{123}
+  \item root, \hyperpage{60}
 
   \indexspace
 
-  \item $\sqrt{2}$, \hyperpage{64}
+  \item $\sqrt{2}$, \hyperpage{62}
   \item steering
-    \subitem column, \hyperpage{89}
-    \subitem wheel, \hyperpage{89}
+    \subitem column, \hyperpage{86}
+    \subitem wheel, \hyperpage{86}
   \item subtraction algorithm
-    \subitem Austrian, \hyperpage{24}
-    \subitem basic, \hyperpage{24}, \hyperpage{104}
-    \subitem by addition, \hyperpage{24}
-    \subitem scaffolding, \hyperpage{24}
+    \subitem Austrian, \hyperpage{23}
+    \subitem basic, \hyperpage{23}, \hyperpage{100}
+    \subitem by addition, \hyperpage{23}
+    \subitem scaffolding, \hyperpage{23}
 
   \indexspace
 
-  \item tally-marks, \hyperpage{9}
-  \item terminating decimal, \hyperpage{127}
-  \item tetrahedron, \hyperpage{164}
+  \item tally-marks, \hyperpage{8}
+  \item terminating decimal, \hyperpage{123}
+  \item tetrahedron, \hyperpage{160}
 
   \indexspace
 
-  \item Unique Factorization Theorem, \hyperpage{50}, \hyperpage{63}
-  \item UPC, \hyperpage{90}
+  \item Unique Factorization Theorem, \hyperpage{48}, \hyperpage{61}
+  \item UPC, \hyperpage{87}
 
   \indexspace
 
-  \item varna-sangita, \hyperpage{94}
+  \item varna-sangita, \hyperpage{90}
 
   \indexspace
 
-  \item wolf in sheep's clothing, \hyperpage{72}
+  \item wolf in sheep's clothing, \hyperpage{70}
 
   \indexspace
 
-  \item $\Z$, \hyperpage{34}
+  \item $\Z$, \hyperpage{33}
 
 \end{theindex}

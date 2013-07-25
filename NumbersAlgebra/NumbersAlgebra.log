@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.6)  24 JUL 2013 16:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.6)  25 JUL 2013 01:01
 entering extended mode
 **C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/NumbersAlgebra/Num
 bersAlgebra.tex
@@ -1397,16 +1397,16 @@ File: kerkis.sty 2000/02/25 v1.5 Package `kerkis.sty'
 LaTeX Info: Redefining \LaTeX on input line 156.
 LaTeX Info: Redefining \LaTeXe on input line 166.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 102.
+Package hyperref Info: Option `colorlinks' set `true' on input line 101.
 \GPT@outputbox=\box108
 
 
 Package thmtools Warning: Key `notefont' not supported by ntheorem on input lin
-e 171.
+e 177.
 
 
 Package thmtools Warning: Key `notebraces' not supported by ntheorem on input l
-ine 171.
+ine 177.
 
 Package thmtools Info: Key `preheadhook' (with value `\begin {mdframed}[hideall
 lines=true,roundcorner=10pt,leftmargin=40,rightmargin=40,backgroundcolor=theore
@@ -1414,19 +1414,19 @@ mBackground,fontcolor=textColor,innertopmargin=6pt,splittopskip=\topskip ,skipb
 elow=\baselineskip ,skipabove=\baselineskip ]')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmStyle' on input line 171.
+(thmtools)             that uses `style=thmStyle' on input line 177.
 Package thmtools Info: Key `postfoothook' (with value `\end {mdframed}')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmStyle' on input line 171.
+(thmtools)             that uses `style=thmStyle' on input line 177.
 \c@theorem=\count190
 
 Package thmtools Warning: Key `notefont' not supported by ntheorem on input lin
-e 183.
+e 189.
 
 
 Package thmtools Warning: Key `notebraces' not supported by ntheorem on input l
-ine 183.
+ine 189.
 
 Package thmtools Info: Key `preheadhook' (with value `\begin {mdframed}[hideall
 lines=true,roundcorner=10pt,leftmargin=40,rightmargin=40,backgroundcolor=theore
@@ -1434,20 +1434,20 @@ mBackground,fontcolor=textColor,innertopmargin=6pt,splittopskip=\topskip ,skipb
 elow=\baselineskip ,skipabove=\baselineskip ]')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmStyle' on input line 183.
+(thmtools)             that uses `style=thmStyle' on input line 189.
 Package thmtools Info: Key `postfoothook' (with value `\end {mdframed}')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmStyle' on input line 183.
+(thmtools)             that uses `style=thmStyle' on input line 189.
 \c@lemma=\count191
 \c@prob=\count192
 
 Package thmtools Warning: Key `notefont' not supported by ntheorem on input lin
-e 208.
+e 215.
 
 
 Package thmtools Warning: Key `notebraces' not supported by ntheorem on input l
-ine 208.
+ine 215.
 
 Package thmtools Info: Key `preheadhook' (with value `\begin {mdframed}[outerli
 newidth=2,topline=false, bottomline=false, leftline=true, rightline=false, left
@@ -1456,20 +1456,20 @@ ndcolor=background,skipbelow=\baselineskip ,skipabove=\baselineskip ,innertopma
 rgin=0pt, innerbottommargin=0pt]')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=egStyle' on input line 208.
+(thmtools)             that uses `style=egStyle' on input line 215.
 Package thmtools Info: Key `postfoothook' (with value `\end {mdframed}')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=egStyle' on input line 208.
+(thmtools)             that uses `style=egStyle' on input line 215.
 \c@solution=\count193
 \c@proof=\count194
 
 Package thmtools Warning: Key `notefont' not supported by ntheorem on input lin
-e 238.
+e 245.
 
 
 Package thmtools Warning: Key `notebraces' not supported by ntheorem on input l
-ine 238.
+ine 245.
 
 Package thmtools Info: Key `preheadhook' (with value `\begin {mdframed}[hideall
 lines=true,roundcorner=10pt,leftmargin=40,rightmargin=40,backgroundcolor=defini
@@ -1477,11 +1477,11 @@ tionBackground,fontcolor=textColor,innertopmargin=6pt,splittopskip=\topskip ,sk
 ipbelow=\baselineskip ,skipabove=\baselineskip ]')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmStyle' on input line 238.
+(thmtools)             that uses `style=thmStyle' on input line 245.
 Package thmtools Info: Key `postfoothook' (with value `\end {mdframed}')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmStyle' on input line 238.
+(thmtools)             that uses `style=thmStyle' on input line 245.
 \c@definition=\count195
 \c@question=\count196
 \c@warning=\count197
@@ -1673,7 +1673,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 169.
+(hyperref)                removing `\\' on input line 168.
 
 
 LaTeX Warning: Unused global option(s):
@@ -1681,54 +1681,67 @@ LaTeX Warning: Unused global option(s):
 
 
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\NumbersAlgebra\Numb
-ersAlgebra.aux)
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 174.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 174
-.
+ersAlgebra.aux
 
-(C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\omltxmi.fd
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1232 ...nd\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+? 
+)
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 173.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 173
+.
+ (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 174.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 174
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 173.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 173
 .
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 174.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 174
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 173.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 173
 .
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 174.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 174.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 173.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 173.
 
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Try loading font information for T1+mak on input line 174.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Try loading font information for T1+mak on input line 173.
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\kerkis\t1mak.fd)
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 174.
+(Font)              scaled to size 8.99994pt on input line 173.
 \AtBeginShipoutBox=\box116
-Package hyperref Info: Link coloring ON on input line 174.
+Package hyperref Info: Link coloring ON on input line 173.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1738,9 +1751,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count285
 )
-LaTeX Info: Redefining \ref on input line 174.
-LaTeX Info: Redefining \pageref on input line 174.
-LaTeX Info: Redefining \nameref on input line 174.
+LaTeX Info: Redefining \ref on input line 173.
+LaTeX Info: Redefining \pageref on input line 173.
+LaTeX Info: Redefining \nameref on input line 173.
 
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\NumbersAlgebra\Numb
 ersAlgebra.out)
@@ -1748,7 +1761,7 @@ ersAlgebra.out)
 ersAlgebra.out)
 \@outlinefile=\write7
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 174.
+LaTeX Info: Redefining \selectfont on input line 173.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1784,7 +1797,7 @@ LaTeX Info: Redefining \selectfont on input line 174.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 174.
+LaTeX Info: Redefining \microtypecontext on input line 173.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1808,7 +1821,7 @@ Package microtype Info: No adjustment of character kerning.
 \makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks67
 ) ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 174.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 173.
 
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\ot1txr.fd
@@ -1826,16 +1839,16 @@ Package microtype Info: Character `AE ' is missing
 Package microtype Info: Character `AE ' is missing
 (microtype)             in font `OT1/txr/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for OML+mak on input line 174.
+LaTeX Font Info:    Try loading font information for OML+mak on input line 173.
 
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\kerkis\omlmak.fd)
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 174.
+(Font)              scaled to size 8.99994pt on input line 173.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 6.29996pt on input line 174.
+(Font)              scaled to size 6.29996pt on input line 173.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 4.49997pt on input line 174.
+(Font)              scaled to size 4.49997pt on input line 173.
 Package microtype Info: Character `AE ' is missing
 (microtype)             in font `OT1/txr/m/it/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1854,73 +1867,73 @@ Package microtype Info: Character `AE ' is missing
 Package microtype Info: Character `OE ' is missing
 (microtype)             in font `OT1/txr/m/it/5'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 174.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 173.
 
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 174.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 173.
 
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 174.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 173.
 
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 174.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 173.
 
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 174.
+(Font)              scaled to size 6.29996pt on input line 173.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 174.
-Package xypdf Info: Line width: 0.56pt on input line 174.
-LaTeX Font Info:    Try loading font information for T1+maksf on input line 176
+(Font)              scaled to size 4.49997pt on input line 173.
+Package xypdf Info: Line width: 0.56pt on input line 173.
+LaTeX Font Info:    Try loading font information for T1+maksf on input line 175
 .
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\kerkis\t1maksf.fd)
 LaTeX Font Info:    Font shape `T1/maksf/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 176.
+(Font)              scaled to size 8.99994pt on input line 175.
 LaTeX Font Info:    Font shape `T1/maksf/m/n' will be
-(Font)              scaled to size 50.39966pt on input line 176.
+(Font)              scaled to size 50.39966pt on input line 175.
 LaTeX Font Info:    Font shape `T1/maksf/bx/n' will be
-(Font)              scaled to size 50.39966pt on input line 176.
+(Font)              scaled to size 50.39966pt on input line 175.
 LaTeX Font Info:    Font shape `T1/maksf/m/n' will be
-(Font)              scaled to size 16.19989pt on input line 176.
+(Font)              scaled to size 16.19989pt on input line 175.
 LaTeX Font Info:    Font shape `T1/maksf/m/n' will be
-(Font)              scaled to size 12.59991pt on input line 176.
+(Font)              scaled to size 12.59991pt on input line 175.
 
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\front.tex
 [1
 
 {C:/Users/findell.2/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+mak on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+mak on input line 10.
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\kerkis\ot1mak.fd)
 LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 16.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 27.
+(Font)              scaled to size 8.99994pt on input line 10.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 21.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [2]
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 38.
+(Font)              scaled to size 18.66588pt on input line 31.
 LaTeX Font Info:    Font shape `T1/mak/m/sc' will be
-(Font)              scaled to size 18.66588pt on input line 38.
+(Font)              scaled to size 18.66588pt on input line 31.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/mak/m/sc/20.74'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/maksf/m/sc' will be
-(Font)              scaled to size 18.66588pt on input line 38.
+(Font)              scaled to size 18.66588pt on input line 31.
 Package microtype Info: Character `~' is missing
 (microtype)             in font `T1/maksf/m/sc/20.74'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1981,28 +1994,28 @@ Package microtype Info: Character `029' is missing
 
 
 LaTeX Font Warning: Font shape `T1/maksf/bx/sc' undefined
-(Font)              using `T1/maksf/bx/n' instead on input line 38.
+(Font)              using `T1/maksf/bx/n' instead on input line 31.
 
 LaTeX Font Info:    Font shape `T1/maksf/bx/n' will be
-(Font)              scaled to size 18.66588pt on input line 38.
-LaTeX Font Info:    Try loading font information for OMS+mak on input line 52.
+(Font)              scaled to size 18.66588pt on input line 31.
+LaTeX Font Info:    Try loading font information for OMS+mak on input line 45.
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\kerkis\omsmak.fd
 File: omsmak.fd 
 )
 LaTeX Font Info:    Font shape `OMS/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 52.
+(Font)              scaled to size 8.99994pt on input line 45.
 
 [3
 
 ]
 LaTeX Font Info:    Font shape `T1/mak/bx/n' will be
-(Font)              scaled to size 18.66588pt on input line 73.
+(Font)              scaled to size 18.66588pt on input line 66.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 92.
+(Font)              scaled to size 10.79993pt on input line 85.
 LaTeX Font Info:    Font shape `T1/maksf/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 92.
+(Font)              scaled to size 10.79993pt on input line 85.
 LaTeX Font Info:    Font shape `T1/maksf/bx/n' will be
-(Font)              scaled to size 10.79993pt on input line 92.
+(Font)              scaled to size 10.79993pt on input line 85.
 LaTeX Font Info:    Font shape `T1/mak/m/sl' will be
 (Font)              scaled to size 8.99994pt on input line 103.
  [4]
@@ -2017,47 +2030,261 @@ LaTeX Font Info:    Font shape `T1/maksf/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
  [5
 
-] [6] [7])
+]
+Overfull \hbox (1.23982pt too wide) detected at line 59
+ []\T1/mak/m/n/10 100
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 60
+ []\T1/mak/m/n/10 103
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 61
+ []\T1/mak/m/n/10 106
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 62
+ []\T1/mak/m/n/10 107
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 63
+ []\T1/mak/m/n/10 108
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 64
+ []\T1/mak/m/n/10 109
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 65
+ []\T1/mak/m/n/10 111
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 66
+ []\T1/mak/m/n/10 112
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 71
+ []\T1/mak/m/n/10 113
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 72
+ []\T1/mak/m/n/10 115
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 73
+ []\T1/mak/m/n/10 116
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 74
+ []\T1/mak/m/n/10 117
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 75
+ []\T1/mak/m/n/10 119
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 76
+ []\T1/mak/m/n/10 121
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 77
+ []\T1/mak/m/n/10 122
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 78
+ []\T1/mak/m/n/10 123
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 79
+ []\T1/mak/m/n/10 125
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 80
+ []\T1/mak/m/n/10 126
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 81
+ []\T1/mak/m/n/10 128
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 82
+ []\T1/mak/m/n/10 129
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 83
+ []\T1/mak/m/n/10 131
+ []
+
+[6]
+Overfull \hbox (1.23982pt too wide) detected at line 84
+ []\T1/mak/m/n/10 133
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 85
+ []\T1/mak/m/n/10 134
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 86
+ []\T1/mak/m/n/10 135
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 87
+ []\T1/mak/m/n/10 136
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 88
+ []\T1/mak/m/n/10 138
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 89
+ []\T1/mak/m/n/10 141
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 90
+ []\T1/mak/m/n/10 142
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 91
+ []\T1/mak/m/n/10 144
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 92
+ []\T1/mak/m/n/10 146
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 93
+ []\T1/mak/m/n/10 147
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 94
+ []\T1/mak/m/n/10 149
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 95
+ []\T1/mak/m/n/10 153
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 96
+ []\T1/mak/m/n/10 154
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 97
+ []\T1/mak/m/n/10 156
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 98
+ []\T1/mak/m/n/10 158
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 99
+ []\T1/mak/m/n/10 160
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 100
+ []\T1/mak/m/n/10 163
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 101
+ []\T1/mak/m/n/10 164
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 106
+ []\T1/mak/m/n/10 166
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 107
+ []\T1/mak/m/n/10 167
+ []
+
+
+Overfull \hbox (1.23982pt too wide) detected at line 108
+ []\T1/mak/m/n/10 169
+ []
+
+)
 \tf@toc=\write8
-) [8]
+) [7]
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\algebra.te
 x
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 3.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 20.
+
+LaTeX Warning: Marginpar on page 8 moved.
+
 LaTeX Font Info:    Font shape `T1/mak/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 18.
-LaTeX Font Info:    Font shape `T1/mak/bx/it' will be
-(Font)              scaled to size 8.99994pt on input line 18.
-<../graphics/lothar.pdf, id=456, 258.13182pt x 63.30908pt>
+(Font)              scaled to size 8.99994pt on input line 27.
+<../graphics/lothar.pdf, id=417, 258.13182pt x 63.30908pt>
 File: ../graphics/lothar.pdf Graphic file (type pdf)
 
 <use ../graphics/lothar.pdf>
 Package pdftex.def Info: ../graphics/lothar.pdf used on input line 38.
 (pdftex.def)             Requested size: 258.13118pt x 63.30891pt.
- [9
 
- <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/lothar.pd
-f>]
-<../graphics/numbers.pdf, id=465, 174.86732pt x 37.03871pt>
+<../graphics/numbers.pdf, id=418, 174.86732pt x 37.03871pt>
 File: ../graphics/numbers.pdf Graphic file (type pdf)
 
 <use ../graphics/numbers.pdf>
 Package pdftex.def Info: ../graphics/numbers.pdf used on input line 45.
 (pdftex.def)             Requested size: 174.86688pt x 37.0386pt.
+ [8
+
+ <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/lothar.pd
+f>]
 LaTeX Font Info:    Try loading font information for T1+txr on input line 50.
 
 (C:\Users\findell.2\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
-<../graphics/gfive.pdf, id=466, 34.50708pt x 21.01953pt>
+<../graphics/gfive.pdf, id=426, 34.50708pt x 21.01953pt>
 File: ../graphics/gfive.pdf Graphic file (type pdf)
 
 <use ../graphics/gfive.pdf>
 Package pdftex.def Info: ../graphics/gfive.pdf used on input line 52.
 (pdftex.def)             Requested size: 34.50697pt x 21.01947pt.
 
-<../graphics/ggoats.pdf, id=467, 49.2871pt x 29.63097pt>
+<../graphics/ggoats.pdf, id=427, 49.2871pt x 29.63097pt>
 File: ../graphics/ggoats.pdf Graphic file (type pdf)
 
 <use ../graphics/ggoats.pdf>
@@ -2069,22 +2296,22 @@ LaTeX Font Info:    Font shape `T1/mak/bx/n' will be
 Package hyperref Info: bookmark level for unknown question defaults to 0 on inp
 ut line 59.
 
-<../graphics/op8numbers.pdf, id=468, 194.7275pt x 27.10126pt>
+<../graphics/op8numbers.pdf, id=428, 194.7275pt x 27.10126pt>
 File: ../graphics/op8numbers.pdf Graphic file (type pdf)
 
 <use ../graphics/op8numbers.pdf>
 Package pdftex.def Info: ../graphics/op8numbers.pdf used on input line 76.
 (pdftex.def)             Requested size: 194.727pt x 27.10118pt.
 
-<../graphics/leathuman.pdf, id=469, 243.50967pt x 64.70009pt>
+<../graphics/leathuman.pdf, id=429, 243.50967pt x 64.70009pt>
 File: ../graphics/leathuman.pdf Graphic file (type pdf)
 
 <use ../graphics/leathuman.pdf>
 Package pdftex.def Info: ../graphics/leathuman.pdf used on input line 81.
 (pdftex.def)             Requested size: 243.50908pt x 64.69992pt.
- [10 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/numbe
-rs.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/gf
-ive.pdf
+ [9 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/number
+s.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/gfi
+ve.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/findell.2/Documents/GitHub/1165/Num
 bersAndAlgebra/graphics/gfive.pdf): PDF inclusion: multiple pdfs with page grou
@@ -2095,27 +2322,27 @@ df
 pdfTeX warning: pdflatex.EXE (file C:/Users/findell.2/Documents/GitHub/1165/Num
 bersAndAlgebra/graphics/ggoats.pdf): PDF inclusion: multiple pdfs with page gro
 up included in a single page
->] <../graphics/op8numbershe.pdf, id=485, 58.2175pt x 27.10126pt>
+> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/op8numbe
+rs.pdf>] <../graphics/op8numbershe.pdf, id=447, 58.2175pt x 27.10126pt>
 File: ../graphics/op8numbershe.pdf Graphic file (type pdf)
 
 <use ../graphics/op8numbershe.pdf>
 Package pdftex.def Info: ../graphics/op8numbershe.pdf used on input line 86.
 (pdftex.def)             Requested size: 58.21735pt x 27.10118pt.
 
-<../graphics/op8number12.pdf, id=486, 27.10126pt x 27.10126pt>
+<../graphics/op8number12.pdf, id=448, 27.10126pt x 27.10126pt>
 File: ../graphics/op8number12.pdf Graphic file (type pdf)
 
 <use ../graphics/op8number12.pdf>
 Package pdftex.def Info: ../graphics/op8number12.pdf used on input line 91.
 (pdftex.def)             Requested size: 27.10118pt x 27.10118pt.
 Package mdframed Info: mdframed works in twoside mode on input line 93.
- [11 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/op8nu
-mbers.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics
-/leathuman.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/gra
-phics/op8numbershe.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlg
-ebra/graphics/op8number12.pdf>]
+ [10 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/leath
+uman.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/
+op8numbershe.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/g
+raphics/op8number12.pdf>]
 Package mdframed Info: mdframed works in twoside mode on input line 116.
- [12]
+ [11]
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 204.
 LaTeX Font Info:    Font shape `T1/maksf/m/n' will be
@@ -2148,32 +2375,39 @@ LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 (Font)              scaled to size 5.39996pt on input line 204.
 LaTeX Font Info:    Font shape `T1/mak/m/it' will be
 (Font)              scaled to size 8.09995pt on input line 204.
- [13]
+ [12]
 Package mdframed Info: mdframed works in twoside mode on input line 218.
-Package mdframed Info: mdframed works in twoside mode on input line 267.
 
-[14]
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+Package mdframed Info: mdframed works in twoside mode on input line 267.
+[13]
 Package mdframed Info: mdframed works in twoside mode on input line 273.
 Package mdframed Info: mdframed works in twoside mode on input line 280.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 307.
- (C:\Users\findell.2\Documents\GitHub\CCSS\Standards\2.NBT.9.tex)
 
-LaTeX Warning: Marginpar on page 15 moved.
 
-[15]
+LaTeX Warning: Marginpar on page 14 moved.
+
+(C:\Users\findell.2\Documents\GitHub\CCSS\Standards\2.NBT.9.tex)
+
+LaTeX Warning: Marginpar on page 14 moved.
+
 Package mdframed Info: mdframed works in twoside mode on input line 321.
+Package mdframed Info: Not enough space on this page on input line 323.
+[14]
+Package mdframed Info: Not enough space on this page on input line 323.
 Package mdframed Info: mdframed works in twoside mode on input line 366.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [15]
 Package mdframed Info: mdframed works in twoside mode on input line 400.
 
-[17]
+[16]
 Package mdframed Info: mdframed works in twoside mode on input line 445.
 Package mdframed Info: mdframed works in twoside mode on input line 465.
- [18]
+ [17]
 Package mdframed Info: mdframed works in twoside mode on input line 491.
 
 Overfull \hbox (27.00912pt too wide) in paragraph at lines 514--514
@@ -2187,11 +2421,11 @@ Overfull \hbox (27.00912pt too wide) in paragraph at lines 536--536
 
 Package mdframed Info: mdframed works in twoside mode on input line 541.
 Package mdframed Info: Not enough space on this page on input line 543.
-[19]
+[18]
 Package mdframed Info: Not enough space on this page on input line 543.
 Package mdframed Info: mdframed works in twoside mode on input line 562.
 Package mdframed Info: mdframed works in twoside mode on input line 592.
- [20]
+ [19]
 Overfull \hbox (27.00912pt too wide) in paragraph at lines 624--624
 [] 
  []
@@ -2203,10 +2437,10 @@ Overfull \hbox (27.00912pt too wide) in paragraph at lines 653--653
 
 Package mdframed Info: mdframed works in twoside mode on input line 659.
 Package mdframed Info: Not enough space on this page on input line 661.
-[21]
+[20]
 Package mdframed Info: Not enough space on this page on input line 661.
 Package mdframed Info: mdframed works in twoside mode on input line 679.
- [22] <../graphics/assMult.pdf, id=618, 186.87756pt x 50.76051pt>
+ [21] <../graphics/assMult.pdf, id=578, 186.87756pt x 50.76051pt>
 File: ../graphics/assMult.pdf Graphic file (type pdf)
 
 <use ../graphics/assMult.pdf>
@@ -2214,31 +2448,30 @@ Package pdftex.def Info: ../graphics/assMult.pdf used on input line 1176.
 (pdftex.def)             Requested size: 186.87709pt x 50.76038pt.
 LaTeX Font Info:    Font shape `T1/mak/bx/n' will be
 (Font)              scaled to size 8.09995pt on input line 1176.
- [23 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/assMu
-lt.pdf>] [24] [25] [26] [27]
+ [22 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/assMu
+lt.pdf>] [23] [24] [25] [26]
+
+LaTeX Warning: Marginpar on page 27 moved.
+
 Package mdframed Info: mdframed works in twoside mode on input line 1200.
 Package mdframed Info: mdframed works in twoside mode on input line 1204.
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 1204.
 Package mdframed Info: mdframed works in twoside mode on input line 1212.
- [28]
 Package mdframed Info: mdframed works in twoside mode on input line 1230.
+[27]
 Package mdframed Info: mdframed works in twoside mode on input line 1240.
 Package mdframed Info: mdframed works in twoside mode on input line 1246.
 Package mdframed Info: mdframed works in twoside mode on input line 1254.
- [29]
 Package mdframed Info: mdframed works in twoside mode on input line 1283.
+ [28]
 Package mdframed Info: mdframed works in twoside mode on input line 1289.
 Package mdframed Info: mdframed works in twoside mode on input line 1296.
 Package mdframed Info: mdframed works in twoside mode on input line 1303.
 Package mdframed Info: mdframed works in twoside mode on input line 1310.
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
 t line 1310.
-Package mdframed Info: Not enough space on this page on input line 1314.
- [30]
-Package mdframed Info: Not enough space on this page on input line 1314.
-
-[31]
+ [29] [30]
 Overfull \hbox (5.777pt too wide) detected at line 1469
 \T1/mak/m/n/9 3\OML/mak/m/it/9 x[] \OMS/txsy/m/n/9   \OML/mak/m/it/9 x[] \OT1/t
 xr/m/n/9 + \OML/mak/m/it/9 x[] \OMS/txsy/m/n/9   \T1/mak/m/n/9 16\OML/mak/m/it/
@@ -2249,12 +2482,12 @@ xr/m/n/9 + \OML/mak/m/it/9 x[] \OMS/txsy/m/n/9   \T1/mak/m/n/9 16\OML/mak/m/it/
 x[] \OT1/txr/m/n/9 + \OML/mak/m/it/9 a[]
  []
 
-[32] [33])
+[31] [32])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\number.tex
 Chapter 2.
 Package mdframed Info: mdframed works in twoside mode on input line 14.
 Package mdframed Info: mdframed works in twoside mode on input line 31.
-[34
+[33
 
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 37.
@@ -2262,37 +2495,41 @@ Package mdframed Info: mdframed works in twoside mode on input line 43.
 Package mdframed Info: mdframed works in twoside mode on input line 50.
 Package mdframed Info: mdframed works in twoside mode on input line 58.
 Package mdframed Info: mdframed works in twoside mode on input line 77.
- [35]
+ [34]
 Package mdframed Info: mdframed works in twoside mode on input line 90.
 Package mdframed Info: mdframed works in twoside mode on input line 110.
 Package mdframed Info: mdframed works in twoside mode on input line 116.
 Package mdframed Info: mdframed works in twoside mode on input line 123.
 Package mdframed Info: Not enough space on this page on input line 138.
- [36]
+ [35]
 Package mdframed Info: Not enough space on this page on input line 138.
 Package mdframed Info: mdframed works in twoside mode on input line 154.
-Package mdframed Info: mdframed works in twoside mode on input line 178.
-Package mdframed Info: Not enough space on this page on input line 181.
- [37]
-Package mdframed Info: Not enough space on this page on input line 181.
-Package mdframed Info: mdframed works in twoside mode on input line 183.
-Package mdframed Info: mdframed works in twoside mode on input line 198.
- <xymatrix 7x6 510>
-Underfull \vbox (badness 5189) has occurred while \output is active []
 
- [38]
+
+LaTeX Warning: Marginpar on page 36 moved.
+
+Package mdframed Info: mdframed works in twoside mode on input line 178.
+Package mdframed Info: mdframed works in twoside mode on input line 183.
+[36]
+Package mdframed Info: mdframed works in twoside mode on input line 198.
+
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+<xymatrix 7x6 510> [37]
 Package mdframed Info: mdframed works in twoside mode on input line 240.
 Package mdframed Info: mdframed works in twoside mode on input line 249.
 Package mdframed Info: mdframed works in twoside mode on input line 261.
 
-[39]
-Package mdframed Info: Not enough space on this page on input line 264.
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+[38]
 Package mdframed Info: mdframed works in twoside mode on input line 311.
 Package mdframed Info: mdframed works in twoside mode on input line 317.
 Package mdframed Info: mdframed works in twoside mode on input line 323.
- [40]
 Package mdframed Info: mdframed works in twoside mode on input line 334.
- <../graphics/divisionThmProof.pdf, id=900, 206.85153pt x 44.8372pt>
+ [39] <../graphics/divisionThmProof.pdf, id=864, 206.85153pt x 44.8372pt>
 File: ../graphics/divisionThmProof.pdf Graphic file (type pdf)
 
 <use ../graphics/divisionThmProof.pdf>
@@ -2300,8 +2537,12 @@ Package pdftex.def Info: ../graphics/divisionThmProof.pdf used on input line 35
 3.
 (pdftex.def)             Requested size: 206.85101pt x 44.83707pt.
 Package mdframed Info: mdframed works in twoside mode on input line 355.
- [41 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/divis
-ionThmProof.pdf>] [42] [43] [44] [45]
+
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+[40 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/divisi
+onThmProof.pdf>] [41] [42] [43]
 Package microtype Info: Character `AE ' is missing
 (microtype)             in font `OT1/txr/bx/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2343,23 +2584,30 @@ LaTeX Font Info:    Font shape `OML/mak/b/it' will be
 Package mdframed Info: mdframed works in twoside mode on input line 664.
 Package mdframed Info: mdframed works in twoside mode on input line 669.
 Package mdframed Info: Not enough space on this page on input line 672.
-[46]
+[44]
 Package mdframed Info: Not enough space on this page on input line 672.
+
+
+LaTeX Warning: Marginpar on page 45 moved.
+
 Package mdframed Info: mdframed works in twoside mode on input line 698.
 Package mdframed Info: mdframed works in twoside mode on input line 708.
- [47]
+
 Overfull \hbox (9.76859pt too wide) in paragraph at lines 726--726
 [] 
  []
 
-
+[45]
 Overfull \hbox (20.9285pt too wide) in paragraph at lines 746--746
 [] 
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 762.
+
+LaTeX Warning: Marginpar on page 46 moved.
+
 Package mdframed Info: mdframed works in twoside mode on input line 793.
-[48]
+[46]
 Package mdframed Info: mdframed works in twoside mode on input line 827.
 Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input 
 line 827.
@@ -2369,42 +2617,51 @@ LaTeX Font Info:    Font shape `T1/mak/m/sl' will be
 (Font)              scaled to size 4.49997pt on input line 830.
 Package mdframed Info: mdframed works in twoside mode on input line 834.
 Package mdframed Info: mdframed works in twoside mode on input line 840.
- [49]
 Package mdframed Info: mdframed works in twoside mode on input line 851.
+ [47]
 Package mdframed Info: mdframed works in twoside mode on input line 856.
+LaTeX Font Info:    Font shape `T1/mak/bx/it' will be
+(Font)              scaled to size 8.99994pt on input line 857.
 Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
 line 857.
 Package mdframed Info: mdframed works in twoside mode on input line 881.
-Package mdframed Info: Not enough space on this page on input line 884.
- [50]
-Package mdframed Info: Not enough space on this page on input line 884.
 Package mdframed Info: mdframed works in twoside mode on input line 887.
+ [48]
 Package mdframed Info: mdframed works in twoside mode on input line 894.
- [51] [52] [53]
+ [49] [50] [51]
 Package mdframed Info: mdframed works in twoside mode on input line 1088.
+
+
+LaTeX Warning: Marginpar on page 52 moved.
+
 Package mdframed Info: mdframed works in twoside mode on input line 1118.
 Package mdframed Info: mdframed works in twoside mode on input line 1125.
- [54]
+Package mdframed Info: Not enough space on this page on input line 1128.
+[52]
+Package mdframed Info: Not enough space on this page on input line 1128.
 Package mdframed Info: mdframed works in twoside mode on input line 1131.
 Package mdframed Info: mdframed works in twoside mode on input line 1139.
 Package mdframed Info: mdframed works in twoside mode on input line 1152.
- [55]
 Package mdframed Info: mdframed works in twoside mode on input line 1159.
+ [53]
 Package mdframed Info: mdframed works in twoside mode on input line 1183.
 Package mdframed Info: mdframed works in twoside mode on input line 1191.
 Package mdframed Info: mdframed works in twoside mode on input line 1198.
 Package mdframed Info: mdframed works in twoside mode on input line 1205.
- [56]
+ [54]
 Package mdframed Info: mdframed works in twoside mode on input line 1211.
- [57]
-<../graphics/fracPart.pdf, id=1202, 139.73082pt x 43.39523pt>
+
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+[55] <../graphics/fracPart.pdf, id=1159, 139.73082pt x 43.39523pt>
 File: ../graphics/fracPart.pdf Graphic file (type pdf)
 
 <use ../graphics/fracPart.pdf>
 Package pdftex.def Info: ../graphics/fracPart.pdf used on input line 1456.
 (pdftex.def)             Requested size: 139.73045pt x 43.39511pt.
 
-<../graphics/whichFrac.pdf, id=1203, 93.04053pt x 21.90866pt>
+<../graphics/whichFrac.pdf, id=1160, 93.04053pt x 21.90866pt>
 File: ../graphics/whichFrac.pdf Graphic file (type pdf)
 
 <use ../graphics/whichFrac.pdf>
@@ -2412,25 +2669,47 @@ Package pdftex.def Info: ../graphics/whichFrac.pdf used on input line 1456.
 (pdftex.def)             Requested size: 93.0403pt x 21.9086pt.
 LaTeX Font Info:    Font shape `OMS/mak/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 1456.
- [58 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/fracP
+ [56 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/fracP
 art.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/w
 hichFrac.pdf
 
 pdfTeX warning: pdflatex.EXE (file C:/Users/findell.2/Documents/GitHub/1165/Num
 bersAndAlgebra/graphics/whichFrac.pdf): PDF inclusion: multiple pdfs with page 
 group included in a single page
->] [59] [60])
+>] [57] [58]
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+)
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\solve.tex
-[61]
+[59]
 Chapter 3.
 Package mdframed Info: mdframed works in twoside mode on input line 26.
 Package mdframed Info: mdframed works in twoside mode on input line 40.
 Package mdframed Info: mdframed works in twoside mode on input line 48.
-[62
+[60
 
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 59.
- <../graphics/quad2Plot.pdf, id=1289, 301.125pt x 195.06476pt>
+ <../graphics/quad2Plot.pdf, id=1245, 301.125pt x 195.06476pt>
 File: ../graphics/quad2Plot.pdf Graphic file (type pdf)
 
 <use ../graphics/quad2Plot.pdf>
@@ -2439,75 +2718,105 @@ Package pdftex.def Info: ../graphics/quad2Plot.pdf used on input line 90.
 
 Underfull \vbox (badness 3612) has occurred while \output is active []
 
- [63]
+ [61]
 Package mdframed Info: mdframed works in twoside mode on input line 105.
 Package mdframed Info: mdframed works in twoside mode on input line 117.
 Package mdframed Info: Not enough space on this page on input line 121.
 
-[64 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/quad2P
+[62 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/quad2P
 lot.pdf>]
 Package mdframed Info: Not enough space on this page on input line 121.
 Package mdframed Info: mdframed works in twoside mode on input line 129.
- [65] [66] [67]
+ [63] [64]
+
+LaTeX Warning: Marginpar on page 65 moved.
+
 Package mdframed Info: mdframed works in twoside mode on input line 261.
+[65]
 Package mdframed Info: mdframed works in twoside mode on input line 265.
 Package mdframed Info: mdframed works in twoside mode on input line 272.
 Package mdframed Info: mdframed works in twoside mode on input line 276.
 Package mdframed Info: mdframed works in twoside mode on input line 286.
- [68]
+ [66]
 Package mdframed Info: mdframed works in twoside mode on input line 290.
 Package mdframed Info: mdframed works in twoside mode on input line 302.
 Package mdframed Info: mdframed works in twoside mode on input line 307.
- [69] [70]
-Package mdframed Info: mdframed works in twoside mode on input line 402.
-Package mdframed Info: Not enough space on this page on input line 403.
- [71]
-Package mdframed Info: Not enough space on this page on input line 403.
-Package mdframed Info: mdframed works in twoside mode on input line 407.
-Package mdframed Info: mdframed works in twoside mode on input line 444.
- [72] [73] [74] [75]
-Package mdframed Info: mdframed works in twoside mode on input line 566.
 
-<../graphics/cubicPlot.pdf, id=1461, 301.125pt x 193.7388pt>
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+[67] [68]
+Package mdframed Info: mdframed works in twoside mode on input line 404.
+Package mdframed Info: mdframed works in twoside mode on input line 409.
+ [69]
+Package mdframed Info: mdframed works in twoside mode on input line 446.
+ [70] [71] [72]
+
+LaTeX Warning: Marginpar on page 73 moved.
+
+Package mdframed Info: mdframed works in twoside mode on input line 568.
+<../graphics/cubicPlot.pdf, id=1413, 301.125pt x 193.7388pt>
 File: ../graphics/cubicPlot.pdf Graphic file (type pdf)
 
 <use ../graphics/cubicPlot.pdf>
-Package pdftex.def Info: ../graphics/cubicPlot.pdf used on input line 582.
+Package pdftex.def Info: ../graphics/cubicPlot.pdf used on input line 584.
 (pdftex.def)             Requested size: 216.81pt x 139.49773pt.
- [76 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/cubic
+ [73 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/cubic
 Plot.pdf>]
-Package mdframed Info: mdframed works in twoside mode on input line 606.
-Package mdframed Info: mdframed works in twoside mode on input line 635.
-Package mdframed Info: Not enough space on this page on input line 642.
- [77]
-Package mdframed Info: Not enough space on this page on input line 642.
-Package mdframed Info: mdframed works in twoside mode on input line 655.
-Package mdframed Info: mdframed works in twoside mode on input line 678.
- [78]
-<../graphics/complexPlane.pdf, id=1496, 305.86803pt x 305.86803pt>
+Package mdframed Info: mdframed works in twoside mode on input line 608.
+Package mdframed Info: mdframed works in twoside mode on input line 637.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 644.
+ [74]
+Package mdframed Info: mdframed works in twoside mode on input line 657.
+
+
+LaTeX Warning: Marginpar on page 75 moved.
+
+Package mdframed Info: mdframed works in twoside mode on input line 680.
+<../graphics/complexPlane.pdf, id=1440, 305.86803pt x 305.86803pt>
 File: ../graphics/complexPlane.pdf Graphic file (type pdf)
 
 <use ../graphics/complexPlane.pdf>
-Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 692.
+Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 694.
 (pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
-Package mdframed Info: mdframed works in twoside mode on input line 697.
-Package mdframed Info: mdframed works in twoside mode on input line 702.
- [79 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/compl
-exPlane.pdf>] [80] [81] [82])
+
+Underfull \vbox (badness 3460) has occurred while \output is active []
+
+ [75]
+Package mdframed Info: mdframed works in twoside mode on input line 699.
+Package mdframed Info: mdframed works in twoside mode on input line 704.
+
+[76 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/comple
+xPlane.pdf>]
+
+LaTeX Warning: Marginpar on page 77 moved.
+
+[77] [78] [79])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\circle.tex
 Chapter 4.
-<../graphics/clock.pdf, id=1565, 54.79309pt x 54.79309pt>
+
+LaTeX Warning: Marginpar on page 80 moved.
+
+<../graphics/clock.pdf, id=1518, 54.79309pt x 54.79309pt>
 File: ../graphics/clock.pdf Graphic file (type pdf)
 
 <use ../graphics/clock.pdf>
 Package pdftex.def Info: ../graphics/clock.pdf used on input line 25.
 (pdftex.def)             Requested size: 54.79294pt x 54.79294pt.
 Package mdframed Info: mdframed works in twoside mode on input line 27.
- [83
+ [80
 
  <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/clock.pdf
 >]
-<../graphics/moreclocks.pdf, id=1581, 145.0875pt x 64.66307pt>
+<../graphics/moreclocks.pdf, id=1534, 145.0875pt x 64.66307pt>
 File: ../graphics/moreclocks.pdf Graphic file (type pdf)
 
 <use ../graphics/moreclocks.pdf>
@@ -2515,13 +2824,13 @@ Package pdftex.def Info: ../graphics/moreclocks.pdf used on input line 44.
 (pdftex.def)             Requested size: 145.08713pt x 64.6629pt.
 Package mdframed Info: mdframed works in twoside mode on input line 47.
 
-<../graphics/twoclock.pdf, id=1582, 54.79309pt x 64.65724pt>
+<../graphics/twoclock.pdf, id=1535, 54.79309pt x 64.65724pt>
 File: ../graphics/twoclock.pdf Graphic file (type pdf)
 
 <use ../graphics/twoclock.pdf>
 Package pdftex.def Info: ../graphics/twoclock.pdf used on input line 50.
 (pdftex.def)             Requested size: 54.79294pt x 64.65706pt.
- [84 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/morec
+ [81 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/morec
 locks.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics
 /twoclock.pdf
 
@@ -2539,21 +2848,21 @@ Package mdframed Warning: You got a bad break
 (mdframed)                by changing the text, the space
 (mdframed)                or something else on input line 104.
 
-[85]
+[82]
 Package mdframed Info: mdframed works in twoside mode on input line 113.
 Package mdframed Info: mdframed works in twoside mode on input line 122.
- [86] [87] [88]
-<../graphics/wheelcolumn.pdf, id=1713, 157.50372pt x 63.63388pt>
+ [83] [84] [85]
+<../graphics/wheelcolumn.pdf, id=1666, 157.50372pt x 63.63388pt>
 File: ../graphics/wheelcolumn.pdf Graphic file (type pdf)
 
 <use ../graphics/wheelcolumn.pdf>
 Package pdftex.def Info: ../graphics/wheelcolumn.pdf used on input line 327.
 (pdftex.def)             Requested size: 157.50333pt x 63.63371pt.
- [89 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/wheel
+ [86 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/wheel
 column.pdf>]
 Package mdframed Info: mdframed works in twoside mode on input line 351.
 
-<../graphics/upcaEg.pdf, id=1730, 85.93433pt x 32.2337pt>
+<../graphics/upcaEg.pdf, id=1683, 85.93433pt x 32.2337pt>
 File: ../graphics/upcaEg.pdf Graphic file (type pdf)
 
 <use ../graphics/upcaEg.pdf>
@@ -2562,56 +2871,74 @@ Package pdftex.def Info: ../graphics/upcaEg.pdf used on input line 373.
 
 Underfull \vbox (badness 1270) has occurred while \output is active []
 
- [90 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/upcaE
+ [87 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/upcaE
 g.pdf>]
-<../graphics/upceEg.pdf, id=1747, 49.89343pt x 32.2337pt>
+<../graphics/upceEg.pdf, id=1700, 49.89343pt x 32.2337pt>
 File: ../graphics/upceEg.pdf Graphic file (type pdf)
 
 <use ../graphics/upceEg.pdf>
 Package pdftex.def Info: ../graphics/upceEg.pdf used on input line 404.
 (pdftex.def)             Requested size: 49.8933pt x 32.23361pt.
 Package mdframed Info: mdframed works in twoside mode on input line 417.
- [91 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/upceE
-g.pdf>] [92] [93]
-Package mdframed Info: mdframed works in twoside mode on input line 528.
+ [88 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/upceE
+g.pdf>] [89]
+Package mdframed Info: mdframed works in twoside mode on input line 529.
 
-<../graphics/pascalsTri.pdf, id=1786, 259.77367pt x 92.26332pt>
+<../graphics/pascalsTri.pdf, id=1734, 259.77367pt x 92.26332pt>
 File: ../graphics/pascalsTri.pdf Graphic file (type pdf)
 
 <use ../graphics/pascalsTri.pdf>
-Package pdftex.def Info: ../graphics/pascalsTri.pdf used on input line 538.
+Package pdftex.def Info: ../graphics/pascalsTri.pdf used on input line 539.
 (pdftex.def)             Requested size: 259.77303pt x 92.26308pt.
 
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [94]
-Package mdframed Info: mdframed works in twoside mode on input line 566.
-Package mdframed Info: mdframed works in twoside mode on input line 586.
+ [90]
+Package mdframed Info: mdframed works in twoside mode on input line 567.
+Package mdframed Info: mdframed works in twoside mode on input line 587.
 
-[95 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/pascal
+[91 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/pascal
 sTri.pdf>]
-Package mdframed Info: mdframed works in twoside mode on input line 590.
-Package mdframed Info: mdframed works in twoside mode on input line 611.
-Package mdframed Info: mdframed works in twoside mode on input line 617.
-Package mdframed Info: Not enough space on this page on input line 618.
- [96]
-Package mdframed Info: Not enough space on this page on input line 618.
-Package mdframed Info: mdframed works in twoside mode on input line 622.
-Package mdframed Info: mdframed works in twoside mode on input line 632.
-Package mdframed Info: mdframed works in twoside mode on input line 645.
-Package mdframed Info: mdframed works in twoside mode on input line 653.
- [97] [98] [99])
+Package mdframed Info: mdframed works in twoside mode on input line 591.
+
+
+LaTeX Warning: Marginpar on page 92 moved.
+
+Package mdframed Info: mdframed works in twoside mode on input line 612.
+Package mdframed Info: mdframed works in twoside mode on input line 618.
+Package mdframed Info: mdframed works in twoside mode on input line 623.
+[92]
+Package mdframed Info: mdframed works in twoside mode on input line 633.
+Package mdframed Info: mdframed works in twoside mode on input line 646.
+Package mdframed Info: mdframed works in twoside mode on input line 654.
+ [93]
+
+LaTeX Warning: Marginpar on page 94 moved.
+
+
+LaTeX Warning: Marginpar on page 94 moved.
+
+
+LaTeX Warning: Marginpar on page 94 moved.
+
+
+LaTeX Warning: Marginpar on page 94 moved.
+
+
+LaTeX Warning: Marginpar on page 94 moved.
+
+[94] [95])
 Appendix A.
 
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\b
-ases.tex [100
+ases.tex [96
 
 ]
 Package hyperref Info: bookmark level for unknown prob defaults to 0 on input l
 ine 9.
 )
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\h
-ieroArith.tex [101]
+ieroArith.tex [97]
 LaTeX Font Info:    Try loading font information for OT1+proto on input line 40
 .
 
@@ -2695,24 +3022,24 @@ Package microtype Info: Character `AE ' is missing
 (microtype)             in font `OT1/proto/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
-[102])
+[98])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\b
-locksAlgo.tex [103]
-<../graphics/baseTenBlocks.pdf, id=1937, 202.90395pt x 57.43571pt>
+locksAlgo.tex [99]
+<../graphics/baseTenBlocks.pdf, id=1885, 202.90395pt x 57.43571pt>
 File: ../graphics/baseTenBlocks.pdf Graphic file (type pdf)
 
 <use ../graphics/baseTenBlocks.pdf>
 Package pdftex.def Info: ../graphics/baseTenBlocks.pdf used on input line 9.
 (pdftex.def)             Requested size: 202.90344pt x 57.43556pt.
 
-<../graphics/oscarModel.pdf, id=1938, 57.47456pt x 36.135pt>
+<../graphics/oscarModel.pdf, id=1886, 57.47456pt x 36.135pt>
 File: ../graphics/oscarModel.pdf Graphic file (type pdf)
 
 <use ../graphics/oscarModel.pdf>
 Package pdftex.def Info: ../graphics/oscarModel.pdf used on input line 19.
 (pdftex.def)             Requested size: 57.47441pt x 36.13489pt.
 
-<../graphics/oscarSub.pdf, id=1939, 231.36584pt x 352.0632pt>
+<../graphics/oscarSub.pdf, id=1887, 231.36584pt x 352.0632pt>
 File: ../graphics/oscarSub.pdf Graphic file (type pdf)
 
 <use ../graphics/oscarSub.pdf>
@@ -2721,7 +3048,7 @@ Package pdftex.def Info: ../graphics/oscarSub.pdf used on input line 42.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/base
+ [100 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/base
 TenBlocks.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/grap
 hics/oscarModel.pdf
 
@@ -2731,16 +3058,16 @@ bersAndAlgebra/graphics/oscarModel.pdf): PDF inclusion: multiple pdfs with page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/osca
+ [101 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/osca
 rSub.pdf>])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\b
-locksMult.tex [106]
+locksMult.tex [102]
 File: ../graphics/baseTenBlocks.pdf Graphic file (type pdf)
  <use ../graphics/baseTenBlocks.pdf>
 Package pdftex.def Info: ../graphics/baseTenBlocks.pdf used on input line 9.
 (pdftex.def)             Requested size: 202.90344pt x 57.43556pt.
 
-<../graphics/oscarMult.pdf, id=1967, 346.6751pt x 356.98007pt>
+<../graphics/oscarMult.pdf, id=1915, 346.6751pt x 356.98007pt>
 File: ../graphics/oscarMult.pdf Graphic file (type pdf)
 
 <use ../graphics/oscarMult.pdf>
@@ -2749,22 +3076,22 @@ Package pdftex.def Info: ../graphics/oscarMult.pdf used on input line 23.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107]
+ [103]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [108 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/osca
+ [104 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/osca
 rMult.pdf>])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\c
-ompare.tex [109])
+ompare.tex [105])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\d
-ivisionMeaning.tex [110])
+ivisionMeaning.tex [106])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\i
-nfPrimes.tex [111])
+nfPrimes.tex [107])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\s
-ieve.tex [112] [113])
+ieve.tex [108] [109])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\c
-ountingFactors.tex [114]
-<../graphics/treeDia.pdf, id=2052, 193.37833pt x 71.27516pt>
+ountingFactors.tex [110]
+<../graphics/treeDia.pdf, id=2001, 193.37833pt x 71.27516pt>
 File: ../graphics/treeDia.pdf Graphic file (type pdf)
 
 <use ../graphics/treeDia.pdf>
@@ -2772,53 +3099,53 @@ Package pdftex.def Info: ../graphics/treeDia.pdf used on input line 10.
 (pdftex.def)             Requested size: 193.37784pt x 71.27498pt.
 )
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\w
-hyDoesItWork.tex [115 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgeb
+hyDoesItWork.tex [111 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgeb
 ra/graphics/treeDia.pdf>]
 LaTeX Font Info:    Font shape `T1/mak/bx/sl' will be
 (Font)              scaled to size 8.99994pt on input line 61.
 )
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\p
-rome.tex [116]
+rome.tex [112]
 Package mdframed Info: mdframed works in twoside mode on input line 55.
- [117])
+ [113])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\e
-quivFrac.tex [118])
+quivFrac.tex [114])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\f
-racPictMean.tex [119])
+racPictMean.tex [115])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\d
-ivFractions.tex [120] [121])
+ivFractions.tex [116] [117])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\p
-ictDivision.tex [122] [123])
+ictDivision.tex [118] [119])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\c
-rossMult.tex [124])
+rossMult.tex [120])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\d
-ecimals.tex [125])
+ecimals.tex [121])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\r
-epeat.tex [126] [127])
+epeat.tex [122] [123])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\r
-atios.tex [128]
+atios.tex [124]
 LaTeX Font Info:    Font shape `T1/mak/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 49.
 )
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\r
-atioAddition.tex [129] [130])
+atioAddition.tex [125] [126])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\s
-olved.tex [131]
+olved.tex [127]
 Package mdframed Info: mdframed works in twoside mode on input line 20.
 LaTeX Font Info:    Font shape `OMS/mak/m/it' will be
 (Font)              scaled to size 8.99994pt on input line 25.
 )
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\d
-readedStoryProblem.tex [132] [133])
+readedStoryProblem.tex [128] [129])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\w
-alkTheLine.tex [134] [135])
+alkTheLine.tex [130] [131])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\d
-oesntAddUp.tex [136]
+oesntAddUp.tex [132]
 Overfull \hbox (3.64098pt too wide) detected at line 13
 []
  []
 
-<../graphics/sum1.pdf, id=2405, 153.75139pt x 184.21957pt>
+<../graphics/sum1.pdf, id=2353, 153.75139pt x 184.21957pt>
 File: ../graphics/sum1.pdf Graphic file (type pdf)
 
 <use ../graphics/sum1.pdf>
@@ -2826,20 +3153,20 @@ Package pdftex.def Info: ../graphics/sum1.pdf used on input line 22.
 (pdftex.def)             Requested size: 153.75099pt x 184.21912pt.
 )
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\g
-ertrude.tex [137 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/gr
+ertrude.tex [133 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/gr
 aphics/sum1.pdf>])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\b
-illy.tex [138])
+illy.tex [134])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\h
-ieroAlg.tex [139]
+ieroAlg.tex [135]
 Overfull \hbox (166.18716pt too wide) detected at line 50
 []
  []
 
-[140])
+[136])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\o
-therSide.tex [141]
-<../graphics/eqBalGraph.pdf, id=2490, 325.15248pt x 456.43071pt>
+therSide.tex [137]
+<../graphics/eqBalGraph.pdf, id=2438, 325.15248pt x 456.43071pt>
 File: ../graphics/eqBalGraph.pdf Graphic file (type pdf)
 
 <use ../graphics/eqBalGraph.pdf>
@@ -2848,56 +3175,56 @@ Package pdftex.def Info: ../graphics/eqBalGraph.pdf used on input line 12.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [142]
+ [138]
 Overfull \vbox (4.84358pt too high) has occurred while \output is active []
 
 
-[143 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/eqBal
+[139 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/eqBal
 Graph.pdf>])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\v
-ertex.tex [144])
+ertex.tex [140])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\l
-eastSquares.tex [145]
+eastSquares.tex [141]
 File: ../graphics/complexPlane.pdf Graphic file (type pdf)
  <use ../graphics/complexPlane.pdf>
 Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 11.
 (pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
- [146])
+ [142])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\o
-therCurves.tex [147]
-<../graphics/semiLog.pdf, id=2573, 1204.5pt x 1178.80403pt>
+therCurves.tex [143]
+<../graphics/semiLog.pdf, id=2521, 1204.5pt x 1178.80403pt>
 File: ../graphics/semiLog.pdf Graphic file (type pdf)
 
 <use ../graphics/semiLog.pdf>
 Package pdftex.def Info: ../graphics/semiLog.pdf used on input line 53.
 (pdftex.def)             Requested size: 289.07999pt x 282.91875pt.
- [148])
+ [144])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\s
-ketchRoots.tex [149 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra
+ketchRoots.tex [145 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra
 /graphics/semiLog.pdf>])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\c
-omplexAddition.tex [150]
-<../graphics/llama.pdf, id=2617, 100.51941pt x 125.06035pt>
+omplexAddition.tex [146]
+<../graphics/llama.pdf, id=2566, 100.51941pt x 125.06035pt>
 File: ../graphics/llama.pdf Graphic file (type pdf)
 
 <use ../graphics/llama.pdf>
 Package pdftex.def Info: ../graphics/llama.pdf used on input line 10.
 (pdftex.def)             Requested size: 50.25957pt x 62.53001pt.
 
-<../graphics/llamaPlot.pdf, id=2618, 71.70094pt x 57.47458pt>
+<../graphics/llamaPlot.pdf, id=2567, 71.70094pt x 57.47458pt>
 File: ../graphics/llamaPlot.pdf Graphic file (type pdf)
 
 <use ../graphics/llamaPlot.pdf>
 Package pdftex.def Info: ../graphics/llamaPlot.pdf used on input line 10.
 (pdftex.def)             Requested size: 71.70076pt x 57.47443pt.
 
-<../graphics/complexAdd.pdf, id=2619, 235.01976pt x 235.16205pt>
+<../graphics/complexAdd.pdf, id=2568, 235.01976pt x 235.16205pt>
 File: ../graphics/complexAdd.pdf Graphic file (type pdf)
 
 <use ../graphics/complexAdd.pdf>
 Package pdftex.def Info: ../graphics/complexAdd.pdf used on input line 19.
 (pdftex.def)             Requested size: 235.01918pt x 235.16147pt.
- [151 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/llam
+ [147 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/llam
 a.pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/lla
 maPlot.pdf
 
@@ -2912,7 +3239,7 @@ bersAndAlgebra/graphics/complexAdd.pdf): PDF inclusion: multiple pdfs with page
  group included in a single page
 >])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\c
-omplexMultiplication.tex [152]
+omplexMultiplication.tex [148]
 File: ../graphics/llama.pdf Graphic file (type pdf)
  <use ../graphics/llama.pdf>
 Package pdftex.def Info: ../graphics/llama.pdf used on input line 9.
@@ -2923,7 +3250,7 @@ File: ../graphics/llamaPlot.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../graphics/llamaPlot.pdf used on input line 9.
 (pdftex.def)             Requested size: 71.70076pt x 57.47443pt.
 
-<../graphics/complexMult.pdf, id=2641, 235.01976pt x 235.16205pt>
+<../graphics/complexMult.pdf, id=2589, 235.01976pt x 235.16205pt>
 File: ../graphics/complexMult.pdf Graphic file (type pdf)
 
 <use ../graphics/complexMult.pdf>
@@ -2932,7 +3259,7 @@ Package pdftex.def Info: ../graphics/complexMult.pdf used on input line 18.
 
 Underfull \vbox (badness 7133) has occurred while \output is active []
 
- [153 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/comp
+ [149 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/comp
 lexMult.pdf>]
 File: ../graphics/complexPlane.pdf Graphic file (type pdf)
  <use ../graphics/complexPlane.pdf>
@@ -2943,32 +3270,32 @@ File: ../graphics/complexPlane.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 37.
 (pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
 
-[154]
+[150]
 File: ../graphics/complexPlane.pdf Graphic file (type pdf)
  <use ../graphics/complexPlane.pdf>
 Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 49.
 (pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
- [155])
+ [151])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\d
-eg2Ext.tex [156])
+eg2Ext.tex [152])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\o
-rderMod.tex [157] [158])
+rderMod.tex [153] [154])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\t
-raffic.tex [159])
+raffic.tex [155])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\f
-actOrFiction.tex [160] [161]
+actOrFiction.tex [156] [157]
 Underfull \vbox (badness 8019) has occurred while \output is active []
 
- [162])
+ [158])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\p
-yramid.tex [163] <../graphics/pyr.pdf, id=2742, 321.2pt x 322.11342pt>
+yramid.tex [159] <../graphics/pyr.pdf, id=2690, 321.2pt x 322.11342pt>
 File: ../graphics/pyr.pdf Graphic file (type pdf)
 
 <use ../graphics/pyr.pdf>
 Package pdftex.def Info: ../graphics/pyr.pdf used on input line 9.
 (pdftex.def)             Requested size: 160.59961pt x 161.0563pt.
 
-<../graphics/planeCross.pdf, id=2743, 321.2pt x 301.10292pt>
+<../graphics/planeCross.pdf, id=2691, 321.2pt x 301.10292pt>
 File: ../graphics/planeCross.pdf Graphic file (type pdf)
 
 <use ../graphics/planeCross.pdf>
@@ -2977,13 +3304,13 @@ Package pdftex.def Info: ../graphics/planeCross.pdf used on input line 14.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [164 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/pyr.
+ [160 <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/pyr.
 pdf> <C:/Users/findell.2/Documents/GitHub/1165/NumbersAndAlgebra/graphics/plane
-Cross.pdf>] [165])
+Cross.pdf>] [161])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\c
-ountOnIt.tex [166])
+ountOnIt.tex [162])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\w
-hichRoad.tex [167]
+hichRoad.tex [163]
 Overfull \hbox (6.7645pt too wide) detected at line 11
 []
  []
@@ -3005,43 +3332,55 @@ ak/b/it/10 ; \T1/mak/m/n/10 (-20) 11\OML/mak/b/it/10 ; \T1/mak/m/n/10 (-20) 12\
 OMS/txsy/m/n/10 g$\T1/mak/m/n/10 (-20) . 
  []
 
-[168])
+[164])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\l
-umpyAndEddie.tex [169])
+umpyAndEddie.tex [165])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\c
-limbTree.tex [170] [171])
+limbTree.tex [166] [167])
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\appendix\f
-allForAnything.tex [172])
+allForAnything.tex [168])
+(C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\chapters\back.tex
+[169]
+Appendix B.
+[170
+
+]
+(C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\NumbersAlgebra\Numb
+ersAlgebra.ind [171]
+Appendix C.
+[172
+
+]))
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
 \tf@thm=\write9
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
 [173]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
 
 (C:\Users\findell.2\Documents\GitHub\1165\NumbersAndAlgebra\NumbersAlgebra\Numb
 ersAlgebra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
 Package rerunfilecheck Info: File `NumbersAlgebra.out' has not changed.
-(rerunfilecheck)             Checksum: ECD40FBCA968E058DE34048E478DB3E6;11017.
+(rerunfilecheck)             Checksum: 4F3E46445FCE2A821F7886C9280A6EF8;11570.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
  ) 
 Here is how much of TeX's memory you used:
- 38694 strings out of 493921
- 673638 string characters out of 3144865
- 891161 words of memory out of 3000000
- 38782 multiletter control sequences out of 15000+200000
- 110324 words of font info for 537 fonts, out of 3000000 for 9000
+ 38832 strings out of 493921
+ 675849 string characters out of 3144865
+ 894208 words of memory out of 3000000
+ 38875 multiletter control sequences out of 15000+200000
+ 111078 words of font info for 544 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 80i,20n,83p,3299b,827s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 80i,20n,83p,3299b,846s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/findell.2/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/kerkis/kerkise
 c.enc}{C:/Users/findell.2/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/kerkis/kma
 th.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/U
@@ -3068,9 +3407,9 @@ fonts/type1/public/txfonts/txsyc.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/zapfding/uz
 dr.pfb>
-Output written on NumbersAlgebra.pdf (173 pages, 1406388 bytes).
+Output written on NumbersAlgebra.pdf (173 pages, 1409530 bytes).
 PDF statistics:
- 3297 PDF objects out of 3580 (max. 8388607)
- 1685 named destinations out of 1728 (max. 500000)
- 69929 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 3294 PDF objects out of 3580 (max. 8388607)
+ 1714 named destinations out of 1728 (max. 500000)
+ 69961 words of extra memory for PDF output out of 74296 (max. 10000000)
 
