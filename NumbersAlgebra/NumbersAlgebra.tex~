@@ -9,7 +9,7 @@
 
 %\usepackage{microtype}
 
-%\usepackage{lineno}
+\usepackage{lineno}
 %\linenumbers
 
 
@@ -24,7 +24,6 @@
 %\newcommand{\teachingnotes}{With Teaching Notes}
 \excludecomment{teachingnote}
 \newcommand{\teachingnotes}{}
-
 
 
 %\usepackage{showkeys} %%% This package will show you your labels
@@ -166,12 +165,11 @@
 
 
 \title{Numbers \\ and Algebra}
-\author{\teachingnotes}
-\publisher{Fall 2013 \\ This document was typeset on \today.}
+%\author{Bart Snapp}
+\publisher{This document was typeset on \today.}
 
 
 \begin{document}
-\def\document#1{} %% Needed to add standards
 \maketitle
 %%%% Front matter
 \input{../chapters/front}
@@ -198,7 +196,7 @@
 \renewcommand{\theenumi}{$(\mathrm{\alph{enumi}})$}
 \renewcommand{\labelenumi}{\theenumi}
 \chapter{Activities}
-%\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
 
 \input{../chapters/appendix/bases.tex}
@@ -233,10 +231,6 @@
 
 \input{../chapters/appendix/crossMult.tex}
 
-\input{../chapters/appendix/decimals.tex}
-
-\input{../chapters/appendix/repeat.tex}
-
 \input{../chapters/appendix/ratios.tex}
 
 \input{../chapters/appendix/ratioAddition.tex}
@@ -245,15 +239,13 @@
 
 \input{../chapters/appendix/dreadedStoryProblem.tex}
 
-\input{../chapters/appendix/walkTheLine.tex}
+\input{../chapters/appendix/decimals.tex}
 
-\input{../chapters/appendix/doesntAddUp.tex}
-
-\input{../chapters/appendix/gertrude.tex}
-
-\input{../chapters/appendix/billy.tex}
+\input{../chapters/appendix/repeat.tex}
 
 \input{../chapters/appendix/hieroAlg.tex}
+
+\input{../chapters/appendix/walkTheLine.tex}
 
 \input{../chapters/appendix/otherSide.tex}
 
@@ -273,9 +265,15 @@
 
 %\input{../chapters/appendix/inverseFunctions.tex}
 
-%\input{../chapters/appendix/gaussianInt.tex}
+\input{../chapters/appendix/gaussianInt.tex}
 
 \input{../chapters/appendix/orderMod.tex}
+
+\input{../chapters/appendix/doesntAddUp.tex}
+
+\input{../chapters/appendix/gertrude.tex}
+
+\input{../chapters/appendix/billy.tex}
 
 %\input{../chapters/appendix/closeButNoCigar.tex}
 
@@ -314,5 +312,4 @@
 %%%% Index and References
 %\input{../chapters/back}
 %%%%
-
 \end{document}
