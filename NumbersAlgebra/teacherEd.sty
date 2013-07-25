@@ -18,11 +18,25 @@
 \RequirePackage{thmtools}
 \RequirePackage{microtype}
 \RequirePackage{enumerate}
-%\RequirePackage{pgfplots}%\pgfplotsset{compat=1.7}
-%\usepgfplotslibrary{groupplots}
+\RequirePackage{makeidx} %%% gives us our groovy index
 
-%\usepgfplotslibrary{external} % should put graphics in separate files. 
-%\tikzexternalize{textbook} % named after main file
+\makeindex
+
+\RequirePackage{pifont}
+\RequirePackage{bigstrut}
+\RequirePackage[all,cmtip]{xy}
+
+%% packages for the symbols activity:
+%\usepackage{phaistos}
+\usepackage{protosem}
+
+
+
+
+
+%\RequirePackage{pgfplots}
+
+
 
 
 \RequirePackage{morefloats}
@@ -35,33 +49,89 @@
 
 %% Font
 \RequirePackage[T1]{fontenc}
-%\RequirePackage[latin1]{inputenc}
-
 
 %% New Centuary Schoolbook
 %\RequirePackage{fouriernc}
 
-%% Bookman
 
+%% Bookman
 \let\iint\undefined 
 \let\iiint\undefined 
 %\RequirePackage{MnSymbol}
 \RequirePackage{kmath,kerkis} % The order of the packages matters; kmath changes the default text font
 
 
-%% Palatino Clone
-%\usepackage[notextcomp]{kpfonts} 
+%%% Header and Footer Options
+\renewcommand{\headrulewidth}{0.0pt} %%% this takes out the line 
+%%%
+%\rhead[]{\textsl{\leftmark}}  %%%
+%\rfoot[]{\thepage}            %%% Options for 2 sided documents
+%\lhead[\textsl{\rightmark}]{} %%%
+%\lfoot[\thepage]{}            %%%
+%%%
+\lhead[\textsl{\rightmark}]{\textsl{\leftmark}} %%% Options for 1 sided documents
+\cfoot[]{}                      %%% With typing on the *left* page
+\rhead[]{}                                      %%% 
+%%%
+\cfoot[\thepage]{\thepage} %%% needed for both types of documents
+%%% End Header and Footer Options
 
 
+
+
+
+
+\usepackage{array}
+\setlength{\extrarowheight}{0cm}
+\newdimen\digitwidth
+\settowidth\digitwidth{9}
+\def~{\hspace{\digitwidth}}
+\def\divrule#1#2{
+\noalign{\moveright#1\digitwidth
+\vbox{\hrule width#2\digitwidth}}}
+
+
+%%% This set of code gives us the unnumbered footnotes
+\long\def\symbolfootnote[#1]#2{\begingroup\def\thefootnote{\fnsymbol{footnote}}
+\footnote[#1]{#2}\endgroup}
+
+
+
+%%% This set of code is all of our user defined commands
+\newcommand{\bysame}{\mbox{\rule{3em}{.4pt}}\,}
+\newcommand{\N}{\mathbb N}
+\renewcommand{\C}{\mathbb C}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\A}{\mathbb A}
+\newcommand{\ph}{\varphi}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\aph}{\alpha}
+\newcommand{\QM}{\begin{center}{\huge\textbf{?}}\end{center}}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\a}{\wedge}
+\renewcommand{\v}{\vee}
+\renewcommand{\l}{\ell}
+\renewcommand{\subset}{\subseteq}
+\renewcommand{\supset}{\supseteq}
+\renewcommand{\emptyset}{\varnothing}
+\newcommand{\xto}{\xrightarrow}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\renewcommand{\bibname}{References and Further Reading}
+\renewcommand{\bar}{\protect\overline}
+\renewcommand{\hat}{\protect\widehat}
+\renewcommand{\tilde}{\widetilde}
+
+\newcommand{\mat}{\mathsf}
+\renewcommand{\vec}{\mathbf}
+\newcommand{\leftexp}[2]{{\vphantom{#2}}^{#1}{#2}}
 
 
 
 
 
 %% Colors
-
-
-
 
 \colorlet{background}{white} % Color of the page
 \colorlet{textColor}{black} % Color of the text
