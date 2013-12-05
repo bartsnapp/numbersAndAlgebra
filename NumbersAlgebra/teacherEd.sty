@@ -631,9 +631,17 @@ skipabove=\baselineskip]{warning}%
 \definecolor{magenta}{rgb}{.451,.137,.11}
 
 
-\def\standard#1{
-\marginnote{\def\text##1{\def\thetext{##1}}\input{../../../CCSS/Standards/#1.tex}\noindent Standard #1: \thetext}
-}
+\def\standard#1{\textsuperscript{\color{black}\footnotesize{#1}}%
+\marginnote{\def\text##1{\def\thetext{##1}}\input{../../../CCSS/Standards/#1.tex}\noindent Standard #1: \thetext}}
+
+\def\standardhs#1{\textsuperscript{\color{black}\footnotesize{#1}}%
+\marginnote{\def\text##1{\def\thetext{##1}}\input{../../../CCSS/Standards/9-12.#1.tex}\noindent Standard #1: \thetext}}
+
+\def\clarification#1{}
+%\def\clarification#1{\emph{#1}}
+
+
+%\def\document#1{} %% Needed to add standards
 
 
 %% \def\standardmark#1{\textsuperscript{\footnotesize #1}}
@@ -719,13 +727,13 @@ skipabove=\baselineskip]{warning}%
 %% }%
 %% }
 
-%% \def\marginfigure#1{$^{\mbox{\footnotesize\color{red}\textbullet}}$\marginpar{
-%% \setbox1=\hbox{
-%%   {\footnotesize\color{red}\textbullet}
-%%   \setbox0=\hbox{#1}\lower0.5\ht0\hbox{#1}
-%%   }
-%% \box1
-%% }}
+\def\marginfigure#1{$^{\mbox{\footnotesize\color{red}\textbullet}}$\marginpar{
+\setbox1=\hbox{
+{\footnotesize\color{red}\textbullet}
+\setbox0=\hbox{#1}\lower0.5\ht0\hbox{#1}
+}
+\box1
+}}
 
 %% \def\marginfigurenodot#1{\marginpar{
 %% \setbox1=\hbox{
@@ -737,11 +745,11 @@ skipabove=\baselineskip]{warning}%
 
 %% \def\marginhead#1{\centering{\textbf{#1}}\includegraphics[width=0cm]{Figures/null}\\
 %% \smallskip}
-%% \def\margincomment#1{$^{\mbox{\footnotesize\color{red}\textbullet}}$%
-%% \marginpar{%
-%% \setbox1=\hbox{\parbox{3in}{\footnotesize {\color{red}\textbullet} \sffamily #1}}\hbox{\box1}
-%% }%
-%% }
+\def\margincomment#1{$^{\mbox{\footnotesize\color{red}\textbullet}}$%
+\marginpar{%
+\setbox1=\hbox{\parbox{3in}{\footnotesize {\color{red}\textbullet} \sffamily #1}}\hbox{\box1}
+}%
+}
 
 %% \def\margincommentnodotintext#1{\marginpar{%
 %% \setbox1=\hbox{\parbox{3in}{\footnotesize {\color{red}\textbullet} \sffamily #1}}\box1
