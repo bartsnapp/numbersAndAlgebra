@@ -26,7 +26,7 @@ In case you're wondering, the symbol $\Z$ is used because
 
 \subsection{Addition}
 
-Addition is probably the first operation we learn. 
+Addition is probably the first operation we learn.  \fixnote{Distinguish negation from subtraction.}  
 
 \begin{question}
 Write a story problem whose solution is given by the expression
@@ -152,7 +152,7 @@ While addition and multiplication are good operations, the real
 
 
 \begin{definition}\index{divides}    %\index{dn@$d "| n$} %% the pipe breaks stuff
-We say that an integer $d$ \textbf{divides} an integer $n$ if there is
+We say that a non-zero integer $d$ \textbf{divides} an integer $n$ if there is
 an integer $q$
 \[
 n = dq
@@ -238,11 +238,11 @@ up from the prime divisors. One of the most important is the
 \textit{greatest common divisor}.
 
 \begin{definition}\index{GCD}\index{greatest common divisor} 
-The \textbf{greatest common divisor} (GCD) of two numbers $a$ and $b$
-is a number $g = \gcd(a,b)$ where:
+The \textbf{greatest common divisor} (GCD) of two integers $a$ and $b$ (not both 0)
+is a positive integer $g = \gcd(a,b)$ where:
 \begin{enumerate}
 \item $g|a$ and $g|b$.
-\item If $d|a$ and $d|b$, then $d \le g$.
+\item If $d|a$ and $d|b$, then $0 < d \le g$.
 \end{enumerate}
 \end{definition}
 
@@ -418,7 +418,7 @@ Explain your reasoning.
 \end{enumerate}
 In each case, how large of prime must you check before you can be sure
 of your answers? Explain your reasoning.
-\item Explain how to deduce whether the following numbers are prime in
+\item Which of the following numbers are prime?  Explain how could deduce whether the numbers are prime in
   as few calculations as possible:
 \[
 29 \qquad 53 \qquad 101 \qquad 359 \qquad 779 \qquad 839 \qquad 841
@@ -589,7 +589,7 @@ explanations must be general, not based on specific examples.
   negative it means \textit{face South and take $|x|$ steps.} If $y$
   is positive it means your step is a \textit{forward step of $y$
     inches.} If $y$ is negative it means your step \textit{is a
-    backward step of $|y|$ inches.}
+    backward step of $|y|$ inches.}\fixnote{We need additional models, e.g., checks and bills, red and black chips.}
 \begin{enumerate}
 \item Discuss what the expressions $x \cdot y$ means in this
   context. In particular, what happens if $x = 1$? What if $y=1$?
@@ -799,6 +799,8 @@ ax + by
 where $x$ and $y$ are also integers?
 \end{question}
 
+\fixnote{Need to argue that the gcd is expressible this way.  Euclidean Algorithm did that.  Also, improve the corresponding activity.}
+ 
 I'm feeling chatty, so I'll take this one. I claim that $g =
 \gcd(a,b)$ is the smallest positive integer that can be
 expressed as
@@ -902,6 +904,8 @@ case when a number ends in a $0$?
 \newpage
 
 \begin{problems}
+
+\fixnote{Include some problems about hall of shoes.} 
 
 \begin{enumerate}
 \item Explain what a \textit{Diophantine equation} is. Give an example
@@ -1108,6 +1112,7 @@ Activities \ref{A:EF} and \ref{A:FO} complement this section well.
 % Picture Models for Equivalent Fractions & Picture Models for Fraction Operations
 \end{activitynote}
 
+\fixnote{To emphasize that rational numbers are more precise than fraction, include $\pi/3$.}  
 
 \subsection{Why do People Hate Fractions?}
 
@@ -1115,6 +1120,7 @@ Why do so many people find fractions difficult? This is a question
 worth exploring. We'll guide you through some of the tough spots with
 some questions of our own.
 
+\fixnote{Use ``rational number'' here.  And write fractions vertically.}  
 \begin{question}
 Given a fraction $a/b$, come up with three other different fractions
 that are all equal to $a/b$. What features of fractions are we
@@ -1267,7 +1273,7 @@ Explain your reasoning.
 \item Try to find the largest rational number smaller than $3/7$.
   Explain your solution or explain why this cannot be done.
 \item How many rational numbers are there between $3/4$ and $4/7$?
-  Find $3$ of them. Explain your reasoning.
+  Find $3$ of them. Explain your reasoning. \fixnote{Maybe a sequence of rational numbers approaching something?}
 \item A youthful Bart loved to eat hamburgers. He ate $5/8$ pounds of
   hamburger meat a day. After testing revealed that his blood
   consisted mostly of cholesterol, Bart decided to alter his eating
@@ -1425,6 +1431,8 @@ As a conclusion, we suggest doing Activity \ref{A:dreadedStoryProblem}.
 
 \newpage
 
+\fixnote{The phrase ``use common sense'' is sometimes not helpful below.  Instead, record your guess and then reflect on the guess later.} 
+
 \begin{problems}
 \begin{enumerate}
 \item A baseball coach once asked me the following question: If a
@@ -1443,7 +1451,7 @@ As a conclusion, we suggest doing Activity \ref{A:dreadedStoryProblem}.
   added a 25/75 mix, 25 parts antifreeze, and 75 parts water.  How
   much coolant does he have to remove from the cooling system to then
   add 100 percent antifreeze to restore his desired 50/50 mix? Explain
-  your reasoning.
+  your reasoning. \fixnote{Make clear we start at 50/50, then add one quart}
 \item If a hen and a half lays an egg and a half in a day and a half, 
 how many eggs will 6 hens lay in 4 days?  How many days will it take for 
 8 hens to lay 16 eggs?  How many hens would it take to lay 12 eggs in 
@@ -1466,7 +1474,7 @@ Explain your reasoning in each step above.
   $1/10$ of the distance ahead of Andy. After some discussion, Andy
   and Sandy decide to race the certain distance again, this time Sandy
   will start $1/10$ of the distance behind Andy to ``even-up'' the
-  competition. Who wins this time?
+  competition. Who wins this time?  \fixnote{Make clear that Andy finishes the first race and that Sandy has no head start.}
 \begin{enumerate}
 \item Before any computations are done, use common sense to guess the
   solution to this problem.
@@ -1491,7 +1499,7 @@ Explain your reasoning in each step above.
 \end{enumerate}
 Explain your reasoning in each step above.
 \item While on a backpacking trip Lisa hiked five hours, first along a
-  level path, then up a hill, then turned round and hiked back to her
+  level path, then up a hill, then turned around and hiked back to her
   base camp along the same route. She walks $4$ miles per hour on a
   level trail, $3$ uphill, and $6$ downhill. Find the total distance
   traveled. Explain your reasoning.
@@ -1500,7 +1508,7 @@ Explain your reasoning in each step above.
   hotter than the chili. Later, two drops of \textit{Monica's XXX Hot
     Sauce} were mixed with three cups of chili. Which mixture is
   hotter? Josh suggested the following method to compare the
-  concentrations:
+  concentrations:\fixnote{Put in some help.}  
 \begin{itemize}
 \item Remove the second (recipe) from the first, that is: Start with 3
   drops of hot sauce and 5 cups of chili, and remove 2 drops and 3
@@ -1549,7 +1557,7 @@ Activities \ref{A:walk} through \ref{A:WorldSeries} are intended for this sectio
 
 \item A ball is thrown up in the air from a 200 foot cliff with an initial velocity of 15 feet per second.  What is the height of the ball at any time $t$?  Write explicit and recursive representations of the relationship between the time after the ball is thrown and its height above the base of the cliff.
 
-\item While waiting for their candidate to come in the auditorium to address the local constituency, the Mathematics Party members all shake hands with one another.  When Mark Pi  (a freedom fighter in the war against the terror group Al-Gebra) walks in, he shakes hands with the big-wigs who are there.  A total of 6357 handshakes took place that day, and no one shook hands with the same person more than once.  How many people were there?  How many big-wigs were there?
+\item While waiting for their candidate to come in the auditorium to address the local constituency, the Mathematics Party members all shake hands with one another.  When Mark Pi walks in, he shakes hands with the big-wigs who are there.  A total of 6357 handshakes took place that day, and no one shook hands with the same person more than once.  How many people were there?  How many big-wigs were there?\fixnote{Make sure this is clear.} 
 
 \item If you deposit \$347 at the beginning of each year (starting on Jan. 1, 2014), into an account that compounds interest annually at a rate of 6.7\%, how much will be in the account on January 2, 2056?
 

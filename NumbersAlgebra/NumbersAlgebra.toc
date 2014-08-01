@@ -1,109 +1,113 @@
 \contentsline {chapter}{Preface}{3}{chapter*.1}
-\contentsline {chapter}{\numberline {1}Arithmetic and Algebra}{9}{chapter.1}
-\contentsline {section}{\numberline {1.1}Home Base}{9}{section.1.1}
-\contentsline {section}{\numberline {1.2}Arithmetic}{14}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Nomenclature}{14}{subsection.1.2.1}
-\contentsline {paragraph}{The Associative Property}{14}{paragraph*.3}
-\contentsline {paragraph}{The Commutative Property}{14}{paragraph*.4}
-\contentsline {paragraph}{The Distributive Property}{14}{paragraph*.5}
-\contentsline {subsection}{\numberline {1.2.2}Algorithms}{15}{subsection.1.2.2}
-\contentsline {paragraph}{Basic Addition Algorithm}{16}{paragraph*.6}
-\contentsline {paragraph}{Basic Multiplication Algorithm}{17}{paragraph*.7}
-\contentsline {paragraph}{Long-Division Algorithm With Remainder}{19}{paragraph*.8}
-\contentsline {paragraph}{Long-Division Algorithm Without Remainder}{20}{paragraph*.9}
-\contentsline {section}{\numberline {1.3}Algebra}{28}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Polynomial Basics}{28}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Division and Polynomials}{29}{subsection.1.3.2}
-\contentsline {chapter}{\numberline {2}Numbers}{34}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Integers}{34}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Addition}{34}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Multiplication}{36}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Division}{37}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Factoring}{38}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Division with Remainder}{40}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}The Euclidean Algorithm}{46}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Fundamental Theorems}{48}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Rational Numbers}{54}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Why do People Hate Fractions?}{54}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Basic Meanings of Fractions}{56}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Decimal Representations}{61}{section.2.4}
+\contentsline {chapter}{\numberline {1}Arithmetic and Algebra}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}Home Base}{8}{section.1.1}
+\contentsline {section}{\numberline {1.2}Arithmetic}{13}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Nomenclature}{13}{subsection.1.2.1}
+\contentsline {paragraph}{The Associative Property}{13}{paragraph*.3}
+\contentsline {paragraph}{The Commutative Property}{13}{paragraph*.4}
+\contentsline {paragraph}{The Distributive Property}{13}{paragraph*.5}
+\contentsline {subsection}{\numberline {1.2.2}Algorithms}{14}{subsection.1.2.2}
+\contentsline {paragraph}{Basic Addition Algorithm}{14}{paragraph*.6}
+\contentsline {paragraph}{Basic Multiplication Algorithm}{16}{paragraph*.7}
+\contentsline {paragraph}{Long-Division Algorithm With Remainder}{18}{paragraph*.8}
+\contentsline {paragraph}{Long-Division Algorithm Without Remainder}{19}{paragraph*.9}
+\contentsline {section}{\numberline {1.3}Algebra}{27}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Polynomial Basics}{27}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Division and Polynomials}{28}{subsection.1.3.2}
+\contentsline {chapter}{\numberline {2}Numbers}{33}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Integers}{33}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Addition}{33}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Multiplication}{35}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Division}{36}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Factoring}{37}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Division with Remainder}{38}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}The Euclidean Algorithm}{44}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Fundamental Theorems}{46}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Rational Numbers}{52}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Why do People Hate Fractions?}{52}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Basic Meanings of Fractions}{54}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Decimal Representations}{58}{section.2.4}
 \contentsline {section}{\numberline {2.5}Ratios and Proportional Relationships}{61}{section.2.5}
-\contentsline {section}{\numberline {2.6}Functions and Beyond}{61}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Rules and Meanings of Exponents}{61}{subsection.2.6.1}
-\contentsline {chapter}{\numberline {3}Solving Equations}{62}{chapter.3}
-\contentsline {section}{\numberline {3.1}Time to get Real}{62}{section.3.1}
-\contentsline {section}{\numberline {3.2}Polynomial Equations}{67}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Linear Equations}{67}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Quadratic Equations}{67}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Cubic Equations}{70}{subsection.3.2.3}
-\contentsline {paragraph}{Step 1}{70}{paragraph*.10}
-\contentsline {paragraph}{Step 2}{70}{paragraph*.11}
-\contentsline {paragraph}{Step 3}{71}{paragraph*.12}
-\contentsline {subsection}{\numberline {3.2.4}Quartics, Quintics, and Beyond}{72}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Me, Myself, and a Complex Number}{76}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}The Complex Plane}{78}{subsection.3.3.1}
-\contentsline {chapter}{\numberline {4}Harmony of Numbers}{83}{chapter.4}
-\contentsline {section}{\numberline {4.1}Clocks}{83}{section.4.1}
-\contentsline {section}{\numberline {4.2}In the Real World}{89}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Automotive Repair}{89}{subsection.4.2.1}
-\contentsline {paragraph}{A Geometry Problem}{89}{paragraph*.13}
-\contentsline {paragraph}{An Algebra Problem}{89}{paragraph*.14}
-\contentsline {subsection}{\numberline {4.2.2}Check Digits}{90}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}The Binomial Theorem}{94}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Varna-Sangita}{94}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Expansions}{95}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Come Together}{96}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {A}Activities}{100}{appendix.A}
-\contentsline {section}{\numberline {A.1}Shelby and Scotty}{101}{section.A.1}
-\contentsline {section}{\numberline {A.2}Hieroglyphical Arithmetic}{102}{section.A.2}
-\contentsline {section}{\numberline {A.3}Playing with Blocks}{104}{section.A.3}
-\contentsline {section}{\numberline {A.4}More Playing with Blocks}{107}{section.A.4}
-\contentsline {section}{\numberline {A.5}Comparative Arithmetic}{110}{section.A.5}
-\contentsline {section}{\numberline {A.6}What Can Division Mean?}{111}{section.A.6}
-\contentsline {section}{\numberline {A.7}There's Always Another Prime}{112}{section.A.7}
-\contentsline {section}{\numberline {A.8}Sieving it All Out}{113}{section.A.8}
-\contentsline {section}{\numberline {A.9}There are Many Factors to Consider}{115}{section.A.9}
-\contentsline {section}{\numberline {A.10}Why Does It Work?}{116}{section.A.10}
-\contentsline {paragraph}{The First Line}{116}{paragraph*.15}
-\contentsline {paragraph}{The Second Line}{116}{paragraph*.16}
-\contentsline {paragraph}{The Third Line}{116}{paragraph*.17}
-\contentsline {paragraph}{The Final Line}{116}{paragraph*.18}
-\contentsline {section}{\numberline {A.11}Prome Factorization}{117}{section.A.11}
-\contentsline {section}{\numberline {A.12}Picture Models for Equivalent Fractions}{119}{section.A.12}
-\contentsline {section}{\numberline {A.13}Picture Models for Fraction Operations}{120}{section.A.13}
-\contentsline {section}{\numberline {A.14}Flour Power}{121}{section.A.14}
-\contentsline {section}{\numberline {A.15}Picture Yourself Dividing}{123}{section.A.15}
-\contentsline {section}{\numberline {A.16}Cross Something-ing}{125}{section.A.16}
-\contentsline {section}{\numberline {A.17}Decimals Aren't So Nice}{126}{section.A.17}
-\contentsline {section}{\numberline {A.18}Shampoo, Rinse, \dots }{127}{section.A.18}
-\contentsline {section}{\numberline {A.19}Poor Old Horatio (Ratios: The Cornerstone of Middle Childhood Math)}{129}{section.A.19}
-\contentsline {section}{\numberline {A.20}Ratio Oddities}{130}{section.A.20}
-\contentsline {section}{\numberline {A.21}Problem Solved!}{132}{section.A.21}
-\contentsline {section}{\numberline {A.22}The Dreaded Story Problem}{133}{section.A.22}
-\contentsline {section}{\numberline {A.23}I Walk the Line}{135}{section.A.23}
-\contentsline {section}{\numberline {A.24}Something Doesn't Add Up\dots }{137}{section.A.24}
-\contentsline {section}{\numberline {A.25}Gertrude the Gumchewer}{138}{section.A.25}
-\contentsline {section}{\numberline {A.26}Billy the Bouncing Ball}{139}{section.A.26}
-\contentsline {section}{\numberline {A.27}Hieroglyphical Algebra}{140}{section.A.27}
-\contentsline {section}{\numberline {A.28}The Other Side---Solving Equations}{142}{section.A.28}
-\contentsline {section}{\numberline {A.29}Maximums and Minimums}{145}{section.A.29}
-\contentsline {section}{\numberline {A.30}Least Squares Approximation}{146}{section.A.30}
-\contentsline {section}{\numberline {A.31}It Takes All Kinds\dots }{148}{section.A.31}
-\contentsline {section}{\numberline {A.32}Sketching Roots}{150}{section.A.32}
-\contentsline {section}{\numberline {A.33}Geometry and Adding Complex Numbers}{151}{section.A.33}
-\contentsline {section}{\numberline {A.34}Geometry and Multiplying Complex Numbers}{153}{section.A.34}
-\contentsline {section}{\numberline {A.35}To the Second Degree}{157}{section.A.35}
-\contentsline {section}{\numberline {A.36}Broken Records}{158}{section.A.36}
-\contentsline {section}{\numberline {A.37}On The Road}{160}{section.A.37}
-\contentsline {section}{\numberline {A.38}Pascal's Triangle: Fact or Fiction?}{162}{section.A.38}
-\contentsline {section}{\numberline {A.39}Pascal's Pyramid}{164}{section.A.39}
-\contentsline {section}{\numberline {A.40}You Can Count on It!}{167}{section.A.40}
-\contentsline {section}{\numberline {A.41}Which Road Should We Take?}{168}{section.A.41}
-\contentsline {paragraph}{Experiment 1}{168}{paragraph*.19}
-\contentsline {paragraph}{Experiment 2}{168}{paragraph*.20}
-\contentsline {paragraph}{Theory 1}{168}{paragraph*.21}
-\contentsline {paragraph}{Theory 2}{169}{paragraph*.22}
-\contentsline {section}{\numberline {A.42}Lumpy and Eddie}{170}{section.A.42}
-\contentsline {section}{\numberline {A.43}Go Climb a Tree!}{171}{section.A.43}
-\contentsline {section}{\numberline {A.44}They'll Fall for Anything!}{173}{section.A.44}
+\contentsline {section}{\numberline {2.6}Functions and Beyond}{65}{section.2.6}
+\contentsline {chapter}{\numberline {3}Solving Equations}{67}{chapter.3}
+\contentsline {section}{\numberline {3.1}Time to get Real}{67}{section.3.1}
+\contentsline {section}{\numberline {3.2}Polynomial Equations}{72}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Linear Equations}{72}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Quadratic Equations}{72}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Cubic Equations}{74}{subsection.3.2.3}
+\contentsline {paragraph}{Step 1}{75}{paragraph*.10}
+\contentsline {paragraph}{Step 2}{75}{paragraph*.11}
+\contentsline {paragraph}{Step 3}{76}{paragraph*.12}
+\contentsline {subsection}{\numberline {3.2.4}Quartics, Quintics, and Beyond}{77}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Me, Myself, and a Complex Number}{80}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The Complex Plane}{82}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Harmony of Numbers}{87}{chapter.4}
+\contentsline {section}{\numberline {4.1}Clocks}{87}{section.4.1}
+\contentsline {section}{\numberline {4.2}In the Real World}{93}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Automotive Repair}{93}{subsection.4.2.1}
+\contentsline {paragraph}{A Geometry Problem}{93}{paragraph*.13}
+\contentsline {paragraph}{An Algebra Problem}{93}{paragraph*.14}
+\contentsline {subsection}{\numberline {4.2.2}Check Digits}{94}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}The Binomial Theorem}{97}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Varna-Sangita}{97}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Expansions}{98}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Come Together}{99}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {A}Activities}{103}{appendix.A}
+\contentsline {section}{\numberline {A.1}Shelby and Scotty}{104}{section.A.1}
+\contentsline {section}{\numberline {A.2}Hieroglyphical Arithmetic}{106}{section.A.2}
+\contentsline {section}{\numberline {A.3}Playing with Blocks}{108}{section.A.3}
+\contentsline {section}{\numberline {A.4}More Playing with Blocks}{111}{section.A.4}
+\contentsline {section}{\numberline {A.5}Comparative Arithmetic}{114}{section.A.5}
+\contentsline {section}{\numberline {A.6}What Can Division Mean?}{115}{section.A.6}
+\contentsline {section}{\numberline {A.7}There's Always Another Prime}{116}{section.A.7}
+\contentsline {section}{\numberline {A.8}Sieving it All Out}{117}{section.A.8}
+\contentsline {section}{\numberline {A.9}There are Many Factors to Consider}{119}{section.A.9}
+\contentsline {section}{\numberline {A.10}Why Does It Work?}{120}{section.A.10}
+\contentsline {paragraph}{The First Line}{120}{paragraph*.15}
+\contentsline {paragraph}{The Second Line}{120}{paragraph*.16}
+\contentsline {paragraph}{The Third Line}{120}{paragraph*.17}
+\contentsline {paragraph}{The Final Line}{120}{paragraph*.18}
+\contentsline {section}{\numberline {A.11}Prome Factorization}{121}{section.A.11}
+\contentsline {section}{\numberline {A.12}Picture Models for Equivalent Fractions}{123}{section.A.12}
+\contentsline {section}{\numberline {A.13}Picture Models for Fraction Operations}{124}{section.A.13}
+\contentsline {section}{\numberline {A.14}Flour Power}{126}{section.A.14}
+\contentsline {section}{\numberline {A.15}Picture Yourself Dividing}{128}{section.A.15}
+\contentsline {section}{\numberline {A.16}Cross Something-ing}{130}{section.A.16}
+\contentsline {section}{\numberline {A.17}Decimals Aren't So Nice}{131}{section.A.17}
+\contentsline {section}{\numberline {A.18}Shampoo, Rinse, \dots }{132}{section.A.18}
+\contentsline {section}{\numberline {A.19}Poor Old Horatio (Ratios: The Cornerstone of Middle Childhood Math)}{134}{section.A.19}
+\contentsline {section}{\numberline {A.20}Ratio Oddities}{135}{section.A.20}
+\contentsline {section}{\numberline {A.21}Problem Solved!}{137}{section.A.21}
+\contentsline {section}{\numberline {A.22}The Dreaded Story Problem}{138}{section.A.22}
+\contentsline {section}{\numberline {A.23}I Walk the Line}{140}{section.A.23}
+\contentsline {section}{\numberline {A.24}Constant Amount Changes}{143}{section.A.24}
+\contentsline {section}{\numberline {A.25}Constant Percentage (Ratio) Changes}{145}{section.A.25}
+\contentsline {section}{\numberline {A.26}Rules of Exponents}{147}{section.A.26}
+\contentsline {section}{\numberline {A.27}Garden Variety}{149}{section.A.27}
+\contentsline {section}{\numberline {A.28}Something Doesn't Add Up\dots }{150}{section.A.28}
+\contentsline {section}{\numberline {A.29}The World Series}{151}{section.A.29}
+\contentsline {section}{\numberline {A.30}Hieroglyphical Algebra}{152}{section.A.30}
+\contentsline {section}{\numberline {A.31}The Other Side---Solving Equations}{154}{section.A.31}
+\contentsline {section}{\numberline {A.32}Maximums and Minimums}{156}{section.A.32}
+\contentsline {section}{\numberline {A.33}Least Squares Approximation}{157}{section.A.33}
+\contentsline {section}{\numberline {A.34}It Takes All Kinds\dots }{159}{section.A.34}
+\contentsline {section}{\numberline {A.35}Sketching Roots}{161}{section.A.35}
+\contentsline {section}{\numberline {A.36}Geometry and Adding Complex Numbers}{162}{section.A.36}
+\contentsline {section}{\numberline {A.37}Geometry and Multiplying Complex Numbers}{164}{section.A.37}
+\contentsline {section}{\numberline {A.38}To the Second Degree}{168}{section.A.38}
+\contentsline {section}{\numberline {A.39}Broken Records}{169}{section.A.39}
+\contentsline {section}{\numberline {A.40}On The Road}{171}{section.A.40}
+\contentsline {section}{\numberline {A.41}Pascal's Triangle: Fact or Fiction?}{173}{section.A.41}
+\contentsline {section}{\numberline {A.42}Pascal's Pyramid}{175}{section.A.42}
+\contentsline {section}{\numberline {A.43}You Can Count on It!}{178}{section.A.43}
+\contentsline {section}{\numberline {A.44}Which Road Should We Take?}{179}{section.A.44}
+\contentsline {paragraph}{Experiment 1}{179}{paragraph*.19}
+\contentsline {paragraph}{Experiment 2}{179}{paragraph*.20}
+\contentsline {paragraph}{Theory 1}{179}{paragraph*.21}
+\contentsline {paragraph}{Theory 2}{180}{paragraph*.22}
+\contentsline {section}{\numberline {A.45}Lumpy and Eddie}{181}{section.A.45}
+\contentsline {section}{\numberline {A.46}Go Climb a Tree!}{182}{section.A.46}
+\contentsline {section}{\numberline {A.47}They'll Fall for Anything!}{184}{section.A.47}
+\contentsline {chapter}{\numberline {B}References and Further Reading}{185}{appendix.B}
+\contentsline {chapter}{\numberline {C}Index}{187}{appendix.C}
 \contentsfinish 
