@@ -7,14 +7,21 @@ God created the integers, the rest is the work of man.
 \end{quote}
 
 \section{The Integers}
-
-In this course we will discuss several different sets of numbers. The
-first set we encounter is called the \textit{integers}.
+An important theme in this course is distinguishing among the various number systems of school mathematics.  A \emph{number system} is a set of numbers together with arithmetic operations, such as addition and multiplication, on those numbers.  We have already been using \textit{counting numbers}.  Now we need to be more precise.  
 
 \begin{definition}\index{integers}\index{Z@$\Z$}
-The set of whole numbers, zero, and negative whole numbers is called
-the set of \textbf{integers}. We use the symbol $\Z$ to denote the
-integers:
+The \textbf{counting numbers}, often called the \textbf{natural numbers}, are (naturally) those use for counting.  We use the symbol $\N$ to denote the counting numbers:  
+\[
+\N = \{1, 2, 3, 4, 5, \dots\}
+\]
+
+When $0$ is included with the counting numbers, we have the set of \textbf{whole numbers}, denoted $\W$:  
+\[
+\W = \{0, 1, 2, 3, 4, 5, \dots\}
+\]
+
+The set of counting numbers, zero, and negative counting numbers is called
+the set of \textbf{integers}, denoted $\Z$:
 \[
 \Z = \{\dots, -5,-4,-3,-2,-1,0,1,2,3,4,5,\dots \}
 \]
@@ -23,14 +30,13 @@ integers:
 In case you're wondering, the symbol $\Z$ is used because
 \textit{Zahlen} is the German word for ``numbers.'' 
 
-
 \subsection{Addition}
 
-Addition is probably the first operation we learn.  \fixnote{Distinguish negation from subtraction.}  
+Addition is probably the first operation we learn.    
 
 \begin{question}
 Write a story problem whose solution is given by the expression
-$19+17$. Let this context be a ``working'' model for addition.
+$19+17$. Let this context be a ``working model'' for addition.
 \end{question}
 \QM
 
@@ -46,21 +52,35 @@ not, can you come up with a new model that does?
 \end{question}
 \QM
 
+An observant reader might notice that we have thus far given no reason to have 
+negative integers.  
 
 \begin{question}
-Does your model work with negative integers, that is does it model say
-$19+ (-17)$? If so, explain how. If not, can you come up with a new
-model that does?
+Describe some contexts (story problems) in which negative numbers are useful.  
+It will help to think of contexts in which there are ``opposite'' numbers in some sense.  
 \end{question}
 \QM
 
+\begin{question}
+Does your addition model work with negative integers?  In other words, does it model 
+$19+ (-17)$ and $8 + (-13)$?  If so, explain how. If not, can you modify your model or 
+come up with a new model that does work?
+\end{question}
+\QM
+
+\subsection{Subtraction}
+\begin{question}
+Write a story problem whose solution is given by the expression
+$19-17$. Let this context be a ``working'' model for subtraction.  
+\end{question}
+\QM
 
 \begin{question}
 We know that 
 \[
 a - b  = a + (-b),
 \]
-but I insist that the left-hand side of the equation is conceptually
+but the left-hand side of the equation is conceptually
 different from the right-hand side of the equation. Write two story
 problems, one solved by $19-17$ and the other solved by
 $19+(-17)$. What's the difference? (Pun intended!)
@@ -82,9 +102,12 @@ Can you use the two story problems above to model
 \end{question}
 \QM
 
+\begin{question}
+How is \emph{subtraction} different from \emph{negation}?  
+\end{question}
+\QM
+
 \subsection{Multiplication}
-
-
 Multiplication is more multifaceted than addition. 
 
 \begin{question}
@@ -99,13 +122,11 @@ the same for the different summands. However, with multiplication, the
 different factors often have different units.
 \end{teachingnote}
 
-
-
-\begin{teachingnote}
-The next question is with Problem~\ref{P:MA} of
-Section~\ref{S:aritmetic} in mind. In particular to show
-associativity, we suggest appealing to the notion of volume.
-\end{teachingnote}
+\begin{question}
+Does your model show commutativity of multiplication? If so, explain
+how. If not, can you come up with a new model that does?
+\end{question}
+\QM
 
 \begin{question}
 Does your model show associativity of multiplication? If so, explain
@@ -113,11 +134,11 @@ how. If not, can you come up with a new model that does?
 \end{question}
 \QM
 
-\begin{question}
-Does your model show commutativity of multiplication? If so, explain
-how. If not, can you come up with a new model that does?
-\end{question}
-\QM
+\begin{teachingnote}
+This question is with Problem~\ref{P:MA} of
+Section~\ref{S:aritmetic} in mind. In particular to show
+associativity, we suggest appealing to the notion of volume.
+\end{teachingnote}
 
 
 \begin{question}
@@ -150,30 +171,27 @@ Problem~\ref{P:NNP}.
 While addition and multiplication are good operations, the real
 ``meat'' of the situation comes with division.
 
-
 \begin{definition}\index{divides}    %\index{dn@$d "| n$} %% the pipe breaks stuff
 We say that a non-zero integer $d$ \textbf{divides} an integer $n$ if there is
-an integer $q$
+an integer $q$ such that 
 \[
-n = dq
+n = dq.
 \]
-in this case we write $d | n$, which is said: ``$d$ divides $n$.'' 
+In this case we write $d | n$, which is said: ``$d$ divides $n$.'' 
 \end{definition}
 
 While this may seem easy, it is actually quite tricky. You must always
 remember the following synonyms for \textit{divides}:
 \[\index{multiple}\index{factor}
-\text{``$d$ \textbf{divides} $n$''}\leftrightsquigarrow \text{``$d$ is
-  a \textbf{factor} of $n$''}\leftrightsquigarrow \text{``$n$ is a
-  \textbf{multiple} of $d$''}
+\text{``$d$ \textbf{divides} $n$''}\leftrightsquigarrow 
+\text{``$d$ is a \textbf{divisor} of $n$''}\leftrightsquigarrow
+\text{``$d$ is  a \textbf{factor} of $n$''}\leftrightsquigarrow 
+\text{``$n$ is a  \textbf{multiple} of $d$''}
 \]
-
 
 \begin{activitynote}
 Activity \ref{A:dm} complements this section well.  % What Can Division Mean
 \end{activitynote}
-
-
 
 \begin{definition}\index{prime number} 
 A \textbf{prime} number is a positive integer with exactly two
@@ -385,11 +403,13 @@ Activity \ref{A:CF} complements this section well.  % There Are Many Factors to 
 \item Explain what it means for one integer to \textit{divide} another
   integer. Give some relevant and revealing examples/nonexamples.
 \item Use the definition of \textit{divides} to decide whether the
-  following statements are true or false. In each case, a detailed
-  argument and explanation must be given justifying your claim.
+  following statements are true or false. In each case, an explanation must 
+be given justifying your claim.
 \begin{enumerate}
 \item $5|30$
 \item $7|41$
+\item $0|3$
+\item $3|0$
 \item $6|(2^2\cdot 3^4\cdot 5 \cdot 7)$
 \item $1000|(2^7\cdot 3^9\cdot 5^{11}\cdot 17^8)$
 \item $6000|(2^{21}\cdot 3^{17}\cdot 5^{89}\cdot 29^{20})$
@@ -416,7 +436,7 @@ Explain your reasoning.
 \item $4567$
 \item $111111$
 \end{enumerate}
-In each case, how large of prime must you check before you can be sure
+In each case, how large a prime must you check before you can be sure
 of your answers? Explain your reasoning.
 \item Which of the following numbers are prime?  Explain how could deduce whether the numbers are prime in
   as few calculations as possible:
@@ -905,8 +925,6 @@ case when a number ends in a $0$?
 
 \begin{problems}
 
-\fixnote{Include some problems about hall of shoes.} 
-
 \begin{enumerate}
 \item Explain what a \textit{Diophantine equation} is. Give an example
   and explain why such a thing has real-world applications.
@@ -1090,29 +1108,35 @@ divided evenly into one another. With this in mind, we introduce
 \textit{rational numbers}.
 
 \begin{definition} 
-A \textbf{rational number}\index{rational numbers} is a fraction of
+A \textbf{rational number}\index{rational numbers} can be written as a fraction of
 integers, where the denominator is nonzero.
 \end{definition}
 
-The set of all rational numbers is denoted by the symbol $\Q$:
+\begin{warning}
+Note the words ``can be'' in the definition.  Rational numbers do not have to be represented as fractions.  And fractions are not necessarily rational numbers.  
+\end{warning}
+
+\begin{question}
+Which of the following numbers are rational?
+$$\frac{5}{4}, \qquad 718, \qquad \sqrt{2}, \qquad 2.718, \qquad \frac{22}{7}, \qquad \frac{12}{4}, \qquad \frac{\pi}{3}, \qquad \frac{\sqrt{2}}{\sqrt{8}}, \qquad \frac{1}{43}$$
+\end{question}
+
+The set of all \textbf{rational numbers} is denoted by the symbol $\Q$:
 \[
       \Q = \left\{\frac{a}{b}\text{ such that $a\in\Z$ and $b\in\Z$ with $b\ne 0$}\right\}\index{Q@$\Q$}\index{e@$\in$}
 \]
-The funny little ``$\in$'' symbol means ``is in'' or ``is an element of.'' Fancy folks will replace the words \textit{such that} with a colon
+The letter $\Q$ stands for the word \textit{quotient}, which should remind us of
+fractions.   The funny little ``$\in$'' symbol means ``is in'' or ``is an element of.'' Fancy folks will replace the words \textit{such that} with a colon
 ``:'' to get:
 \[
  \Q = \left\{\frac{a}{b}:\text{$a\in\Z$ and $b\in\Z$ with $b\ne 0$}\right\}
 \]
-We call this set the \textbf{rational numbers}.  The letter $\Q$
-stands for the word \textit{quotient}, which should remind us of
-fractions. 
 
 \begin{activitynote}
 Activities \ref{A:EF} and \ref{A:FO} complement this section well.  
 % Picture Models for Equivalent Fractions & Picture Models for Fraction Operations
 \end{activitynote}
 
-\fixnote{To emphasize that rational numbers are more precise than fraction, include $\pi/3$.}  
 
 \subsection{Why do People Hate Fractions?}
 
@@ -1120,34 +1144,32 @@ Why do so many people find fractions difficult? This is a question
 worth exploring. We'll guide you through some of the tough spots with
 some questions of our own.
 
-\fixnote{Use ``rational number'' here.  And write fractions vertically.}  
 \begin{question}
-Given a fraction $a/b$, come up with three other different fractions
-that are all equal to $a/b$. What features of fractions are we
+Given a rational number $\dfrac{a}{b}$, come up with three other different rational numbers
+that are all equal to $\dfrac{a}{b}$. What features of fractions are we
 illustrating?
 \end{question}
 \QM
 
 \begin{question}
-Given two fractions $a/b$ and $c/d$, explain how to tell which
-fraction is larger. What features of fractions are we illustrating?
+Given two positive rational numbers $\dfrac{a}{b}$ and $\dfrac{c}{d}$, explain how to tell which is greater. What features of fractions are we illustrating?
 \end{question}
 \QM
 
 \begin{question} 
-Given two fractions $a/b$ and $c/d$ with $a/b < c/d$, explain how one
-might find a fraction between them. What features of fractions are we
+Given two rational numbers $\dfrac{a}{b}$ and $\dfrac{c}{d}$ with $\dfrac{a}{b} < \dfrac{c}{d}$, explain how one
+might find a rational number between them. What features of fractions are we
 illustrating?
 \end{question}
 \QM
 
 
 \begin{question} 
-Dream up numbers $a$, $b$, and $c$ such that:
+Dream up counting numbers $a$, $b$, and $c$ such that:
 \[
 \frac{a/b}{c} = \frac{a}{b/c}
 \]
-Can you dream up other numbers $a'$, $b'$, and $c'$ such that:
+Can you dream up other counting numbers $a'$, $b'$, and $c'$ such that:
 \[
 \frac{a'/b'}{c'} \neq \frac{a'}{b'/c'}
 \]
@@ -1156,7 +1178,7 @@ What features of fractions are we illustrating?
 \QM
 
 \begin{question}
-Explain how to add two fractions $a/b$ and $c/d$. What features of
+Explain how to add two fractions $\dfrac{a}{b}$ and $\dfrac{c}{d}$. What features of
 fractions are we illustrating?
 \end{question}
 \QM
@@ -1184,7 +1206,7 @@ Two key points of this dialog are:
 
 Like all numbers, fractions have meanings outside of their pure
 mathematical existence. Let's see if we can get to the heart of some
-of this meaning.
+of this meaning.\standard{3.NF.1}
 
 \begin{question}
 Draw a rectangle. Can you shade $3/8$ of this rectangle? Explain the
@@ -1404,6 +1426,7 @@ Here are some cool things you can investigate on the side:
 \end{itemize}
 
 Based on the ideas you have explored, you can prove that a non-terminating decimal representation of a rational number must repeat.  Is the converse true?  Can any repeating decimal be written as a fraction?  It turns out indeed to be the case, as can be found by taking advantage of a nice pattern involving the decimals representations of 1/9, 1/99, 1/999, etc., or by noting that each repeating decimal is a ``geometric series''.
+
 \begin{activitynote}
 Activities \ref{A:DecNotNice} and \ref{A:Shampoo} complement this section well. 
 %% Decimals Aren't So Nice & Shampoo, Rinse, ... 
@@ -1419,10 +1442,14 @@ Thus, we have it that every rational number can be written as either a terminati
 \section{Ratios and Proportional Relationships}
 As a topic in school mathematics, ratios and proportions are often magical entities that bear little relationship with other topics.  Students often learn only, ``Set up a proportion and cross multiply.''   What is a proportion?  Why does cross multiplication work?  
 
-In this section, we instead write equations and solve---and these are skills that serve students well throughout school and college mathematics.  We build on understandings of fractions and prepare to understand functions and, importantly, to distinguish linear functions that are direct proportions from those that are not.  
+For the problems in this section, we encourage you instead to ``write equations and solve.''  These are skills that serve students well throughout school and college mathematics.  
+
+As you solve these problems, note how they simultaneously build on understandings of fractions and pave the way for functions.  
+
+\fixnote{This section needs elaboration.}
 
 \begin{activitynote}
-Activities \ref{A:Ratios} through \ref{A:ProblemSolved} complement this section well. 
+Activities \ref{A:ratios},  \ref{A:ratioOddities}, and \ref{A:ProblemSolved} complement this section well. 
 %% Poor Old Horatio
 %% Ratio Oddities
 %% Problem Solved
@@ -1431,9 +1458,8 @@ As a conclusion, we suggest doing Activity \ref{A:dreadedStoryProblem}.
 
 \newpage
 
-\fixnote{The phrase ``use common sense'' is sometimes not helpful below.  Instead, record your guess and then reflect on the guess later.} 
-
 \begin{problems}
+
 \begin{enumerate}
 \item A baseball coach once asked me the following question: If a
   pitcher can throw a 90 mph pitch during a game, but can only
@@ -1441,63 +1467,70 @@ As a conclusion, we suggest doing Activity \ref{A:dreadedStoryProblem}.
   stand during practice to ensure that the amount of time it takes the
   ball to reach home plate is the same in practice as it is in the
   game? Explain your reasoning.
+
 \item Three brothers and a sister won the lottery together and plan to
   share it equally. If the brothers alone had shared the money, then
   they would have increased the amount they each received by \$20. How
   much was won in the lottery? Explain your reasoning.
+
 \item Chris is working on his Fiat. His car's cooling system holds 6
-  quarts of coolant, but it is currently 1 quart low. A car should be
-  filled with a 50/50 mix of antifreeze and water. Chris accidentally
-  added a 25/75 mix, 25 parts antifreeze, and 75 parts water.  How
+  quarts of coolant, and should be filled with a 50/50 mix of antifreeze 
+and water. Chris noticed that the car was 1 quart low with the correct 50/50 mix.  
+But then he added a 25/75 mix, 25 parts antifreeze, and 75 parts water.  How
   much coolant does he have to remove from the cooling system to then
   add 100 percent antifreeze to restore his desired 50/50 mix? Explain
-  your reasoning. \fixnote{Make clear we start at 50/50, then add one quart}
+  your reasoning.
+
 \item If a hen and a half lays an egg and a half in a day and a half, 
 how many eggs will 6 hens lay in 4 days?  How many days will it take for 
 8 hens to lay 16 eggs?  How many hens would it take to lay 12 eggs in 
 three days?  How many hens would it take to lay a dozen eggs per week?  
 In each case, explain your reasoning.  
+
 \item Fred and Frank are two fitness fanatics on a run from $A$ to
   $B$. Fred runs half the way and walks the other half. Frank runs for
   half the time and walks for the other half. They both run at the
   same speed and they both walk at the same speed. Who finishes first?
 \begin{enumerate}
-\item Before any computations are done, use common sense to guess the
-  solution to this problem.
+\item Before any computations are done, guess the
+  solution to this problem and record your guess.  
 \item Try to get a feel for this problem by choosing numbers for the
   unknowns and doing some calculations. What do these calculations say
-  about your guess?
-\item Use algebra to solve the problem.
+  about your initial guess?
+\item Use algebra to solve the problem.  What does your solution say 
+about your initial guess?  
 \end{enumerate}
-Explain your reasoning in each step above.
-\item Andy and Sandy run a race of a certain distance. Sandy finishes
-  $1/10$ of the distance ahead of Andy. After some discussion, Andy
-  and Sandy decide to race the certain distance again, this time Sandy
-  will start $1/10$ of the distance behind Andy to ``even-up'' the
-  competition. Who wins this time?  \fixnote{Make clear that Andy finishes the first race and that Sandy has no head start.}
+
+\item Andy and Sandy run a race of a certain distance. When Sandy finishes, 
+she is $1/10$ of the distance ahead of Andy, who then finishes the race. 
+After some discussion, Andy and Sandy decide to race the distance again, but this time Sandy
+  will start $1/10$ of the distance behind Andy (at the starting line) to ``even-up'' the
+  competition. Who wins this time?  Explain your reasoning.  
 \begin{enumerate}
-\item Before any computations are done, use common sense to guess the
-  solution to this problem.
+\item Before any computations are done, guess the
+  solution to this problem and record your guess.  
 \item Try to get a feel for this problem by choosing numbers for the
   unknowns and doing some calculations. What do these calculations say
-  about your guess?
-\item Use algebra to solve the problem.
+  about your initial guess?
+\item Use algebra to solve the problem.  What does your solution say 
+about your initial guess?  
 \end{enumerate}
-Explain your reasoning in each step above.
+
 \item You have two beakers, one that contains water and another that
   contains an equal amount of oil. A certain amount of water is
   transferred to the oil and thoroughly mixed. Immediately, the same
   amount of the mixture is transferred back to the water. Is there now
   more water in the oil or is there more oil in the water?
 \begin{enumerate}
-\item Before any computations are done, use common sense to guess the
-  solution to this problem.
+\item Before any computations are done, guess the
+  solution to this problem and record your guess.
 \item Try to get a feel for this problem by choosing numbers for the
   unknowns and doing some calculations. What do these calculations say
-  about your guess?
-\item Use algebra to solve the problem.
+  about your initial guess?
+\item Use algebra to solve the problem.  What does your solution say 
+about your initial guess?  
 \end{enumerate}
-Explain your reasoning in each step above.
+
 \item While on a backpacking trip Lisa hiked five hours, first along a
   level path, then up a hill, then turned around and hiked back to her
   base camp along the same route. She walks $4$ miles per hour on a
@@ -1507,8 +1540,15 @@ Explain your reasoning in each step above.
   five cups of chili mix to make a spicy treat---the hot sauce is much
   hotter than the chili. Later, two drops of \textit{Monica's XXX Hot
     Sauce} were mixed with three cups of chili. Which mixture is
-  hotter? Josh suggested the following method to compare the
-  concentrations:\fixnote{Put in some help.}  
+  hotter? 
+
+Josh made the following observation:  ``If two different recipes are added 
+together, the result will be a chili with hotness between the two.''  Explain
+why this makes sense.  
+
+To compare the given recipes, Josh suggested using this reasoning backwards, 
+as follows:  
+ 
 \begin{itemize}
 \item Remove the second (recipe) from the first, that is: Start with 3
   drops of hot sauce and 5 cups of chili, and remove 2 drops and 3
@@ -1530,22 +1570,185 @@ always/ever work? Explain your reasoning.
 \end{enumerate}
 \end{problems}
 
-\begin{activitynote}
-\end{activitynote}
-
-\section{Functions and Beyond}
-Text to be provided.  
+\section{Sequences and Functions}
 
 \begin{activitynote}
-Activities \ref{A:walk} through \ref{A:WorldSeries} are intended for this section.  
-%%  Walk the Line
+Activities \ref{A:walk} through \ref{A:gardenVariety} are intended for this section.  
+%%  Walk the Line  \ref{A:walk} 
 %%  Constant Amount Change  \ref{A:ConstantAmount}
 %%  Constant Percentage (Ratio) Change  \ref{A:ConstantRatio}
 %%  Rules of Exponents  \ref{A:ExponentRules}
-%%  Garden Variety \ref{A:GardenVariety}
-%%  Something Doesn't Add Up  \ref{A:doesntAddUp}
-%%  World Series
+%%  Garden Variety \ref{A:gardenVariety}
 \end{activitynote}
+
+\paragraph{Sequences.}  Because "Sequences and Series" is a common topic in calculus and precalculus courses, the concept of sequence is often considered an advanced topic in high schools, but the idea of a sequence is much more elementary.  In fact, many patterns explored in grades K-8 can be considered sequences.  For example, the sequence $4, 7, 10, 13, 16, \dots$ might be described as a ``plus 3 pattern'' because terms are computed by adding 3 to the previous term.  
+\begin{definition}
+A \textbf{sequence}\index{sequence} is an ordered set of numbers or other objects.  The numbers or objects are called the \textbf{terms} of the sequence.  
+\end{definition}
+
+\paragraph{Functions.}  In the Common Core State Standards, students begin formal study of functions in grade 8.\standard{8.F.1}  
+In high school, the approach to functions becomes more formal, through the use of function notation and with explicit attention to the concepts of domain and range.\standardhs{F-IF.1}   
+
+\begin{definition}
+A \textbf{function}\index{function} is a rule in which each input value determines a corresponding output value.  The \textbf{domain}\index{domain} of a function is the set of input values.  The \textbf{range}\index{range} of the function is the set of output values.
+\end{definition}
+
+\paragraph{Sequences Are Functions.} As students begin formal study of functions, it makes sense to use their patterning experience as a foundation for understanding functions.\standardhs{F-IF.3}  To show how the sequence above can be considered a function, we need an \textit{index}, which indicates which term of the sequence we are talking about, and which serves as an input value to the function.  After deciding that the 4 corresponds to an index value of 1, we can make a table showing 
+the correspondence.\marginfigure{\footnotesize\sffamily
+      \begin{tabular}{c||c|c|c|c|c|c}
+        $n$ & 1 & 2 & 3 & 4 & 5 & \dots \\
+\hline
+        $f(n)$ & 4 & 7 & 10 & 13 & 16 & \dots
+      \end{tabular}
+\normalfont}
+
+Although sequences are sometimes notated with subscripts, function notation can help students remember that sequences are functions.\margincomment{We recommend using subscript notation only in advanced high school courses.}  For example, the sequence can be described recursively by the rule $f(1) = 4$, $f(n+1) = f(n) + 3$ for $n \geq 2$.  Notice that the recursive definition requires both a starting value and a rule for computing subsequent terms.   
+The sequence can also be described with the closed (or explicit) formula  $f(n) = 3n + 1$, for integers $n \geq 1$.  Notice that the domain (i.e., integers $n\geq 1$) is included as part of the description.  When a function is given without an explicit domain, the assumption is that the domain is all values for which the expression is valid.  Thus, the function $g(x) = 3x + 1$ appears to be essentially the same as the function $f$ because the formula is the same and because $f(n) = g(n)$ for all positive integers.  To see that the functions are different, observe that $g(2.5) = 8.5$, but $f(2.5)$ is undefined.  
+
+A common habit in school mathematics is creating a table of $(x,y)$ pairs, plotting those pairs (as dots), and then ``connecting the dots.''  The above discussion demonstrates that this habit is sometimes not appropriate: A graph\marginfigure{\includegraphics[width=2in]{../graphics/Graph-F2.pdf}} 
+of the sequence consists of discrete dots, because the specification does not indicate what happens ``between the dots.''  Connecting the dots requires the assumption that domain values between the dots make sense in some way.  
+
+
+\begin{question}
+In your own words, what does it mean to say that sequences are functions?
+\end{question}
+
+\begin{question}
+Given that $f(1) = f(2) = 1$, and $f(n+1) = f(n)+f(n-1)$ for integers $n>2$, find $f(6)$.  
+\end{question}
+
+\paragraph{Arithmetic and Geometric Sequences.}\standardhs{F-BF.2}  
+\begin{definition}
+An \textbf{arithmetic sequence} has is a constant difference between consecutive terms.  A \textbf{geometric sequence} has a constant ratio between consecutive terms.  Some sequences, of course, are neither arithmetic nor geometric.
+\end{definition}
+\begin{question}
+For each of the following sequences, decide whether it is arithmetic, geometric, or neither, and explain your reasoning:
+\begin{itemize}  
+\item $1, 4, 9, 16, 25, \dots$
+\item $4, 8, 16, 32, \dots$
+\item $2, 4, 6, 8, 2, 4, 6, 8, \dots$
+\item $-2, 5, 12, 19, \dots$
+\end{itemize}
+Can you write both recursive and explicit formulas for each of these sequences?  
+\end{question}
+
+Beginning in about grade 8, much of school mathematics is devoted to the study of linear, quadratic, and exponential functions.\standardhs{F-LE.2}  Here we provide only definitions and key questions about these types of functions.  
+
+\begin{itemize}
+\item A linear function is of the form $f(x) = ax + b$, where $a$ and $b$ are real numbers and $a\ne 0$.  What do $a$ and $b$ tell you about the linear function?  
+\item A quadratic function is of the form $f(x) = ax^2 + bx + c$, where $a$,  $b$, and $c$ are real numbers and $a\ne 0$.  What do $a$, $b$, and $c$ tell you about the function?  Why is it important to specify that $a\ne 0$? 
+\item An exponential function is of the form $f(x)=ab^x$, where $a$ and $b$ are real numbers and $b>0$.  What do $a$ and $b$ tell you about the function? 
+\end{itemize}
+
+How can you identify these types of functions in tables, graphs, symbols, and contexts?\standardhs{F-IF.4} \standardhs{F-IF.7}  
+For example, how can you recognize the slope in the graph of a linear function?  What about in a table, in a symbolic expression, or in a context?  
+
+\begin{question}
+An arithmetic sequence is what kind of function?  Explain. 
+\end{question}
+\begin{question}
+A geometric sequence is what kind of function?  Explain.  
+\end{question}
+
+\begin{question}
+Sometimes quadratic functions are written in the form $f(x) = a(x-h)^2+k$, where $a$, $h$, and $k$ are real numbers and $a\ne 0$.  What do $a$, $k$, and $h$ tell you about the function?  What are the advantages and disadvantages of this form of a quadratic, as compared to the alternative form given above?  
+\end{question}
+
+\paragraph{Concluding Remarks.}  When studying arithmetic and geometric sequences, it is tempting to encapsulate common results into compact formulas.  But formulas are easily confused with one another and otherwise misremembered.  Furthermore, general formulas often obscure the ideas.  
+
+\begin{question}
+Find the missing terms in the following arithmetic sequence:  
+$$\rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt},  2,  \rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt}, 6, \dots$$
+Explain your reasoning.  
+\end{question}
+
+\begin{question}
+Find exact values (not decimal approximations) for the missing terms in the following geometric sequence:  
+$$\rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt},  2,  \rule[-2pt]{25pt}{.5pt},  \rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt}, 6, \dots$$
+Explain your reasoning.  And describe how this problem and the rules of exponents might be used to explain the connection between radicals and exponents.  
+\end{question}
+
+\begin{question}
+What key ideas behind arithmetic and geometric sequences did you use in the previous two problems? 
+\end{question}
+
+\begin{center}
+\textbf{With the ideas, you can reconstruct the formulas you need.  And without the ideas, formulas are empty.}  
+\end{center}
+
+\newpage
+
+\section{Series}  
+\begin{definition}
+A \textbf{series} is a sum of consecutive terms from a sequence.  A series with terms that form an arithmetic sequence is called an \textbf{arithmetic series}.  
+\end{definition}
+
+\begin{activitynote}
+Activities \ref{A:doesntAddUp} and \ref{A:WorldSeries} are intended for this section.  
+%%  Something Doesn't Add Up  \ref{A:doesntAddUp}
+%%  World Series \ref{A:WorldSeries}
+\end{activitynote}
+
+\begin{question}
+Find the sum:  $1 + 3 + 5 + \dots + 4999.$  (First explain how you know this is an arithmetic series.)
+\end{question}
+\QM
+
+In mathematics teaching and learning, it is useful to distinguish \emph{problems} from  \emph{excercises}. \emph{Problems} require that you formulate a solution strategy, whereas \emph{exercises} are about using a procedure that you have been taught.\margincomment{Problem solving is an essential part of mathematics.}  Whether a question is a problem or an exercise depends upon the learner.  
+\begin{question}
+Is the previous question a problem or an exercise for you?  
+\end{question}
+
+When analyzing any series, it is often useful to consider the \emph{sequence of partial sums}.  For example, in response to the above question, the sequence of partial sums is as follows:  $$1, \qquad 1 + 3, \qquad 1+ 3+5, \qquad 1+3+5+7, \qquad \dots$$
+
+Sometimes you can see a pattern in the sequence of partial sums.  Making a conjecture about a pattern is a type of inductive reasoning.  Once you notice a pattern, an important next step is showing, deductively, that the pattern \emph{must} continue.  
+
+For arithmetic series, here are some approaches that can lead to general deductive arguments for the sum: 
+
+\begin{itemize}
+\item Consider pairing the first term with the last term, the second term with the second-to-last term, and so on.  What do you notice about the sum of each of these pairs?  And how many such pairs are in the whole series?  
+\item Consider the average of each of the same pairs.  How might those averages help determine the sum of the whole series?  
+\item Consider writing the series backward immediately below a forward version, line up the terms, and then add vertically.  
+\end{itemize}
+
+\begin{question}
+Use one of these approaches to show that the sum is what it is.  Can you use a picture to illustrate your reasoning?    
+\end{question}
+\QM
+
+\begin{question}
+When you consider the sequence of partial sums of an arithmetic series, what kind of function(s) can you get?  Explain.  
+\end{question} 
+\QM
+
+\begin{definition}
+A series with terms that form a geometric sequence is called a \textbf{geometric series}.  
+\end{definition}
+
+\begin{question}
+Find the sum:  $\frac{2}{3}+\frac{2}{9}+\dots+\frac{2}{3^{10}}$.  (First explain how you know the series is geometric.)
+\end{question}
+\QM
+
+For the question above, it is not hard to see a pattern in the sequence of partial sums.  In fact, it is reasonable to believe that the pattern holds for any (finite) partial sum of the infinite geometric series $\frac{2}{3}+\frac{2}{9}+\dots$.  But to show that the pattern always holds, we need a general argument.  
+
+For geometric series, the techniques for arithmetic series do not carry over.  Instead, observe that if you multiply the series by the common ratio, the resulting series has most of the same terms as the original series.  Thus, the difference between the two series (i.e., subtract the two) is a short expression that is not hard to work with.  
+
+\begin{question}
+Use these ideas to show that the sum is what it is.  Can you use a picture to illustrate this sum?    
+\end{question}
+\QM
+
+\begin{question}
+Convert $0.\overline{42}$ to a fraction.  What connections do you see with geometric series?  
+\end{question}
+\QM
+
+\begin{question}
+Explain briefly the key ideas behind finding the sum of an arithmetic series. Then do the same for geometric series.  
+\end{question}
+\QM
+
 
 \newpage
 \begin{problems}
@@ -1557,7 +1760,7 @@ Activities \ref{A:walk} through \ref{A:WorldSeries} are intended for this sectio
 
 \item A ball is thrown up in the air from a 200 foot cliff with an initial velocity of 15 feet per second.  What is the height of the ball at any time $t$?  Write explicit and recursive representations of the relationship between the time after the ball is thrown and its height above the base of the cliff.
 
-\item While waiting for their candidate to come in the auditorium to address the local constituency, the Mathematics Party members all shake hands with one another.  When Mark Pi walks in, he shakes hands with the big-wigs who are there.  A total of 6357 handshakes took place that day, and no one shook hands with the same person more than once.  How many people were there?  How many big-wigs were there?\fixnote{Make sure this is clear.} 
+\item While waiting for Mark Pi to arrive to address the Mathematics Party, the members all shake hands with one another.  When Mark Pi walks in, he shakes hands with the only the big-wigs of the Party.  A total of 6357 handshakes took place that day, and no one shook hands with the same person more than once.  How many members were there?  How many big-wigs were there?
 
 \item If you deposit \$347 at the beginning of each year (starting on Jan. 1, 2014), into an account that compounds interest annually at a rate of 6.7\%, how much will be in the account on January 2, 2056?
 

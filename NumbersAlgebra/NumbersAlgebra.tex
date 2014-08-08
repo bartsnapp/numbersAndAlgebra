@@ -13,16 +13,17 @@
 
 
 
-
-%\usepackage{framed}
+\usepackage{framed}
 \usepackage{comment}
 
 %\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
-%\newcommand{\teachingnotes}{With Teaching Notes}
-\excludecomment{teachingnote}
-\newcommand{\teachingnotes}{}
+\includecomment{teachingnote}
+\newcommand{\teachingnotes}{With Teaching Notes}
+%\excludecomment{teachingnote}
+%\newcommand{\teachingnotes}{}
 
-
+\def\fixnote#1{{\color{red}Fixnote: #1}}  % Allows insertion of red notes about needed edits
+%\def\fixnote#1{}
 
 %%% This sets how the enumerate command works
 \renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
@@ -31,7 +32,7 @@
 
 \title{Numbers \\ and Algebra}
 \author{\teachingnotes}
-\publisher{Fall 2013 \\ This document was typeset on \today.}
+\publisher{Math 1165: Autumn 2014 \\ This document was typeset on \today.}
 
 
 \begin{document}
@@ -64,6 +65,7 @@
 \chapter{Activities}
 %\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
+\input{../chapters/appendix/shemp.tex}
 
 \input{../chapters/appendix/bases.tex}
 
@@ -107,7 +109,7 @@
 
 \input{../chapters/appendix/solved.tex}
 
-% \input{../chapters/appendix/triathlete.tex}
+\input{../chapters/appendix/triathlete.tex}
 
 \input{../chapters/appendix/dreadedStoryProblem.tex}
 

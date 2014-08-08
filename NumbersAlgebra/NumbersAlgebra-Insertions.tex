@@ -1,3 +1,6 @@
+% This is a shell to allow typesetting notes and activities  in the same style as the full text Numbers and Algebra
+
+
 \PassOptionsToPackage{numbers}{natbib} % passing an option to  natbib before tufte-book
 \documentclass[justified,openany,nofonts]{tufte-book}
 
@@ -28,7 +31,7 @@
 
 \title{Numbers \\ and Algebra}
 \author{\teachingnotes}
-\publisher{Fall 2013 \\ This document was typeset on \today.}
+\publisher{Autumn 2014 \\ This document was typeset on \today.}
 
 
 \begin{document}
@@ -50,141 +53,6 @@
 
 % Chapters go here
 
-\section*{Sequences and Functions}
-
-\emph{These pages serve as section 2.6 in the course notes for Math 1165: Math for Middle School Teachers, taught at Ohio State University.  The notes are intended for current and future teachers.}
-
-\paragraph{Sequences.}  A \emph{sequence} is an ordered set of numbers or other objects. Because "Sequences and Series" is a common topic in calculus and precalculus courses, the concept of sequence is often considered an advanced topic in high schools, but the idea of a sequence is much more elementary.  In fact, many patterns explored in grades K-8 can be considered sequences.  For example, the sequence $4, 7, 10, 13, 16, \dots$ might be described as a ``plus 3 pattern'' because terms are computed by adding 3 to the previous term.  
-
-\paragraph{Functions.}  In the Common Core State Standards, students begin formal study of functions in grade 8.\standard{8.F.1}  
-In high school, the approach to functions becomes more formal, through the use of function notation and with explicit attention to the concepts of \emph{domain} and \emph{range}.\standardhs{F-IF.1}  
-
-\paragraph{Sequences Are Functions.} As students begin formal study of functions, it makes sense to use their patterning experience as a foundation for understanding functions.\standardhs{F-IF.3}  To show how the sequence above can be considered a function, we need an \textit{index}, which indicates which term of the sequence we are talking about, and which serves as an input value to the function.  Deciding that the 4 corresponds to an index value of 1, we can make a table showing 
-the correspondence.\marginfigure{\footnotesize\sffamily
-      \begin{tabular}{c||c|c|c|c|c|c}
-        $n$ & 1 & 2 & 3 & 4 & 5 & \dots \\
-\hline
-        $f(n)$ & 4 & 7 & 10 & 13 & 16 & \dots
-      \end{tabular}
-\normalfont}
-
-Although sequences are sometimes notated with subscripts, function notation can help students remember that sequences are functions.\margincomment{We recommend using subscript notation only in advanced high school courses.}  For example, the sequence can be described recursively by the rule $f(1) = 4$, $f(n+1) = f(n) + 3$ for $n \geq 2$.  Notice that the recursive definition requires both a starting value and a rule for computing subsequent terms.   
-The sequence can also be described with the closed (or explicit) formula  $f(n) = 3n + 1$, for integers $n \geq 1$.  Notice that the domain (i.e., integers $n\geq 1$) is included as part of the description.  When a function is given without an explicit domain, the assumption is that the domain is all values for which the expression is valid.  Thus, the function $g(x) = 3x + 1$ appears to be essentially the same as the function $f$ because the formula is the same and because $f(n) = g(n)$ for all positive integers.  But $g(2.5) = 8.5$, whereas $f(2.5)$ is not undefined.  
-
-A common habit in school mathematics is creating a table of $(x,y)$ pairs, plotting those pairs (as dots), and then ``connecting the dots.''  The above discussion demonstrates that this habit is sometimes not appropriate: A graph\marginfigure{\includegraphics[width=2in]{../graphics/Graph-F2.pdf}} 
-of the sequence consists of discrete dots, because the specification does not indicate what happens ``between the dots.''  Connecting the dots requires the assumption that domain values between the dots make sense in some way.  
-
-
-\begin{question}
-In your own words, what does it mean to say that sequences are functions?
-\end{question}
-
-\begin{question}
-Given that $f(1) = f(2) = 1$, and $f(n+1) = f(n)+f(n-1)$ for integers $n>2$, find $f(6)$.  
-\end{question}
-
-\paragraph{Arithmetic and Geometric Sequences.}  An \emph{arithmetic sequence} has is a constant difference between consecutive terms.  A \emph{geometric sequence} has a constant ratio between consecutive terms.  Some sequences, of course, are neither arithmetic nor geometric.\standardhs{F-BF.2}
-\begin{question}
-For each of the following sequences, decide whether it is arithmetic, geometric, or neither, and explain your reasoning:
-\begin{itemize}  
-\item $1, 4, 9, 16, 25, \dots$
-\item $4, 8, 16, 32, \dots$
-\item $2, 4, 6, 8, 2, 4, 6, 8, \dots$
-\item $-2, 5, 12, 19, \dots$
-\end{itemize}
-Can you write both recursive and explicit formulas for each of these sequences?  
-\end{question}
-
-Beginning in about grade 8, much of school mathematics is devoted to the study of linear, quadratic, and exponential functions.\standardhs{F-LE.2}  Here we provide only definitions and key questions about these types of functions.  
-
-\begin{itemize}
-\item A linear function is of the form $f(x) = ax + b$, where $a$ and $b$ are real numbers and $a\ne 0$.  What do $a$ and $b$ tell you about the linear function?  
-\item A quadratic function is of the form $f(x) = ax^2 + bx + c$, where $a$,  $b$, and $c$ are real numbers and $a\ne 0$.  What do $a$, $b$, and $c$ tell you about the function?  Why is it important to specify that $a\ne 0$? 
-\item An exponential function is of the form $f(x)=ab^x$, where $a$ and $b$ are real numbers and $b>0$.  What do $a$ and $b$ tell you about the function? 
-\end{itemize}
-
-How can you identify these types of functions in tables, graphs, symbols, and contexts?\standardhs{F-IF.4} \standardhs{F-IF.7}  
-For example, how can you recognize the slope in the graph of a linear function?  What about in a table, in a symbolic expression, or in a context?  
-
-\begin{question}
-An arithmetic sequence is what kind of function?  Explain. 
-\end{question}
-\begin{question}
-A geometric sequence is what kind of function?  Explain.  
-\end{question}
-
-\begin{question}
-Sometimes quadratic functions are written in the form $f(x) = a(x-h)^2+k$, where $a$, $h$, and $k$ are real numbers and $a\ne 0$.  What do $a$, $k$, and $h$ tell you about the function?  What are the advantages and disadvantages of this form of a quadratic, as compared to the alternative form given above?  
-\end{question}
-
-\paragraph{Series.}  A \emph{series} is a sum of consecutive terms from a sequence.  A series with terms that form an arithmetic sequence is called an \emph{arithmetic series}.  
-
-\begin{question}
-Find the sum:  $1 + 3 + 5 + \dots + 4999.$  (First explain how you know this is an arithmetic series.)
-\end{question}
-
-In mathematics teaching and learning, it is useful to distinguish \emph{problems} from  \emph{excercises}. \emph{Problems} require that you formulate a solution strategy, whereas \emph{exercises} are about using a procedure that you have been taught.\margincomment{Problem solving is an essential part of mathematics.}  Whether a question is a problem or an exercise depends upon the learner.  
-\begin{question}
-Is the previous question a problem or an exercise for you?  
-\end{question}
-
-When analyzing any series, it is often useful to consider the \emph{sequence of partial sums}.  For example, in response to the above question, the sequence of partial sums is as follows:  $$1, \qquad 1 + 3, \qquad 1+ 3+5, \qquad 1+3+5+7, \qquad \dots$$
-
-Sometimes you can see a pattern in the sequence of partial sums.  Making a conjecture about a pattern is a type of inductive reasoning.  Once you notice a pattern, an important next step is showing, deductively, that the pattern \emph{must} continue.  
-
-For arithmetic series, there are several observations that can lead to a general deductive argument for the sum.  For example, consider pairing the first term with the last term, the second term with the second-to-last term, and so on.  What do you notice about the sum of each of these pairs?  And how many such pairs are in the whole series?  Alternatively, consider the average of each of the pairs and how those averages might help determine the sum of the whole series.  An important general technique involves writing the series backward immediately below a forward version and then adding vertically.  
-
-\begin{question}
-Use one of these approaches to show that the sum is what it is.  Can you use a picture to illustrate your reasoning?    
-\end{question}
-
-\begin{question}
-When you consider the sequence of partial sums of an arithmetic series, what kind of function(s) can you get?  Explain.  
-\end{question} 
-
-A series with terms that form a geometric sequence is called a \emph{geometric series}.  
-
-\begin{question}
-Find the sum:  $\frac{2}{3}+\frac{2}{9}+\dots+\frac{2}{3^{10}}$.  (First explain how you know the series is geometric.)
-\end{question}
-
-For the question above, it is not hard to see a pattern in the sequence of partial sums.  In fact, it is reasonable to believe that the pattern holds for any (finite) partial sum of the infinite geometric series $\frac{2}{3}+\frac{2}{9}+\dots$.  But to show that the pattern always holds, we need a general argument.  
-
-For geometric series, the techniques for arithmetic series do not carry over.  Instead, observe that if you multiply the series by the common ratio, the resulting series has most of the same terms as the original series.  Thus, the difference between the two series (i.e., subtract the two) is a short expression that is not hard to work with.  
-
-\begin{question}
-Use these ideas to show that the sum is what it is.  Can you use a picture to illustrate this sum?    
-\end{question}
-
-\begin{question}
-Convert $0.\overline{42}$ to a fraction.  What connections do you see with geometric series?  
-\end{question}
-
-\paragraph{Concluding Remarks.}  When studying arithmetic and geometric sequences and series, it is easy to encapsulate common results into compact formulas.  But formulas are easily confused with one another and otherwise misremembered.  Furthermore, general formulas can obscure the ideas.  
-
-\begin{question}
-Find the missing terms in the following arithmetic sequence:  
-$$\rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt},  2,  \rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt}, 6, \dots$$
-Explain your reasoning.  
-\end{question}
-
-\begin{question}
-Find exact values (not decimal approximations) for the missing terms in the following geometric sequence:  
-$$\rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt},  2,  \rule[-2pt]{25pt}{.5pt},  \rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt}, 6, \dots$$
-Explain your reasoning.  And describe how this problem and the rules of exponents might be used to explain the connection between radicals and exponents.  
-\end{question}
-
-\begin{question}
-What key ideas behind arithmetic and geometric sequences did you use in the previous two problems? 
-\end{question}
-
-\begin{question}
-Explain briefly the key ideas behind finding the sum of an arithmetic series. Then do the same for geometric series.  
-\end{question}
-
-\begin{center}
-\textbf{With the ideas, you can reconstruct the formulas you need.  And without the ideas, formulas are empty.}  
-\end{center}
 
 %\appendix
 %
