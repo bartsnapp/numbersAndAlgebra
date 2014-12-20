@@ -1,0 +1,79 @@
+\PassOptionsToPackage{numbers}{natbib} % passing an option to  natbib before tufte-book
+\documentclass[justified,openany,nofonts]{tufte-book}
+
+\usepackage{teacherEd}
+
+\usepackage{framed}
+\usepackage{comment}
+
+%\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
+%\newcommand{\teachingnotes}{With Teaching Notes}
+\excludecomment{teachingnote}
+\newcommand{\teachingnotes}{}
+
+%\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
+\def\fixnote#1{}
+
+%%% This sets how the enumerate command works
+\renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+
+
+\title{Numbers \\ and Algebra \\ (Supplements)}
+\author{\teachingnotes}
+\publisher{Math 1165: Autumn 2014 \\ This document was typeset on \today.}
+
+
+\begin{document}
+\def\document#1{} %% Needed to add standards
+\def\clarification#1{}  %% Needed to add standards (omit clarifications)
+%\def\clarification#1{\emph{#1}}  %% Needed to add standards (include clarifications)
+
+\maketitle
+
+%%%% Front matter
+%\input{../chapters/front}
+%%%%
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\setcounter{secnumdepth}{2} % turn on numbering for parts and chapters
+
+%% Put main text here
+
+%\input{../chapters/number}
+
+\appendix
+
+\renewcommand{\theenumi}{$(\mathrm{\alph{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+\chapter{Supplemental Activities}
+
+% Put activities here 
+
+
+
+%\setcounter{page}{1}
+
+\setcounter{section}{19}
+\input{../chapters/appendix/ratios}
+
+%\setcounter{section}{22}
+%\input{../chapters/appendix/triathlete}
+
+%\setcounter{page}{1}
+
+\setcounter{section}{49}
+
+
+\input{../chapters/appendix/integerAddition}
+\input{../chapters/appendix/integerMultiplication}
+\input{../chapters/appendix/divisibility}
+\input{../chapters/appendix/fractionMultiplication}
+\input{../chapters/appendix/arithmeticSeries}
+\input{../chapters/appendix/geometicSeries}
+\input{../chapters/appendix/solvingQuadratics}
+\input{../chapters/appendix/solvingCubics}
+
+\end{document}
