@@ -15,7 +15,7 @@ the students solve them rather than go through the entire story in class.
 
 
 \begin{activitynote}
-Activities \ref{A:shemp} and \ref{A:SS} complements this section well.  % Shemp and Shelby and Scotty
+Activity \ref{A:SS} complements this section well.  %  Shelby and Scotty.   \ref{A:shemp}  deleted
 \end{activitynote}
 
 \section{Home Base}
@@ -144,14 +144,17 @@ letter $B$ to mean what you call ``eleven!''
 \item Now, suppose that you meet a hermit who tallies by
   thirteens. Explain how he might count. Give some relevant and
   revealing examples.
+\fixnote{The problem used to begin $1/6$ of $30$ is $4$, but that allowed  
+proportional reasoning to give the correct answer.  The numbers have been changed.  
+Check that this is better.}
 \item While visiting Mos Eisley spaceport, you stop by Chalmun's
   Cantina. After you sit down, you notice that one of the other aliens
   is holding a discussion on fractions. Much to your surprise, they
-  explain that $1/6$ of $30$ is $4$. You are unhappy with this,
-  knowing that $1/6$ of $30$ is in fact $5$, yet their audience seems
+  explain that $1/6$ of $36$ is $7$. You are unhappy with this,
+  knowing that $1/6$ of $36$ is in fact $6$, yet their audience seems
   to agree with it, not you. Next the alien challenges its audience by
-  asking, ``what is $1/4$ of $10$?'' What is the correct answer to
-  this question and how many fingers do the aliens have? Explain your
+  asking, ``What is $1/4$ of $10$?'' What is the correct answer to
+  this question, and how many fingers do the aliens have? Explain your
   reasoning.
 \item When the first Venusian to visit Earth attended a 6Te grade
   class, it watched the teacher show that
@@ -170,7 +173,7 @@ is $x = 5$.
 
 ``How strange,'' thought the Martian. ``On Mars, $x = 5$ is a solution
 of this equation, but there also is another solution.'' If Martians
-have more fingers than humans, how many fingers do Martians have?
+have more fingers than humans, how many fingers do Martians have on both hands?
 Explain your reasoning.
 
 %\begin{teachingnote}
@@ -232,8 +235,6 @@ these properties is surely well known to you; however, the importance
 of the name is that it gives a keen observer the ability to see and
 articulate fundamental structures in arithmetic and algebra.
 
-\fixnote{Maybe include closure, with problems.}
-
 \paragraph{The Associative Property}\index{associativity} 
 An operation \ding{72} is called \textbf{associative} if for all
 numbers $a$, $b$, and $c$:
@@ -256,6 +257,14 @@ operation \ding{66} if for all numbers $a$, $b$, and $c$:
 a \,\text{\ding{72}}\,(b \,\text{\ding{66}}\, c)  = (a \,\text{\ding{72}}\, b) \,\text{\ding{66}}\, (a\,\text{\ding{72}}\, c)
 \qquad\text{and}\qquad (b \,\text{\ding{66}}\, c)\,\text{\ding{72}}\, a  = (b \,\text{\ding{72}}\, a) \,\text{\ding{66}}\, (c\,\text{\ding{72}}\, a)
 \]
+
+\paragraph{The Closure Property}\index{closure}
+An operation $\,\text{\ding{72}}\,$ is called \textbf{closed} on a set of numbers if for all
+numbers $a$ and $b$ in the set:
+\[
+a \,\text{\ding{72}}\, b \qquad \textrm{is another number in the set}.  
+\]
+
 
 You may find yourself a bit distressed over some of the notation used
 above. In particular you surely notice that we were using crazy
@@ -282,6 +291,14 @@ other? Can you give examples of operations that do not distribute?
 \end{question}
 \QM
 
+
+\begin{question}
+Can you give examples of an operation and a set of numbers where 
+the operation is closed on the set of numbers?  Can you give examples 
+of an operation and a set of numbers where 
+the operation is not closed on the set of numbers? 
+\end{question}
+\QM
 
 
 \subsection{Algorithms}
@@ -687,7 +704,7 @@ Can you clearly explain what happened between lines (\ding{100}) and
 \fixnote{Add a problem about the doubling/halving base-two multiplication algorithm....   Perhaps also include the Mysterious base-two game, or make it an activity.}
 \begin{enumerate}
 \item Explain what it means for an operation \ding{72} to be
-  \textit{associative}. Give some relevant and revealing examples.
+  \textit{associative}. Give some relevant and revealing examples and non-examples.
 \item \label{P:MA}Consider the following pictures:
 \[
 \includegraphics{../graphics/assMult.pdf}
@@ -702,10 +719,13 @@ $2\cdot (3\cdot 4)$.
   of multiplication.
 \end{enumerate}
 \item Explain what it means for an operation \ding{72} to be
-  \textit{commutative}. Give some relevant and revealing examples.
+  \textit{commutative}. Give some relevant and revealing examples  and non-examples.
 \item Explain what it means for an operation \ding{72} to \textit{distribute}
   over another operation \ding{66}. Give some relevant and revealing
-  examples.
+  examples and non-examples.
+\item Explain what it means for an operation \ding{72} to be \textit{closed}
+  on a set of numbers. Give some relevant and revealing
+  examples and non-examples.
 \item Sometimes multiplication is described as \textit{repeated
   addition}. Does this explain why multiplication is commutative? If
   so give the explanation. If not, give another description of
@@ -1146,8 +1166,8 @@ reasoning.
 %% $\mathrm{XX}\cdot \mathrm{X} = \mathrm{X}77$.
 %% \end{teachingnote}
 
-\item The following is a long division problem where the digits were
-replaced by X except for a single $8$. 
+\item The following is a long division problem where the various digits were
+replaced by X except for a single $8$. The double bar indicates that the remainder is 0.
 
 \[
 \text{XXX}\,\begin{tabular}[b]{@{}r@{}}
@@ -1197,11 +1217,11 @@ Activity \ref{A:CA} complements this section well.  % Comparative Arithmetic
 
 I'll take this one:
 \begin{definition}\index{polynomial}
-A \textbf{polynomial} in the variable $x$ is an expression of the form
+An $n^{th}$-degree \textbf{polynomial} in the variable $x$ is an expression of the form
 \[
 a_nx^n + a_{n-1}x^{n-1} + \dots + a_1 x + a_0
 \]
-where the $a_i$'s are all constants and $n$ is a nonnegative integer.
+where the $a_i$'s are all constants, $n$ is a nonnegative integer, and $a_n\neq 0$.
 \end{definition}
 
 \begin{question}

@@ -10,6 +10,8 @@
 
 \bibliographystyle{amsplain}
 
+\usepackage{marginfix}    
+
 %\RequirePackage{float}
 %\RequirePackage{tabu} % allows for table with thick lines
 \RequirePackage{marvosym}
@@ -25,7 +27,6 @@
 \RequirePackage{microtype}
 \RequirePackage{enumerate}
 \RequirePackage{makeidx} %%% gives us our groovy index
-\usepackage{marginfix}
 
 \makeindex
 
@@ -39,7 +40,7 @@
 
 \usepackage{pgfplots}\pgfplotsset{compat=1.7}  % Needed for eclipseTheEllipse
 
-\RequirePackage{morefloats}
+%\RequirePackage{morefloats}   No longer needed with LaTex released on 1/1/2015
 
 \usetikzlibrary{shadows}
 \usetikzlibrary{shapes}
@@ -173,7 +174,7 @@
     anchorcolor = hyperColor,
     citecolor = hyperColor,
     filecolor = hyperColor,
-    pagecolor = hyperColor,
+    pagecolor = hyperColor,  
     urlcolor = hyperColor
 } 
 

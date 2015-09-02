@@ -1,6 +1,7 @@
 \PassOptionsToPackage{numbers}{natbib} % passing an option to  natbib before tufte-book
 \documentclass[justified,openany,nofonts]{tufte-book}
 
+
 \bibliographystyle{amsplain}
 \usepackage{teacherEd}
 
@@ -14,14 +15,13 @@
 \usepackage{framed}
 \usepackage{comment}
 
-%\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
-%\includecomment{teachingnote}
-%\newcommand{\teachingnotes}{With Teaching Notes}
-\excludecomment{teachingnote}
-\newcommand{\teachingnotes}{}
+\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
+\newcommand{\teachingnotes}{With Teaching Notes}
+%\excludecomment{teachingnote}
+%\newcommand{\teachingnotes}{}
 
-%\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
-\def\fixnote#1{}
+\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
+%\def\fixnote#1{}
 
 %%% This sets how the enumerate command works
 \renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
@@ -30,10 +30,10 @@
 
 \title{Numbers \\ and Algebra}
 \author{\teachingnotes}
-\publisher{Math 1165: Autumn 2014 \\ This document was typeset on \today.}
-
+\publisher{Math 1165: Autumn 2015 \\ This document was typeset on \today.}
 
 \begin{document}
+
 \def\document#1{} %% Needed to add standards
 \maketitle
 %%%% Front matter
@@ -51,6 +51,8 @@
 
 \input{../chapters/number}
 
+\input{../chapters/ratio}
+
 \input{../chapters/solve}
 
 \input{../chapters/circle}
@@ -63,9 +65,20 @@
 \chapter{Activities}
 %\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
-\input{../chapters/appendix/shemp.tex}
+% Things to be added
+% *  Deep insights
+%  * hundredths grid
+%  * linear, quadratic, exponential
+%  * meaning of exponents
+%  * Beckmann 1G
+%  * Product Puzzle
+%  * Something from notes about garden variety
+% and fix the footnotes 
 
-\input{../chapters/appendix/bases.tex}
+
+%\input{../chapters/appendix/shemp.tex} 
+
+\input{../chapters/appendix/bases.tex}  % Shelby and Scotty
 
 \input{../chapters/appendix/hieroArith.tex}
 
@@ -75,11 +88,19 @@
 
 \input{../chapters/appendix/compare.tex}
 
+\input{../chapters/appendix/integerAddition}
+
+\input{../chapters/appendix/integerMultiplication}
+
 \input{../chapters/appendix/divisionMeaning.tex}
 
-\input{../chapters/appendix/infPrimes.tex}
+\input{../chapters/appendix/divisibility}
+
+\input{../chapters/appendix/hallOfShoes.tex}
 
 \input{../chapters/appendix/sieve.tex}
+
+\input{../chapters/appendix/infPrimes.tex}
 
 \input{../chapters/appendix/countingFactors.tex}
 
@@ -90,6 +111,8 @@
 \input{../chapters/appendix/equivFrac.tex}
 
 \input{../chapters/appendix/fracPictMean.tex}
+
+\input{../chapters/appendix/fractionMultiplication}
 
 \input{../chapters/appendix/divFractions.tex}
 
@@ -119,15 +142,19 @@
 
 \input{../chapters/appendix/exponentRules.tex}
 
-\input{../chapters/appendix/gardenVariety.tex}
+%\input{../chapters/appendix/gardenVariety.tex}  Moved to problems;   
 
-\input{../chapters/appendix/doesntAddUp.tex}
+%\input{../chapters/appendix/doesntAddUp.tex}  Replaced by arithmetic series
 
-\input{../chapters/appendix/worldSeries.tex}
+%\input{../chapters/appendix/worldSeries.tex}  Moved to problems
 
 % \input{../chapters/appendix/gertrude.tex}   % replaced by ConstantAmount and WorldSeries
 
 % \input{../chapters/appendix/billy.tex}    %  replaced by ConstantRatio and WorldSeries
+
+\input{../chapters/appendix/arithmeticSeries}
+
+\input{../chapters/appendix/geometicSeries}
 
 \input{../chapters/appendix/hieroAlg.tex}
 
@@ -140,6 +167,10 @@
 \input{../chapters/appendix/otherCurves.tex}
 
 \input{../chapters/appendix/sketchRoots.tex}
+
+\input{../chapters/appendix/solvingQuadratics}
+
+\input{../chapters/appendix/solvingCubics}
 
 \input{../chapters/appendix/complexAddition.tex}
 
@@ -170,7 +201,6 @@
 \input{../chapters/appendix/climbTree.tex}
 
 \input{../chapters/appendix/fallForAnything.tex}
-
 
 
 %\input{../chapters/appendix/harmtri.tex}

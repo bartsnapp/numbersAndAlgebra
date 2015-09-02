@@ -9,6 +9,10 @@ God created the integers, the rest is the work of man.
 \section{The Integers}
 An important theme in this course is distinguishing among the various number systems of school mathematics.  A \emph{number system} is a set of numbers together with arithmetic operations, such as addition and multiplication, on those numbers.  We have already been using \textit{counting numbers}.  Now we need to be more precise.  
 
+\begin{teachingnote}
+A theme in this chapter and throughout the course is ``general reasoning with specific numbers.''
+\end{teachingnote}
+
 \begin{definition}\index{integers}\index{Z@$\Z$}
 The \textbf{counting numbers}, often called the \textbf{natural numbers}, are (naturally) those use for counting.  We use the symbol $\N$ to denote the counting numbers:  
 \[
@@ -31,6 +35,7 @@ In case you're wondering, the symbol $\Z$ is used because
 \textit{Zahlen} is the German word for ``numbers.'' 
 
 \subsection{Addition}
+\fixnote{In these sections, provide several meanings directly.  Fewer questions for them.}
 
 Addition is probably the first operation we learn.    
 
@@ -265,10 +270,32 @@ is a positive integer $g = \gcd(a,b)$ where:
 \end{definition}
 
 \begin{question}
-How do you use a factor tree to compute the GCD of two integers?
+Describe informally what the greatest common divisor of two numbers means.  
+Explain how the two conditions in the formal definition appear in your informal description. 
 \end{question}
 \QM
 
+\begin{question}
+What can you conclude when $\gcd(a,b)=1$?  Explain. 
+\end{question}
+\QM
+
+\begin{question}
+How can you use a factor tree to compute the GCD of two integers?
+\end{question}
+\QM
+
+\begin{question}
+Describe informally what the least common multiple (LCM)\index{LCM}\index{least common multiple} 
+of two numbers means.  Write a formal definition of LCM.  Explain how the two conditions in the formal 
+definition appear in your informal description. 
+\end{question}
+\QM
+
+\begin{question}
+How can you use a factor tree to compute the LCM of two integers?
+\end{question}
+\QM
 
 
 So, to factor an integer or find the GCD, one could use a factor
@@ -284,7 +311,7 @@ divisors must you check? When can you stop checking?
 
 
 \begin{activitynote}
-Activity \ref{A:Sie} complements this section well. % Sieving It All Out
+Activities \ref{A:Hall} and \ref{A:Sieve} complements this section well. % Hall of Shoes and Sieving It All Out
 \end{activitynote}
 
 
@@ -467,7 +494,7 @@ why those are the only computations needed.
 \end{enumerate}
 
 \item Lisa wants to make a new quilt out of $2$ of her favorite
-  sheets. To do this, she is going to cut each sheet into as large of
+  sheets. To do this, she is going to cut each sheet into as large
   squares as possible while using the entire sheet and using whole
   inch measurements. 
 \begin{enumerate}
@@ -641,210 +668,30 @@ Clearly explain how your problem shows this.
 
 
 
-
-
-
-
-
-
-
-
-
-\section{The Euclidean Algorithm}\index{Euclidean algorithm}\label{S:EA}
-
-
-Up to this point, computing the GCD of two integers required you to
-factor both numbers.  This can be difficult to do. The following
-algorithm, called the \textit{Euclidean algorithm}, makes finding
-GCD's quite easy. With that said, algorithms can be tricky to
-explain. Let's try this---study the following calculations, they are
-examples of the Euclidean algorithm in action:
-\begin{align*}
-22 &= \boldsymbol{6}\cdot 3 + \boldsymbol{4}\\ 
-\boldsymbol{6} &= \boldsymbol{4}
-\cdot 1 + \fbox{$\boldsymbol{2}$}\\ 4 &= 2 \cdot 2 + 0 \qquad 
-\fbox{$\therefore \gcd(22,6) = 2$}
-\end{align*}
-
-\begin{align*}
-33 &= \boldsymbol{24}\cdot 1 + \boldsymbol{9}\\
-\boldsymbol{24} &= \boldsymbol{9} \cdot 2 + \boldsymbol{6}\\
-\boldsymbol{9} &= \boldsymbol{6} \cdot 1 + \fbox{$\boldsymbol{3}$}\\
-6 &= 3 \cdot 2 + 0 \qquad \fbox{$\therefore \gcd(33,24) = 3$} 
-\end{align*}
-
-\begin{align*}
-42 &= \boldsymbol{16}\cdot 2 + \boldsymbol{10}\\
-\boldsymbol{16} &= \boldsymbol{10} \cdot 1 + \boldsymbol{6}\\
-\boldsymbol{10} &= \boldsymbol{6} \cdot 1 + \boldsymbol{4}\\
-\boldsymbol{6} &= \boldsymbol{4} \cdot 1 + \fbox{$\boldsymbol{2}$}\\
-4 &= 2 \cdot 2 + 0 \qquad \fbox{$\therefore \gcd(42,16) = 2$} 
-\end{align*}
+\section{The Fundamental Theorem of Arithmetic}\index{Fundamental Theorem!of arithmetic}\label{S:FT}
+In the previous section, we found divisors, greatest common divisors, and prime factors of positive integers.  And when we
+ found prime factorizations of integers, we used factor trees to organize our work.  
 
 \begin{question}
-Can you describe how to do the Euclidean algorithm?
+Jake and Jenna use factor trees to find prime factorizations of the same large number.  Assuming that they don't make any mistakes will their prime factorizations be the same or could the be different?  Explain.  
 \end{question}
 \QM
 
-\begin{question}
-Can you explain why the Euclidean algorithm will always stop? Hint:
-Division Theorem.
-\end{question}
-\QM
+Let's try a simpler question. 
 
-
-
-\begin{activitynote}
-Activity \ref{A:GCDwork} complements this section well.  % Why Does It Work? 
-\end{activitynote}
-
-
-The algorithm demonstrated above is called the \textit{Euclidean
-  algorithm} or \textit{Euclid's algorithm} because
-Euclid\index{Euclid} uses it several times in Books VII and X of his
-book \textit{The Elements}. Donald Knuth\index{Knuth} gives a
-description of the Euclidean algorithm in the first volume of his
-series of books \textit{The Art of Computer Programming}. Given
-integers $m$ and $n$, he describes it as follows:
-\begin{quote}
-\begin{enumerate} 
-\item\label{A:E1} [Find remainder.] Divide $m$ by $n$ and let $r$ be the remainder. (We will have $0\le r< n$.)
-\item{[Is it zero?]} If $r=0$, the algorithm terminates; $n$ is the answer.
-\item{[Interchange.]} Set $m \leftarrow n$, $n \leftarrow r$, and go
-  back to step \ref{A:E1}.
-\end{enumerate}
-\end{quote}
-
-\begin{question}
-What do you think of this description? How does it compare to your
-description of the Euclidean algorithm?
-\end{question}
-\QM
-
-While the Euclidean algorithm is handy and fun, its real power is that
-it helps us solve equations. Specifically it helps us solve
-\textit{linear Diophantine equations}.
-
-\begin{definition}\index{Diophantine equation}
-A \textbf{Diophantine equation} is an equation where only integer
-solutions are deemed acceptable.
-\end{definition}
-
-We're going to solve \textit{linear Diophantine equations}, that is, equations of the form:
-\[
-ax + by = c
-\]
-where $a$, $b$, and $c$ are integers and the only solutions we will
-accept are also integers. Let's study the following calculations:
-
-\begin{tabular}{lr}
-\begin{minipage}{15em}
-{\begin{align*}
-22 &= 6\cdot 3 + 4 &\Leftrightarrow & &  22-6\cdot 3 &= \boldsymbol{4}\\ 
-6 &= 4\cdot 1 + 2 &\Leftrightarrow  & &  6 - \boldsymbol{4}\cdot 1 &= 2\\ 
-4 &= 2 \cdot 2 + 0 
-\end{align*}}
-\end{minipage}
-&
-\begin{minipage}{15em}
-{\begin{align*}
-6 - 4\cdot 1 &= 2 \\
-6 - (22-6\cdot 3)\cdot 1 &= 2 \\
-6\cdot 4 + 22(-1) &= 2 
-\end{align*}}
-\end{minipage} \\
-\multicolumn{2}{c}{\fbox{$\therefore 22x + 6y =2$ where $x = -1$ and $y = 4$}}
-\end{tabular}
-
-\begin{tabular}{lr}
-\begin{minipage}{15em}
-{\begin{align*}
-33 &= 24\cdot 1 + 9 & \Leftrightarrow & & 33 - 24\cdot 1 &= \boldsymbol{9}\\
-24 &= 9 \cdot 2 + 6 & \Leftrightarrow & & 24 - \boldsymbol{9}\cdot 2 &= \boldsymbol{6}\\
-9 &= 6 \cdot 1 + 3 & \Leftrightarrow & & 9 - \boldsymbol{6} \cdot 1  &= 3\\
-6 &= 3 \cdot 2 + 0  
-\end{align*}}
-\end{minipage}
-&
-\begin{minipage}{15em}
-{\begin{align*}
-9 - 6 \cdot 1  &= 3 \\
-9 - (24 - 9\cdot 2) \cdot 1  &= 3 \\
-9\cdot 3 +  24\cdot(-1)  &= 3 \\
-(33 - 24\cdot 1)\cdot 3 +  24\cdot(-1)  &= 3 \\
-33\cdot 3 + 24\cdot (-4) &=3
-\end{align*}}
-\end{minipage} \\
-\multicolumn{2}{c}{\fbox{$\therefore 33x + 24y =3$ where $x = 3$ and $y = -4$}}
-\end{tabular}
-
-
-\begin{question} 
-Can you explain how to solve Diophantine equations of the form
-\[
-ax + by = g
-\]
-where $g = \gcd(a,b)$?
+\begin{question} If $11 | 50a$, is it true that $11|a$?  Explain and generalize.  
 \end{question}
 \QM
 
 
-\subsection{Fundamental Theorems}
-
-
-
-\begin{teachingnote}
-An important point of this section is to make the student think about
-the distributive property. One should try to point out each time
-\[
-a(x+y) = ax + ay
-\]
-occurs.
-\end{teachingnote}
-
-
-\begin{activitynote}
-Activity \ref{A:Prome} complements this section well.  % Prome Factorization
-\end{activitynote}
-
-The Euclidean algorithm is also useful for theoretical
-questions.
-
-\begin{question} 
-Given integers $a$ and $b$, what is the smallest positive integer that
-can be expressed as
-\[
-ax + by
-\]
-where $x$ and $y$ are also integers?
-\end{question}
-
-\fixnote{Need to argue that the gcd is expressible this way.  Euclidean Algorithm did that.  Also, improve the corresponding activity.}
- 
-I'm feeling chatty, so I'll take this one. I claim that $g =
-\gcd(a,b)$ is the smallest positive integer that can be
-expressed as
-\[
-ax + by
-\]
-where $x$ and $y$ are integers. How do I know? Well, suppose there was
-a smaller positive integer, say $s$ where:
-\[
-ax + by = s
-\]
-Hmmm\dots but we know that $g|a$ and $g|b$. This means that $g$
-divides the left-hand-side of the equation. This means that $g$
-divides the right-hand-side of the equation. So $g|s$---but this is
-impossible, as $s< g$. Thus $g$ is the smallest integer that can be
-expressed as $ax +by$.
-
-
-Believe it or not, we're going somewhere with all this. The next
-\textit{lemma}\index{lemma} will help us out.  What is a lemma, you
+The following \textit{lemma}\index{lemma} will help us tie these 
+ideas together.  What is a lemma, you
 ask? A lemma is nothing but a little theorem that helps us solve
-another problem. Note that a lemma should not be confused with the
-more sour \index{lemon|see{lemma}}\textit{lemon}, as that is something
-different and unrelated to what we are discussing.
+another problem.
+
+%Note that a lemma should not be confused with the
+%more sour \index{lemon|see{lemma}}\textit{lemon}, as that is something
+%different and unrelated to what we are discussing.
 
 \begin{lemma}[Euclid's Lemma]\index{Euclid's Lemma} 
 If $p$ is a prime number and $a$ and $b$ are integers
@@ -853,22 +700,12 @@ p|ab \qquad\text{implies that} \qquad p | a\text{ or } p|b.
 \]
 \end{lemma}
 
-\begin{question} Can you use the ideas above to explain why this lemma is true?
-\end{question}
-\QM
+We are going to assume Euclid's Lemma without proof (at least for now) because we want to use 
+it to proof our fundamental theorem---sometimes called the \textit{Fundamental Theorem of Arithmetic}:
 
-
-
-\begin{question} If $11 | 50a$, is it true that $11|a$?
-\end{question}
-\QM
-
-
-
-
-Now we have set the stage for our fundamental theorem---it is
-sometimes called the \textit{Fundamental Theorem of Arithmetic}:
-
+\begin{activitynote}
+Activity \ref{A:Prome} complements this section well.  % Prome Factorization
+\end{activitynote}
 
 \begin{theorem}[Unique Factorization]\index{Unique Factorization Theorem}\index{Fundamental Theorem!of Arithmetic}
 Every integer greater than 1 can be factored uniquely (up to ordering)
@@ -919,6 +756,21 @@ case when a number ends in a $0$?
 \end{question}
 \QM
 
+From high school algebra, you have lots of tools for solving equations.  
+But in some situations, we are interested only in whole number or integer solutions 
+to these equations.  These kinds of equations have a special name:  
+
+\begin{definition}\index{Diophantine equation}
+A \textbf{Diophantine equation} is an equation where only integer
+solutions are deemed acceptable.
+\end{definition}
+
+In this section, we are particularly interested solve \textit{linear Diophantine equations}, that is, equations of the form:
+\[
+ax + by = c
+\]
+where $a$, $b$, and $c$ are integers and the only solutions we will
+accept are pairs of integers $x$ and $y$.  
 
 
 \newpage
@@ -926,40 +778,16 @@ case when a number ends in a $0$?
 \begin{problems}
 
 \begin{enumerate}
-\item Explain what a \textit{Diophantine equation} is. Give an example
-  and explain why such a thing has real-world applications.
 \item Explain what the GCD of two integers is. Give some relevant and
   revealing examples/nonexamples.
 \item Explain what the LCM of two integers is. Give some relevant and
   revealing examples/nonexamples.
-\item Use the Euclidean algorithm to find: $\gcd(671,715)$,
-  $\gcd(667,713)$, $\gcd(671,713)$, $\gcd(682,715)$, $\gcd(601,735)$,
-  and $\gcd(701,835)$.
-\item Explain the advantages of using the Euclidean algorithm to find
-  the GCD of two integers over factoring.
-\item Find integers $x$ and $y$ satisfying the following Diophantine
-  equations:
-\begin{enumerate}
-\item $671x + 715 y = 11$ 
-\item $667x + 713 y = 69$ 
-\item $671x + 713 y = 1$
-\item $682x + 715 y = 55$
-\item $601x + 735 y = 4$
-\item $701x + 835 y = 15$
-\end{enumerate}
-\item Given integers $a$, $b$, and $c$, explain how you know when a
-  solution to a Diophantine equation of the form
-\[
-ax + by = c
-\]
-exists.
 \item Consider the Diophantine equation:
 \[
 15x + 4y = 1
 \]
 \begin{enumerate}
-\item Use the Euclidean Algorithm to find a solution to this
-  equation. Explain your reasoning.
+\item Find a solution to this equation. Explain your reasoning.
 \item Compute the slope of the line $15x + 4y = 1$ and write it in
   lowest terms. Show your work.
 \item Plot the line determined by $15x + 4y = 1$ on graph paper.
@@ -1083,35 +911,255 @@ not.
 \newpage 
 
 
+\section{The Euclidean Algorithm}\index{Euclidean algorithm}\label{S:EA}
+In section~\ref{S:FT}, we assumed Euclid's Lemma and used it to prove the Fundamental 
+Theorem of Arithmetic (aka Unique Factorization).  In this section, we backtrack 
+to prove Euclid's Lemma.  
+
+\begin{question}
+What was Euclid's Lemma?
+\end{question}
+\QM
+
+\begin{teachingnote}
+An important point of this section is to make the student think about
+the distributive property. One should try to point out each time
+\[
+a(x+y) = ax + ay
+\]
+occurs.
+\end{teachingnote}
+
+Up to this point, computing the GCD of two integers required you to
+factor both numbers.  This can be difficult to do. The following
+algorithm, called the \textit{Euclidean algorithm}, makes finding
+GCD's quite easy. With that said, algorithms can be tricky to
+explain. Let's try this---study the following calculations, they are
+examples of the Euclidean algorithm in action:
+\begin{align*}
+22 &= \boldsymbol{6}\cdot 3 + \boldsymbol{4}\\ 
+\boldsymbol{6} &= \boldsymbol{4}
+\cdot 1 + \fbox{$\boldsymbol{2}$}\\ 4 &= 2 \cdot 2 + 0 \qquad 
+\fbox{$\therefore \gcd(22,6) = 2$}
+\end{align*}
+
+\begin{align*}
+33 &= \boldsymbol{24}\cdot 1 + \boldsymbol{9}\\
+\boldsymbol{24} &= \boldsymbol{9} \cdot 2 + \boldsymbol{6}\\
+\boldsymbol{9} &= \boldsymbol{6} \cdot 1 + \fbox{$\boldsymbol{3}$}\\
+6 &= 3 \cdot 2 + 0 \qquad \fbox{$\therefore \gcd(33,24) = 3$} 
+\end{align*}
+
+\begin{align*}
+42 &= \boldsymbol{16}\cdot 2 + \boldsymbol{10}\\
+\boldsymbol{16} &= \boldsymbol{10} \cdot 1 + \boldsymbol{6}\\
+\boldsymbol{10} &= \boldsymbol{6} \cdot 1 + \boldsymbol{4}\\
+\boldsymbol{6} &= \boldsymbol{4} \cdot 1 + \fbox{$\boldsymbol{2}$}\\
+4 &= 2 \cdot 2 + 0 \qquad \fbox{$\therefore \gcd(42,16) = 2$} 
+\end{align*}
+
+\begin{question}
+Can you describe how to do the Euclidean algorithm?
+\end{question}
+\QM
+
+\begin{question}
+Can you explain why the Euclidean algorithm will always stop? Hint:
+Division Theorem.
+\end{question}
+\QM
+
+
+\begin{activitynote}
+Activity \ref{A:GCDwork} complements this section well.  % Why Does It Work? 
+\end{activitynote}
+
+
+The algorithm demonstrated above is called the \textit{Euclidean
+  algorithm} or \textit{Euclid's algorithm} because
+Euclid\index{Euclid} uses it several times in Books VII and X of his
+book \textit{The Elements}. Donald Knuth\index{Knuth} gives a
+description of the Euclidean algorithm in the first volume of his
+series of books \textit{The Art of Computer Programming}. Given
+integers $m$ and $n$, he describes it as follows:
+\begin{quote}
+\begin{enumerate} 
+\item\label{A:E1} [Find remainder.] Divide $m$ by $n$ and let $r$ be the remainder. (We will have $0\le r< n$.)
+\item{[Is it zero?]} If $r=0$, the algorithm terminates; $n$ is the answer.
+\item{[Interchange.]} Set $m \leftarrow n$, $n \leftarrow r$, and go
+  back to step \ref{A:E1}.
+\end{enumerate}
+\end{quote}
+
+\begin{question}
+What do you think of this description? How does it compare to your
+description of the Euclidean algorithm?
+\end{question}
+\QM
+
+While the Euclidean algorithm is handy and fun, its real power is that
+it helps us solve equations. Specifically it helps us solve 
+linear Diophantine equations.
+
+Let's study the following calculations:
+
+\begin{tabular}{lr}
+\begin{minipage}{15em}
+{\begin{align*}
+22 &= 6\cdot 3 + 4 &\Leftrightarrow & &  22-6\cdot 3 &= \boldsymbol{4}\\ 
+6 &= 4\cdot 1 + 2 &\Leftrightarrow  & &  6 - \boldsymbol{4}\cdot 1 &= 2\\ 
+4 &= 2 \cdot 2 + 0 
+\end{align*}}
+\end{minipage}
+&
+\begin{minipage}{15em}
+{\begin{align*}
+6 - 4\cdot 1 &= 2 \\
+6 - (22-6\cdot 3)\cdot 1 &= 2 \\
+6\cdot 4 + 22(-1) &= 2 
+\end{align*}}
+\end{minipage} \\
+\multicolumn{2}{c}{\fbox{$\therefore 22x + 6y =2$ where $x = -1$ and $y = 4$}}
+\end{tabular}
+
+\begin{tabular}{lr}
+\begin{minipage}{15em}
+{\begin{align*}
+33 &= 24\cdot 1 + 9 & \Leftrightarrow & & 33 - 24\cdot 1 &= \boldsymbol{9}\\
+24 &= 9 \cdot 2 + 6 & \Leftrightarrow & & 24 - \boldsymbol{9}\cdot 2 &= \boldsymbol{6}\\
+9 &= 6 \cdot 1 + 3 & \Leftrightarrow & & 9 - \boldsymbol{6} \cdot 1  &= 3\\
+6 &= 3 \cdot 2 + 0  
+\end{align*}}
+\end{minipage}
+&
+\begin{minipage}{15em}
+{\begin{align*}
+9 - 6 \cdot 1  &= 3 \\
+9 - (24 - 9\cdot 2) \cdot 1  &= 3 \\
+9\cdot 3 +  24\cdot(-1)  &= 3 \\
+(33 - 24\cdot 1)\cdot 3 +  24\cdot(-1)  &= 3 \\
+33\cdot 3 + 24\cdot (-4) &=3
+\end{align*}}
+\end{minipage} \\
+\multicolumn{2}{c}{\fbox{$\therefore 33x + 24y =3$ where $x = 3$ and $y = -4$}}
+\end{tabular}
+
+
+\begin{question} 
+Can you explain how to solve Diophantine equations of the form
+\[
+ax + by = g
+\]
+where $g = \gcd(a,b)$?
+\end{question}
+\QM
 
 
 
+The Euclidean algorithm is also useful for theoretical
+questions.
+
+\begin{question} 
+Given integers $a$ and $b$, what is the smallest positive integer that
+can be expressed as
+\[
+ax + by
+\]
+where $x$ and $y$ are also integers?
+\end{question}
+
+\fixnote{This argument could be improved, as could the corresponding activity.}
+
+I'm feeling chatty, so I'll take this one. I claim that $g =
+\gcd(a,b)$ is the smallest positive integer that can be
+expressed as
+\[
+ax + by
+\]
+where $x$ and $y$ are integers. How do I know? Well first, the Euclidean algorithm shows that $g$ can be 
+expressed as a sum $ax + by$.  (Why?)  
+
+Second, suppose there was
+a smaller positive integer, say $s$ where:
+\[
+ax + by = s
+\]
+Hmmm\dots but we know that $g|a$ and $g|b$. This means that $g$
+divides the left-hand-side of the equation. This means that $g$
+divides the right-hand-side of the equation. So $g|s$---but this is
+impossible, as $s< g$. Thus $g$ is the smallest integer that can be
+expressed as $ax +by$.
+
+
+\begin{question} Can you now use the Euclidean Algorithm to prove Euclid's Lemma?
+\end{question}
+\QM
+
+
+\newpage
+\begin{problems}
+\begin{enumerate}
+\item Explain what a \textit{Diophantine equation} is. Give an example
+  and explain why such a thing has real-world applications.
+\item Use the Euclidean algorithm to find: $\gcd(671,715)$,
+  $\gcd(667,713)$, $\gcd(671,713)$, $\gcd(682,715)$, $\gcd(601,735)$,
+  and $\gcd(701,835)$.
+\item Explain the advantages of using the Euclidean algorithm to find
+  the GCD of two integers over factoring.
+\item Find integers $x$ and $y$ satisfying the following Diophantine
+  equations:
+\begin{enumerate}
+\item $671x + 715 y = 11$ 
+\item $667x + 713 y = 69$ 
+\item $671x + 713 y = 1$
+\item $682x + 715 y = 55$
+\item $601x + 735 y = 4$
+\item $701x + 835 y = 15$
+\end{enumerate}
+\item Given integers $a$, $b$, and $c$, explain how you know when a
+  solution to a Diophantine equation of the form
+\[
+ax + by = c
+\]
+exists.
+\item Consider the Diophantine equation:
+\[
+15x + 4y = 1
+\]
+\begin{enumerate}
+\item Use the Euclidean Algorithm to find a solution to this
+  equation. Explain your reasoning.
+\item Compute the slope of the line $15x + 4y = 1$ and write it in
+  lowest terms. Show your work.
+\item Plot the line determined by $15x + 4y = 1$ on graph paper.
+\item Using your plot and the slope of the line, explain how to find
+  $10$ more solutions to the Diophantine equation above.
+\end{enumerate}
+\item Explain why a Diophantine equation 
+\[
+ax + by = c
+\]
+has either an infinite number of solutions or zero solutions.
+\end{enumerate}
+\end{problems}
 
 
 
-
-
-
-
-
-
-
-
+\newpage
 \section{Rational Numbers}
-
 
 Once you are familiar with integers, you start to notice something:
 Given an integer, it may or may not divide into another integer
 evenly. This property is at the heart of our notions of factoring and
 primality. Life would be very different if all nonzero integers
 divided evenly into one another. With this in mind, we introduce
-\textit{rational numbers}.
+\textit{rational numbers}.  
 
 \begin{definition} 
-A \textbf{rational number}\index{rational numbers} can be written as a fraction of
-integers, where the denominator is nonzero.
+A \textbf{rational number}\index{rational numbers} can be written as $\dfrac{a}{b}$ where $a\in\Z$, $b\in\Z$, and $b\ne 0$.
 \end{definition}
 
+In other words, rational numbers can be written as a fraction of integers, where the denominator is nonzero.
 \begin{warning}
 Note the words ``can be'' in the definition.  Rational numbers do not have to be represented as fractions.  And fractions are not necessarily rational numbers.  
 \end{warning}
@@ -1121,7 +1169,7 @@ Which of the following numbers are rational?
 $$\frac{5}{4}, \qquad 718, \qquad \sqrt{2}, \qquad 2.718, \qquad \frac{22}{7}, \qquad \frac{12}{4}, \qquad \frac{\pi}{3}, \qquad \frac{\sqrt{2}}{\sqrt{8}}, \qquad \frac{1}{43}$$
 \end{question}
 
-The set of all \textbf{rational numbers} is denoted by the symbol $\Q$:
+The set of all \textbf{rational numbers} is denoted by the symbol $\Q$: 
 \[
       \Q = \left\{\frac{a}{b}\text{ such that $a\in\Z$ and $b\in\Z$ with $b\ne 0$}\right\}\index{Q@$\Q$}\index{e@$\in$}
 \]
@@ -1302,6 +1350,7 @@ Explain your reasoning.
   habits by cutting his hamburger consumption by $3/4$. How many
   pounds of hamburger a day did Bart eat on his new
   ``low-cholesterol'' diet?  Explain your reasoning.
+\fixnote{The following context is confusing.} 
 \item Courtney and Paolo are eating popcorn. Unfortunately, $1/3$rd of
   the popcorn is poisoned. If Courtney eats $5/16$th of the bowl and
   Paolo eats $5/13$ths of the bowl, did at least one of them eat
@@ -1399,7 +1448,7 @@ Explain your reasoning.
 
 \section{Decimal Representations}
 
-There are two ways that we usually write ``partial numbers'' (i.e., real numbers that aren't whole numbers):  fractions and decimals.  Let's explore the relationship these two number representations and translations between them.  
+There are two ways that we usually write ``partial numbers'' (i.e., real numbers that aren't whole numbers):  fractions and decimals.  Let's explore the relationship between these two representations of numbers.  
 
 \begin{question} How is a ``fraction'' different from a rational number?  
 \end{question}
@@ -1422,7 +1471,7 @@ Now that you've spent your life doing long division, can you carefully explain w
 Here are some cool things you can investigate on the side:
 \begin{itemize}
 \item Some non-terminating decimals have a ``delay'' before they start repeating (most famous one is probably 1/6).  I happen to know 1/123750000 will have a delay of 7 places before the repeating starts.  Can you look at a fraction and predict whether it will or will not have a delay (and how long that delay will be)?   
-\item What are there restrictions to the sizes of the ``blocks'' for the repeating decimal representation of a rational number?  For example, any fraction with denominator 37 can only possibly repeat in blocks of 1, 2, 3, 4, 6, 9, 12, 18, or 36.
+\item What are the restrictions to the sizes of the ``blocks'' for the repeating decimal representation of a rational number?  For example, any fraction with denominator 37 can only possibly repeat in blocks of 1, 2, 3, 4, 6, 9, 12, 18, or 36.
 \end{itemize}
 
 Based on the ideas you have explored, you can prove that a non-terminating decimal representation of a rational number must repeat.  Is the converse true?  Can any repeating decimal be written as a fraction?  It turns out indeed to be the case, as can be found by taking advantage of a nice pattern involving the decimals representations of 1/9, 1/99, 1/999, etc., or by noting that each repeating decimal is a ``geometric series''.
@@ -1432,350 +1481,212 @@ Activities \ref{A:DecNotNice} and \ref{A:Shampoo} complement this section well.
 %% Decimals Aren't So Nice & Shampoo, Rinse, ... 
 \end{activitynote}
 
-Thus, we have it that every rational number can be written as either a terminating or repeating decimal.\standard{8.NS.1}Can every decimal be written as a fraction?  That is, we have that all fractions are decimals, but are all decimals fractions?  Have we let any decimals out in the cold here?
+Thus, we have it that every rational number can be written as either a terminating or repeating decimal.\standard{8.NS.1}  Can every decimal be written as a fraction?  That is, we have that all fractions are decimals, but are all decimals fractions?  Have we let any decimals out in the cold here?
 
 \begin{question} Describe the decimal representations of 3 ``homemade'' decimals that could never be written as fractions of integers.  Explain your thinking.  Warning:  Do \emph{not} say  $\sqrt{2}$, $\pi$, $e$, or the like, unless you are ready to convince the class that these are not rational numbers.
 \end{question}
 \QM
 
-\newpage
-\section{Ratios and Proportional Relationships}
-As a topic in school mathematics, ratios and proportions are often magical entities that bear little relationship with other topics.  Students often learn only, ``Set up a proportion and cross multiply.''   What is a proportion?  Why does cross multiplication work?  
+\subsection{A Note on Infinite Processes}
+Mathematical reasoning often involves ``infinite processes'' in which direct calculation is impossible.\margincomment{This discussion draws heavily on ideas described in \emph{Where Mathematics Comes  From: How the embodied mind brings mathematics into being}  by Lakoff and N\'{u}\~{n}ez (2000).}  Infinite processes become central in calculus, where both differentiation and integration are defined via limits.  These approaches are made rigorous in advanced undergraduate courses, such as Real Analysis.  But infinite processes arise from time to time even in middle grades mathematics, and so it is important that teachers are able to talk about them sensibly and accurately.  Here we explain some key ideas for reasoning about infinite processes.  
 
-For the problems in this section, we encourage you instead to ``write equations and solve.''  These are skills that serve students well throughout school and college mathematics.  
+First, there is the idea of a process that continues, over and over, without end.  
+Here are some examples:
+\begin{quote}
+\begin{itemize}
+\item Perhaps the earliest of these is counting: 1, 2, 3, 4, \dots.  We do not imagine completing the process of counting.  Nonetheless, for any large positive number you name, we can imagine exceeding that number, eventually, if we have enough time.  
+\item We can approximate $1/3$ with a sequence, $0.3$, $0.33$, $0.333$, and so on.  We can get as close to $1/3$ as we like by including enough digits.  Note, on the other hand, that it is false to say that $0.3333 = 1/3$ or even $0.3333333333 = 1/3$, because any finite number of digits will miss $1/3$ by an amount that can be calculated precisely.  
+\item If we look at a sequence of regular $n$-gons of the same diameter, as $n$ gets large, we can get as close to a circle as we might like.  But for any finite number of sides, the regular $n$-gon will not actually be a circle.  
+\end{itemize}
+\end{quote}
 
-As you solve these problems, note how they simultaneously build on understandings of fractions and pave the way for functions.  
+The above examples use what is sometimes called \emph{potential infinity}, for in none of the cases do we actually complete the process, and we do not need to.  We imagine these things as going on ``forever,'' and a process that goes on forever never ends.  
 
-\fixnote{This section needs elaboration.}
+But the interesting uses of infinity in mathematics involve \emph{actual infinity}.  
+\begin{question}
+In each of the above examples, what would happen if the process could end?
+\end{question}
+\QM
 
-\begin{activitynote}
-Activities \ref{A:ratios},  \ref{A:ratioOddities}, and \ref{A:ProblemSolved} complement this section well. 
-%% Poor Old Horatio
-%% Ratio Oddities
-%% Problem Solved
-As a conclusion, we suggest doing Activity \ref{A:dreadedStoryProblem}.
-\end{activitynote}
+In order to conceptualize actual infinity, we imagine, metaphorically, that the process \emph{does} end.  In a literal sense, an infinite process cannot end, but through the use of metaphor, we consider what would happen if the process were to end.  And with the help of intuitions about completed processes, we then infer the ``ultimate result'' of the completed infinite process.    
+
+With the metaphor of actual infinity, counting yields the infinite set of counting numbers, $\N$.  All of them.  In the repeating decimal for $1/3$, we get an exact decimal representation, so that $0.33333\ldots = 1/3$.  Exactly.  And in the case of the regular $n$-gon with an infinite number of sides, we get a circle.  Perfectly.  
+
+\begin{warning}
+With the metaphor of actual infinity, it is \emph{false} to say that $0.3333\ldots$ never gets to $1/3$ because the dots imply that the infinite process has been completed.  Although any finite number of digits fails reach $1/3$, an infinite number of digits reaches $1/3$ exactly:  The error has gone to 0.  
+\end{warning}
+
+In summary, reasoning about infinite processes involves the following steps:  
+\begin{quote}
+\begin{enumerate}
+\item Describing the finite process carefully and accurately;
+\item Considering the process to go on forever, and describing how the result can get arbitrarily close to some goal;
+\item Imagining that the infinite process has been completed; and
+\item Reasoning about the ``ultimate result'' of the infinite process.
+\end{enumerate}
+\end{quote}
+
+For some infinite processes, it is quite helpful in the second and fourth steps to talk about the ``error,'' which is to say how much the finite process falls short of the ultimate goal, and then to argue that the error becomes arbitrarily small (i.e., it goes to 0). 
+
+\vspace{0.2in}
+
+Happy infinite reasoning!   
 
 \newpage
 
 \begin{problems}
-
 \begin{enumerate}
-\item A baseball coach once asked me the following question: If a
-  pitcher can throw a 90 mph pitch during a game, but can only
-  sustain a 60 mph pitch during practice, how close should the pitcher
-  stand during practice to ensure that the amount of time it takes the
-  ball to reach home plate is the same in practice as it is in the
-  game? Explain your reasoning.
 
-\item Three brothers and a sister won the lottery together and plan to
-  share it equally. If the brothers alone had shared the money, then
-  they would have increased the amount they each received by \$20. How
-  much was won in the lottery? Explain your reasoning.
+\subsection*{Exercises}
 
-\item Chris is working on his Fiat. His car's cooling system holds 6
-  quarts of coolant, and should be filled with a 50/50 mix of antifreeze 
-and water. Chris noticed that the car was 1 quart low with the correct 50/50 mix.  
-But then he added a 25/75 mix, 25 parts antifreeze, and 75 parts water.  How
-  much coolant does he have to remove from the cooling system to then
-  add 100 percent antifreeze to restore his desired 50/50 mix? Explain
-  your reasoning.
+\item What does $3.417$ mean in the base-ten place-value system?  Using the rectangle below as $1$, draw a picture the illustrates the place-value meaning of $3.417$.  Draw as accurately as you can, indicating how the picture would be drawn perfectly (if you could).  Indicate whether your model is primarily about length, area, or something else.  
 
-\item If a hen and a half lays an egg and a half in a day and a half, 
-how many eggs will 6 hens lay in 4 days?  How many days will it take for 
-8 hens to lay 16 eggs?  How many hens would it take to lay 12 eggs in 
-three days?  How many hens would it take to lay a dozen eggs per week?  
-In each case, explain your reasoning.  
+\vspace{.5cm}
+\begin{tikzpicture}
+\draw [thick] (0,0) -- (4,0) -- (4,.6) -- (0,.6) -- (0,0);
+\end{tikzpicture}
 
-\item Fred and Frank are two fitness fanatics on a run from $A$ to
-  $B$. Fred runs half the way and walks the other half. Frank runs for
-  half the time and walks for the other half. They both run at the
-  same speed and they both walk at the same speed. Who finishes first?
-\begin{enumerate}
-\item Before any computations are done, guess the
-  solution to this problem and record your guess.  
-\item Try to get a feel for this problem by choosing numbers for the
-  unknowns and doing some calculations. What do these calculations say
-  about your initial guess?
-\item Use algebra to solve the problem.  What does your solution say 
-about your initial guess?  
+\item Plot $3.417$ on each of the following number lines, zooming in to show how to make the placement more accurate at each step.  Draw dotted curves (as shown) to indicate where the zooming takes place, and label the large tick marks on each number line.  
+\vspace{0.5cm}
+
+\begin{tikzpicture}[scale=0.8]
+% a straight line segment
+\draw [thick, <->] (-0.5,0) -- (10.5,0);
+% the ticks and their labels
+\foreach \x  in {0,...,10}
+  \draw[xshift=\x cm] (0pt,2pt) -- (0pt,-2pt) node[below,fill=white] {\the\numexpr\x \relax};
+
+\draw[dashed, blue] plot [smooth] coordinates{(3,-0.6) (3,-0.65) (2.7,-1) (2,-1.2) (1,-1.4)  (0.3,-1.6) (0,-1.95) (0,-2)};
+\draw[dashed, blue] plot [smooth] coordinates{(4,-0.6) (4,-0.65) (4.3,-1) (5,-1.2) (9,-1.4)  (9.7,-1.6) (10,-1.95) (10,-2)};
+\end{tikzpicture}
+
+\begin{tikzpicture}[scale=0.8]
+% a straight line segment
+\draw [thick, <->] (-0.5,0) -- (10.5,0);
+% the ticks and their labels
+ \draw[xshift=0 cm] (0pt,4pt) -- (0pt,-4pt) node[below,fill=white] {\the\numexpr3 \relax};
+\foreach \x  in {1,...,9}
+  \draw[xshift=\x cm] (0pt,2pt) -- (0pt,-2pt);
+ \draw[xshift=10 cm] (0pt,4pt) -- (0pt,-4pt) node[below,fill=white] {\the\numexpr4 \relax};
+\end{tikzpicture}
+
+\vspace{0.8cm}
+
+\begin{tikzpicture}[scale=0.8]
+% a straight line segment
+\draw [thick, <->] (-0.5,0) -- (10.5,0);
+% the ticks and their labels
+ \draw[xshift=0 cm] (0pt,4pt) -- (0pt,-4pt) ; 
+\foreach \x  in {1,...,9}
+  \draw[xshift=\x cm] (0pt,2pt) -- (0pt,-2pt);
+ \draw[xshift=10 cm] (0pt,4pt) -- (0pt,-4pt) ; 
+\end{tikzpicture}
+
+\vspace{1.2cm}
+
+\begin{tikzpicture}[scale=0.8]
+% a straight line segment
+\draw [thick, <->] (-0.5,0) -- (10.5,0);
+% the ticks and their labels
+ \draw[xshift=0 cm] (0pt,4pt) -- (0pt,-4pt) ; 
+\foreach \x  in {1,...,9}
+  \draw[xshift=\x cm] (0pt,2pt) -- (0pt,-2pt);
+ \draw[xshift=10 cm] (0pt,4pt) -- (0pt,-4pt) ; 
+\end{tikzpicture}
+
+\vspace{0.4cm}
+
+\item How would your plotted points in the four number lines have been different if the number had been 341.7?  What about 0.003417?  Or 34,170,000?   What does your answer say about the consistent structure of the base-ten place value system?  (Hint:  In each number, how does the meaning of the 4 compare to the meaning of the 1 to its right?   How does the meaning of the 4 compare to the meaning of the 3 to its left?)  
+
+\item How would your plotted points in the four number lines have been different if the number had been 3.41708?  What about 3.41708667999?  Explain.  
+
+\item You should know or be able to figure out (in your head) decimal equivalents of fractions with many small  or ``nice'' denominators (i.e., 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 16, 20, 25, 30, 40, and 50).  Describe how to figure out quickly any that you might forget.  
+
+\item Here is a nice relationship between twelfths and eighths:  $1/8\approx 0.12$ and $1/12\approx 0.08$.  Find other such pairs, and explain why the pairs ``work'' this way.   
+
+\item Compare the decimal representations of $\frac{1}{7}$, $\frac{2}{7}$, $\frac{3}{7}$, $\frac{4}{7}$, $\frac{5}{7}$, and  $\frac{6}{7}$.
+\begin{enumerate}  
+\item Notice that the repeating digits always appear in the same order.  Explain why this is the case.
+\item Suppose you are able to remember the decimal representation of $\frac{1}{7}$.  Explain how to use that to write quickly the decimal representation of any of the other sevenths.  
 \end{enumerate}
 
-\item Andy and Sandy run a race of a certain distance. When Sandy finishes, 
-she is $1/10$ of the distance ahead of Andy, who then finishes the race. 
-After some discussion, Andy and Sandy decide to race the distance again, but this time Sandy
-  will start $1/10$ of the distance behind Andy (at the starting line) to ``even-up'' the
-  competition. Who wins this time?  Explain your reasoning.  
-\begin{enumerate}
-\item Before any computations are done, guess the
-  solution to this problem and record your guess.  
-\item Try to get a feel for this problem by choosing numbers for the
-  unknowns and doing some calculations. What do these calculations say
-  about your initial guess?
-\item Use algebra to solve the problem.  What does your solution say 
-about your initial guess?  
+\item 
+Compare the decimal representations of $\frac{1}{13}$, $\frac{2}{13}$, \dots,  $\frac{12}{13}$.  
+\begin{enumerate}  
+\item Describe carefully how the order of the digits is somewhat like and also different from what you noticed for sevenths.  
+\item Explain why the decimal representations of thirteenths work as you described.
 \end{enumerate}
 
-\item You have two beakers, one that contains water and another that
-  contains an equal amount of oil. A certain amount of water is
-  transferred to the oil and thoroughly mixed. Immediately, the same
-  amount of the mixture is transferred back to the water. Is there now
-  more water in the oil or is there more oil in the water?
+\item Without a calculator, predict whether the decimal representations of the following numbers will terminate or not.  For those that terminate, predict the number of decimal places.  
 \begin{enumerate}
-\item Before any computations are done, guess the
-  solution to this problem and record your guess.
-\item Try to get a feel for this problem by choosing numbers for the
-  unknowns and doing some calculations. What do these calculations say
-  about your initial guess?
-\item Use algebra to solve the problem.  What does your solution say 
-about your initial guess?  
+\item $\dfrac{13}{400}$
+\item $\dfrac{11}{70}$
+\item $\dfrac{21}{70}$
+\item $\dfrac{27}{6250}$
+\item $\dfrac{23}{2^7\cdot 5^2}$
+\item $\dfrac{23}{2^7\cdot 5^2\cdot 11}$
+\item $\dfrac{22}{2^7\cdot 5^2\cdot 11}$
 \end{enumerate}
 
-\item While on a backpacking trip Lisa hiked five hours, first along a
-  level path, then up a hill, then turned around and hiked back to her
-  base camp along the same route. She walks $4$ miles per hour on a
-  level trail, $3$ uphill, and $6$ downhill. Find the total distance
-  traveled. Explain your reasoning.
-\item Three drops of \textit{Monica's XXX Hot Sauce} were mixed with
-  five cups of chili mix to make a spicy treat---the hot sauce is much
-  hotter than the chili. Later, two drops of \textit{Monica's XXX Hot
-    Sauce} were mixed with three cups of chili. Which mixture is
-  hotter? 
+\item The clearest way to demonstrate that a number is rational is to show that it satisfies the definition.  (What is the definition of a rational number?)  Show that the following numbers are rational:  
+\begin{enumerate}
+\item $0.\overline{324}$
+\item $15.\overline{324}$
+\item $0.15\overline{324}$
+\item $0.2\overline{5643}$
+\end{enumerate}
 
-Josh made the following observation:  ``If two different recipes are added 
-together, the result will be a chili with hotness between the two.''  Explain
-why this makes sense.  
 
-To compare the given recipes, Josh suggested using this reasoning backwards, 
-as follows:  
- 
-\begin{itemize}
-\item Remove the second (recipe) from the first, that is: Start with 3
-  drops of hot sauce and 5 cups of chili, and remove 2 drops and 3
-  cups. So we are now comparing
+\subsection*{Generalizations}
+\item Use long division to explain why the decimal representation of a rational number must either terminate or repeat.
+
+\item Suppose $\frac{m}{n}$ is a rational number in lowest terms.  If the number's decimal representation terminates, what can you conclude about $m$ and about $n$?  Explain.  
+
+\item Suppose $\frac{m}{n}$ is a rational number in lowest terms.  If you know the number's decimal representation repeats, what can you conclude about the number of repeating digits?  Explain.  
+
+\item You have seen three types of decimal representations for rational numbers between 0 and 1:  terminating, repeating, and delayed-repeating.  Suppose that $m$ and $n$ are counting numbers with no common factors and $m<n$.  Explain why the type of decimal representation of $\frac{m}{n}$ depends only on $n$ and not on $m$.  Hint:  Consider the three types separately.  
+
+\subsection*{Explorations}
+
+\item The rational number $\frac{1}{19}$ has decimal representation $0.\overline{052631578947368421}$.  To verify this, your calculator is unlikely to display enough digits, and long division would be quite tedious.  Devise a method for ``piecing together'' this decimal representation in ``chunks,'' using your calculator.  Then use the method to compute the decimal representation of $\frac{7}{23}$.  Be sure to indicate how you know that it repeats as you claim.  
+
+\item Given a prime number $p$, find the smallest positive integer $n$ so that $p$ divides $10^n-1$, or explain why there is no such integer $n$.  
+\begin{enumerate}
+\item Do this for all primes less than 15, and also for the primes 37, 41, 73, and 101.
+\item For each prime, compare the $n$ you found with the number of repeating digits in the decimal representation of $\frac{1}{p}$.  
+Make a conjecture about what you notice.  
+\end{enumerate}
+
+\item Explain $2.7\times 3.4$ in \textbf{two different ways}.  Be sure your explanations address two key questions:  (i) Why can you almost ignore the decimal point and multiply as though the digits described whole numbers?  And (ii) How do you know where to place the decimal point in the result?  Here are some ideas:  
+\begin{enumerate}
+\item Use behind the scenes algebra to explain why the digits in the  $27\times 34$ should be the same as the digits in the desired product $2.7\times 3.4$.  
+\item Convert the decimals to fractions, compute the product of the fractions, and then convert the result to a decimal.  
+\item Use the picture below to compute $2.7\times 3.4$ with neither an algorithm nor a calculator.  Explain your reasoning.  
 \[
-\text{1 drop and 2 cups}\qquad\text{with}\qquad\text{2 drops and 3 cups.}
+\begin{tikzpicture}[scale=2]
+%\draw [line width=0.1pt,gray!30,step=1mm] (0,0) grid (3.4,2.7);
+%\draw [help lines] (0,0) grid (3.4,2.7);
+\draw (0,0) grid (3,2);
+\draw [xstep=1cm,ystep=1mm] (0,-0.7) grid (3,0);
+\draw [xstep=1mm,ystep=1cm] (3,0) grid (3.4,2);
+\draw [xstep=1mm,ystep=1mm] (3,-0.7) grid (3.4,0);
+\end{tikzpicture}
 \]
-\item Now remove the first from the second, that is: Start with 2
-  drops and 3 cups, and remove 1 drop and 2 cups. So we are now
-  comparing
-\[
-\text{1 drop and 2 cups}\qquad\text{with}\qquad\text{1 drop and 1
-  cup.}
-\]
-\end{itemize}
-Now you can see that the second is more concentrated (and hence
-hotter!) than the first. Is this correct? Will this strategy
-always/ever work? Explain your reasoning.
+\item Explain why the above picture can also represent either $27\times 34$.  Explain the lengths and areas for both calculations.  
+
+\end{enumerate}
+
+\item Explain $3.96\div 2.4$ in \textbf{two different ways}.  Be sure your explanations address two key questions:  (i) Why can you almost ignore the decimal point and divide as though the digits described whole numbers?  And (ii) How do you know where to place the decimal point in the result?  Here are some ideas:  
+\begin{enumerate}
+\item Use the measurement model of division to reason how many groups of size $2.4$ are in $3.96$.
+\item Use bundles or base ten blocks where the single stick or unit block represents a quantity other than 1.  
+\item Multiply both the quotient and divisor by a suitable power of 10 and then divide.  
+\item Convert both decimals to fractions, divide the fractions, then convert the result back to a decimal.  
+\item Divide $396$ by $24$ and then use estimation to place the decimal point.  
+\end{enumerate}
+
 \end{enumerate}
 \end{problems}
 
-\section{Sequences and Functions}
 
-\begin{activitynote}
-Activities \ref{A:walk} through \ref{A:gardenVariety} are intended for this section.  
-%%  Walk the Line  \ref{A:walk} 
-%%  Constant Amount Change  \ref{A:ConstantAmount}
-%%  Constant Percentage (Ratio) Change  \ref{A:ConstantRatio}
-%%  Rules of Exponents  \ref{A:ExponentRules}
-%%  Garden Variety \ref{A:gardenVariety}
-\end{activitynote}
-
-\paragraph{Sequences.}  Because "Sequences and Series" is a common topic in calculus and precalculus courses, the concept of sequence is often considered an advanced topic in high schools, but the idea of a sequence is much more elementary.  In fact, many patterns explored in grades K-8 can be considered sequences.  For example, the sequence $4, 7, 10, 13, 16, \dots$ might be described as a ``plus 3 pattern'' because terms are computed by adding 3 to the previous term.  
-\begin{definition}
-A \textbf{sequence}\index{sequence} is an ordered set of numbers or other objects.  The numbers or objects are called the \textbf{terms} of the sequence.  
-\end{definition}
-
-\paragraph{Functions.}  In the Common Core State Standards, students begin formal study of functions in grade 8.\standard{8.F.1}  
-In high school, the approach to functions becomes more formal, through the use of function notation and with explicit attention to the concepts of domain and range.\standardhs{F-IF.1}   
-
-\begin{definition}
-A \textbf{function}\index{function} is a rule in which each input value determines a corresponding output value.  The \textbf{domain}\index{domain} of a function is the set of input values.  The \textbf{range}\index{range} of the function is the set of output values.
-\end{definition}
-
-\paragraph{Sequences Are Functions.} As students begin formal study of functions, it makes sense to use their patterning experience as a foundation for understanding functions.\standardhs{F-IF.3}  To show how the sequence above can be considered a function, we need an \textit{index}, which indicates which term of the sequence we are talking about, and which serves as an input value to the function.  After deciding that the 4 corresponds to an index value of 1, we can make a table showing 
-the correspondence.\marginfigure{\footnotesize\sffamily
-      \begin{tabular}{c||c|c|c|c|c|c}
-        $n$ & 1 & 2 & 3 & 4 & 5 & \dots \\
-\hline
-        $f(n)$ & 4 & 7 & 10 & 13 & 16 & \dots
-      \end{tabular}
-\normalfont}
-
-Although sequences are sometimes notated with subscripts, function notation can help students remember that sequences are functions.\margincomment{We recommend using subscript notation only in advanced high school courses.}  For example, the sequence can be described recursively by the rule $f(1) = 4$, $f(n+1) = f(n) + 3$ for $n \geq 2$.  Notice that the recursive definition requires both a starting value and a rule for computing subsequent terms.   
-The sequence can also be described with the closed (or explicit) formula  $f(n) = 3n + 1$, for integers $n \geq 1$.  Notice that the domain (i.e., integers $n\geq 1$) is included as part of the description.  When a function is given without an explicit domain, the assumption is that the domain is all values for which the expression is valid.  Thus, the function $g(x) = 3x + 1$ appears to be essentially the same as the function $f$ because the formula is the same and because $f(n) = g(n)$ for all positive integers.  To see that the functions are different, observe that $g(2.5) = 8.5$, but $f(2.5)$ is undefined.  
-
-A common habit in school mathematics is creating a table of $(x,y)$ pairs, plotting those pairs (as dots), and then ``connecting the dots.''  The above discussion demonstrates that this habit is sometimes not appropriate: A graph\marginfigure{\includegraphics[width=2in]{../graphics/Graph-F2.pdf}} 
-of the sequence consists of discrete dots, because the specification does not indicate what happens ``between the dots.''  Connecting the dots requires the assumption that domain values between the dots make sense in some way.  
-
-
-\begin{question}
-In your own words, what does it mean to say that sequences are functions?
-\end{question}
-
-\begin{question}
-Given that $f(1) = f(2) = 1$, and $f(n+1) = f(n)+f(n-1)$ for integers $n>2$, find $f(6)$.  
-\end{question}
-
-\paragraph{Arithmetic and Geometric Sequences.}\standardhs{F-BF.2}  
-\begin{definition}
-An \textbf{arithmetic sequence} has is a constant difference between consecutive terms.  A \textbf{geometric sequence} has a constant ratio between consecutive terms.  Some sequences, of course, are neither arithmetic nor geometric.
-\end{definition}
-\begin{question}
-For each of the following sequences, decide whether it is arithmetic, geometric, or neither, and explain your reasoning:
-\begin{itemize}  
-\item $1, 4, 9, 16, 25, \dots$
-\item $4, 8, 16, 32, \dots$
-\item $2, 4, 6, 8, 2, 4, 6, 8, \dots$
-\item $-2, 5, 12, 19, \dots$
-\end{itemize}
-Can you write both recursive and explicit formulas for each of these sequences?  
-\end{question}
-
-Beginning in about grade 8, much of school mathematics is devoted to the study of linear, quadratic, and exponential functions.\standardhs{F-LE.2}  Here we provide only definitions and key questions about these types of functions.  
-
-\begin{itemize}
-\item A linear function is of the form $f(x) = ax + b$, where $a$ and $b$ are real numbers and $a\ne 0$.  What do $a$ and $b$ tell you about the linear function?  
-\item A quadratic function is of the form $f(x) = ax^2 + bx + c$, where $a$,  $b$, and $c$ are real numbers and $a\ne 0$.  What do $a$, $b$, and $c$ tell you about the function?  Why is it important to specify that $a\ne 0$? 
-\item An exponential function is of the form $f(x)=ab^x$, where $a$ and $b$ are real numbers and $b>0$.  What do $a$ and $b$ tell you about the function? 
-\end{itemize}
-
-How can you identify these types of functions in tables, graphs, symbols, and contexts?\standardhs{F-IF.4} \standardhs{F-IF.7}  
-For example, how can you recognize the slope in the graph of a linear function?  What about in a table, in a symbolic expression, or in a context?  
-
-\begin{question}
-An arithmetic sequence is what kind of function?  Explain. 
-\end{question}
-\begin{question}
-A geometric sequence is what kind of function?  Explain.  
-\end{question}
-
-\begin{question}
-Sometimes quadratic functions are written in the form $f(x) = a(x-h)^2+k$, where $a$, $h$, and $k$ are real numbers and $a\ne 0$.  What do $a$, $k$, and $h$ tell you about the function?  What are the advantages and disadvantages of this form of a quadratic, as compared to the alternative form given above?  
-\end{question}
-
-\paragraph{Concluding Remarks.}  When studying arithmetic and geometric sequences, it is tempting to encapsulate common results into compact formulas.  But formulas are easily confused with one another and otherwise misremembered.  Furthermore, general formulas often obscure the ideas.  
-
-\begin{question}
-Find the missing terms in the following arithmetic sequence:  
-$$\rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt},  2,  \rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt}, 6, \dots$$
-Explain your reasoning.  
-\end{question}
-
-\begin{question}
-Find exact values (not decimal approximations) for the missing terms in the following geometric sequence:  
-$$\rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt},  2,  \rule[-2pt]{25pt}{.5pt},  \rule[-2pt]{25pt}{.5pt}, \rule[-2pt]{25pt}{.5pt}, 6, \dots$$
-Explain your reasoning.  And describe how this problem and the rules of exponents might be used to explain the connection between radicals and exponents.  
-\end{question}
-
-\begin{question}
-What key ideas behind arithmetic and geometric sequences did you use in the previous two problems? 
-\end{question}
-
-\begin{center}
-\textbf{With the ideas, you can reconstruct the formulas you need.  And without the ideas, formulas are empty.}  
-\end{center}
-
-\newpage
-
-\section{Series}  
-\begin{definition}
-A \textbf{series} is a sum of consecutive terms from a sequence.  A series with terms that form an arithmetic sequence is called an \textbf{arithmetic series}.  
-\end{definition}
-
-\begin{activitynote}
-Activities \ref{A:doesntAddUp} and \ref{A:WorldSeries} are intended for this section.  
-%%  Something Doesn't Add Up  \ref{A:doesntAddUp}
-%%  World Series \ref{A:WorldSeries}
-\end{activitynote}
-
-\begin{question}
-Find the sum:  $1 + 3 + 5 + \dots + 4999.$  (First explain how you know this is an arithmetic series.)
-\end{question}
-\QM
-
-In mathematics teaching and learning, it is useful to distinguish \emph{problems} from  \emph{excercises}. \emph{Problems} require that you formulate a solution strategy, whereas \emph{exercises} are about using a procedure that you have been taught.\margincomment{Problem solving is an essential part of mathematics.}  Whether a question is a problem or an exercise depends upon the learner.  
-\begin{question}
-Is the previous question a problem or an exercise for you?  
-\end{question}
-
-When analyzing any series, it is often useful to consider the \emph{sequence of partial sums}.  For example, in response to the above question, the sequence of partial sums is as follows:  $$1, \qquad 1 + 3, \qquad 1+ 3+5, \qquad 1+3+5+7, \qquad \dots$$
-
-Sometimes you can see a pattern in the sequence of partial sums.  Making a conjecture about a pattern is a type of inductive reasoning.  Once you notice a pattern, an important next step is showing, deductively, that the pattern \emph{must} continue.  
-
-For arithmetic series, here are some approaches that can lead to general deductive arguments for the sum: 
-
-\begin{itemize}
-\item Consider pairing the first term with the last term, the second term with the second-to-last term, and so on.  What do you notice about the sum of each of these pairs?  And how many such pairs are in the whole series?  
-\item Consider the average of each of the same pairs.  How might those averages help determine the sum of the whole series?  
-\item Consider writing the series backward immediately below a forward version, line up the terms, and then add vertically.  
-\end{itemize}
-
-\begin{question}
-Use one of these approaches to show that the sum is what it is.  Can you use a picture to illustrate your reasoning?    
-\end{question}
-\QM
-
-\begin{question}
-When you consider the sequence of partial sums of an arithmetic series, what kind of function(s) can you get?  Explain.  
-\end{question} 
-\QM
-
-\begin{definition}
-A series with terms that form a geometric sequence is called a \textbf{geometric series}.  
-\end{definition}
-
-\begin{question}
-Find the sum:  $\frac{2}{3}+\frac{2}{9}+\dots+\frac{2}{3^{10}}$.  (First explain how you know the series is geometric.)
-\end{question}
-\QM
-
-For the question above, it is not hard to see a pattern in the sequence of partial sums.  In fact, it is reasonable to believe that the pattern holds for any (finite) partial sum of the infinite geometric series $\frac{2}{3}+\frac{2}{9}+\dots$.  But to show that the pattern always holds, we need a general argument.  
-
-For geometric series, the techniques for arithmetic series do not carry over.  Instead, observe that if you multiply the series by the common ratio, the resulting series has most of the same terms as the original series.  Thus, the difference between the two series (i.e., subtract the two) is a short expression that is not hard to work with.  
-
-\begin{question}
-Use these ideas to show that the sum is what it is.  Can you use a picture to illustrate this sum?    
-\end{question}
-\QM
-
-\begin{question}
-Convert $0.\overline{42}$ to a fraction.  What connections do you see with geometric series?  
-\end{question}
-\QM
-
-\begin{question}
-Explain briefly the key ideas behind finding the sum of an arithmetic series. Then do the same for geometric series.  
-\end{question}
-\QM
-
-
-\newpage
-\begin{problems}
-\begin{enumerate}
-
-\item Joey starts out with \$456.  He plays one hand of poker each day with the same stakes of \$10.  Because he doesn't know anything about poker, he is on an extended losing streak.  Write explicit and recursive representations for the amount of money Joey has after $n$ days.  
-      
-\item Suppose Buzz Aldrin could fold a piece of paper in half as many times as he wanted---for rectangular paper of any size.  How many folds would Buzz need for the thickness of the paper to reach or exceed the distance from the earth to the moon?  How many folds would it take to reach or exceed halfway to the moon?
-
-\item A ball is thrown up in the air from a 200 foot cliff with an initial velocity of 15 feet per second.  What is the height of the ball at any time $t$?  Write explicit and recursive representations of the relationship between the time after the ball is thrown and its height above the base of the cliff.
-
-\item While waiting for Mark Pi to arrive to address the Mathematics Party, the members all shake hands with one another.  When Mark Pi walks in, he shakes hands with the only the big-wigs of the Party.  A total of 6357 handshakes took place that day, and no one shook hands with the same person more than once.  How many members were there?  How many big-wigs were there?
-
-\item If you deposit \$347 at the beginning of each year (starting on Jan. 1, 2014), into an account that compounds interest annually at a rate of 6.7\%, how much will be in the account on January 2, 2056?
-
-\item You take out a \$100,000 loan on Jan. 1, 2014 to buy one Michigan ticket.  The loan shark charges 13\% annual interest.  You agree to pay back the loan through equal annual payments beginning on Jan. 1, 2015 and ending with the final payment on Jan. 1, 2028.  How much should each annual payment be? How much interest will you pay over the course of the payment plan?  If you hit the lottery on Dec. 31, 2020 and decide to pay off the rest of the loan the next day, how much will you owe?
-
-\item 5 mg of a drug are administered to a patient at the start of a treatment regimen.  Each day at the same time, 3 more mg of the drug is administered.  Assuming that the drug still dissipates by 21\% each day, how much of the drug will be in the body immediately following the 3$4^\mathrm{th}$ 3 mg dose?
-
-\item Find the fractional representation of the number $0.78\overline{4396}$.
-
-\item A park consists of a row of circular gardens.  The ``Garden 0'' has radius 3 feet, and each successive garden after that has a radius 2 feet longer than the previous garden.  If there are 37 gardens, how much total area would the gardens comprise?
-
-\item During their hour play time, the two oldest Brady kids (Greg and Marcia) went to the park to play with their walkie-talkies.  They used them for an hour.  The next day, the next-oldest kid came along.  Because there were only two walkie-talkies, they needed to share so that each possible pair got equal time.  The next day, the next-oldest also came along.  This continued until on the ninth day, all ten kids were there wanting to use the walkie-talkies.  How much time did Greg and Marcia spend with each other on the walkie-talkies over the course of the nine days?
-
-\item Find the total number of gifts given in the song ``The 365 Days of Christmas''.
-
-\end{enumerate}
-\end{problems}
 
