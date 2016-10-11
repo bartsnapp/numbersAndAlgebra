@@ -1,29 +1,31 @@
 \newpage
 \section{Prome Factorization}\label{A:Prome}
 
-%The point of this activity is to see a number system in which unique factorization fails.  It turns out that Euclid’s Lemma also fails in this system, so it would help to begin the class with the following questions:  
-%
-%If 7|ab (where a and b integers), does it follow that 7 must divide either a or b? 
-%If 14|ab (where a and b integers), does it follow that 14 must divide either a or b? 
-%
-%Through discussion, students should decide that the answers are “yes” and “no,” respectively, and the reason is that 7 is prime but 14 is not.  Some students should realize that, in the second case, the factors of 2 and 7 (of 14) might be “split” between a and b.  This realization can be summarized in the following statement: 
-%
-%Suppose a and b are integers and p is prime.  If p|ab, then p|a or p|b.  
-%
-%This fact is called Euclid’s Lemma, although the students will not be responsible for its name.  We accept it without proof.  
-%
-%The purpose of questions 1-4 is to see that this number system is very much like the integers:  You can always add, subtract, and multiply, but you cannot necessarily divide.  Students can use their reasoning about integers to explain these facts about the system 3Z.  
-%
-%The purpose of questions 5-7 is to notice that both Euclid’s Lemma and Unique Factorization fail in this number system.  Some examples:  
-%
-%36 = 3x13 = 6x6
-%72 = 3x24=6x12
-
-\fixnote{Incorporate \LaTeX comments into a teaching note.}  
-
 \begin{teachingnote}
-In the course, we first assume Euclid's Lemma and use it to prove the Fundamental Theorem of Arithmetic (FTA).  Here both Euclid's Lemma and the FTA fail.
+In the course, we first assume Euclid's Lemma and use it to prove the Fundamental Theorem of Arithmetic (FTA).  In this activity, both Euclid's Lemma and the FTA fail.
+
+It might help to begin the class with the following questions:  
+\begin{itemize}
+\item If $7|ab$ (where $a$ and $b$ integers), does it follow that $7$ must divide either $a$ or $b$? 
+\item If $14|ab$ (where $a$ and $b$ integers), does it follow that $14$ must divide either $a$ or $b$? 
+\end{itemize}
+
+Through discussion, students should decide that the answers are ``yes'' and ``no,'' respectively, and the reason is that 7 is prime but 14 is not.  Some students should realize that, in the second case, the factors of 2 and 7 (of 14) might be ``split'' between $a$ and $b$.  This realization can be stated as Euclid's Lemma:  
+
+\begin{center}
+Suppose $a$ and $b$ are integers and $p$ is prime.  If $p|ab$, then $p|a$ or $p|b$.  
+\end{center}
+
+Students are not be responsible for its name.  At this point, we accept it without proof.  
+
+The purpose of questions 1-4 is to see that this ``new'' number system is very much like the integers:  You can always add, subtract, and multiply, but you cannot necessarily divide.  Students can use their reasoning about integers to explain these facts about the system $3\Z$.  
+
+The purpose of questions 5-7 is to notice that both Euclid's Lemma and Unique Factorization fail in this number system.  Some examples:  
+
+$$36 = 3\times 13 = 6\times 6$$
+$$72 = 3\times 24=6\times 12$$
 \end{teachingnote}
+
 
 Let's consider a crazy set of numbers---all multiples of $3$. Let's
 use the symbol $3\Z$ to denote the set consisting of all multiples of
@@ -65,6 +67,9 @@ your reasoning.
 Given any two integers in $3\Z$, will their difference be in $3\Z$?
 Explain your reasoning.
 \end{prob}
+\begin{teachingnote}
+Yes, but students might need to be reminded that $3\Z$ includes negative integers.  
+\end{teachingnote}
 
 \begin{prob}
 Given any two integers in $3\Z$, will their product be in $3\Z$?

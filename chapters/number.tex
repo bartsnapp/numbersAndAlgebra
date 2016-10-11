@@ -35,7 +35,9 @@ In case you're wondering, the symbol $\Z$ is used because
 \textit{Zahlen} is the German word for ``numbers.'' 
 
 \subsection{Addition}
-\fixnote{In these sections, provide several meanings directly.  Fewer questions for them.}
+\begin{teachingnote}
+Key meanings of addition are ``adding to'' and ``putting together.''
+\end{teachingnote}
 
 Addition is probably the first operation we learn.    
 
@@ -182,7 +184,8 @@ an integer $q$ such that
 \[
 n = dq.
 \]
-In this case we write $d | n$, which is said: ``$d$ divides $n$.'' 
+In this case we write $d \mid n$, which is said: ``$d$ divides $n$.''  If $d$ does not divide $n$, 
+we sometimes write $d \nmid n$.  
 \end{definition}
 
 While this may seem easy, it is actually quite tricky. You must always
@@ -405,7 +408,10 @@ for $n$ and $d$?
 \QM
 
 \begin{teachingnote}
-The second part of this question might be too hard for most students.
+Highlight uniqueness:  The requirement that  $0 \le r < d$ makes both $d$ and $r$ unique.  Without that requirement, 
+many $d$ and $r$ pairs will work.  
+
+The second part of this question is quite challenging.  Some specific examples can help.  
 \end{teachingnote}
 
 
@@ -636,7 +642,9 @@ explanations must be general, not based on specific examples.
   negative it means \textit{face South and take $|x|$ steps.} If $y$
   is positive it means your step is a \textit{forward step of $y$
     inches.} If $y$ is negative it means your step \textit{is a
-    backward step of $|y|$ inches.}\fixnote{We need additional models, e.g., checks and bills, red and black chips.}
+    backward step of $|y|$ inches.}
+    \fixnote{We need additional models, e.g., checks and bills, red and black chips. 
+    Some of these are incorporated into Activities \ref{A:integerAddition} and \ref{A:integerMultiplication}}
 \begin{enumerate}
 \item Discuss what the expressions $x \cdot y$ means in this
   context. In particular, what happens if $x = 1$? What if $y=1$?
@@ -673,7 +681,7 @@ In the previous section, we found divisors, greatest common divisors, and prime 
  found prime factorizations of integers, we used factor trees to organize our work.  
 
 \begin{question}
-Jake and Jenna use factor trees to find prime factorizations of the same large number.  Assuming that they don't make any mistakes will their prime factorizations be the same or could the be different?  Explain.  
+Jake and Jenna use factor trees to find prime factorizations of the same large number.  Assuming that they don't make any mistakes will their prime factorizations be the same or could they be different?  Explain.  
 \end{question}
 \QM
 
@@ -701,7 +709,7 @@ p|ab \qquad\text{implies that} \qquad p | a\text{ or } p|b.
 \end{lemma}
 
 We are going to assume Euclid's Lemma without proof (at least for now) because we want to use 
-it to proof our fundamental theorem---sometimes called the \textit{Fundamental Theorem of Arithmetic}:
+it to prove our fundamental theorem---sometimes called the \textit{Fundamental Theorem of Arithmetic}:
 
 \begin{activitynote}
 Activity \ref{A:Prome} complements this section well.  % Prome Factorization
@@ -725,21 +733,27 @@ How do we know this factorization is unique? Well, suppose that
 \[
 n = p_1p_2 \cdots p_m = q_1q_2\cdots q_l
 \]
-where the $p_i$'s are all prime and none of them equal any of the
-$q_j$'s which are also prime. So, $\gcd(p_1,q_1) = 1$, and by the
+where the $p_i$'s and the $q_j$'s are all prime. By the
 definition of ``divides''
 \[
 p_1 |q_1(q_2\cdots q_l).
 \]
-So by Euclid's Lemma, $p_1$ must divide $(q_2\cdots q_l)$. Repeat this
-enough times and you will find that $p_1 = q_j$ for one of the $q_j$'s
-above. Repeat this process for the $p_i$'s and you see that the
-factorization is unique.
+So by Euclid's Lemma, $p_1$ must divide either $q_1$ or $(q_2\cdots q_l)$. 
+If $p_1 \nmid q_1$, then 
+\[
+p_1 |q_2(q_3\cdots q_l).
+\]
+Repeat this
+enough times and you will find that $p_1 | q_j$ for one of the $q_j$'s
+above, which implies that $p_1 = q_j$. Repeat this process for all 
+the $p_i$'s and you see that the factorization is unique.
 \end{proof}
 
 \begin{question} 
 Huh?! Can you explain what just happened drawing pictures and/or using
-symbols as necessary? Could you also give some examples?
+symbols as necessary? How do we know the process will terminate?  
+Once we see that $p_i | q_j$ for some $j$, how do we know that $p_i = q_j$?
+Could you also give some examples?
 \end{question}
 \QM
 
@@ -752,7 +766,7 @@ makes sense to exclude $1$ from the prime numbers.
 
 \begin{question} 
 Thinking about Unique Factorization of the Integers, what must be the
-case when a number ends in a $0$?
+case when a number in base ten has units digit of $0$?  What about in other bases?  
 \end{question}
 \QM
 
@@ -1068,7 +1082,7 @@ ax + by
 where $x$ and $y$ are also integers?
 \end{question}
 
-\fixnote{This argument could be improved, as could the corresponding activity.}
+\fixnote{This argument could be improved, as could the corresponding activity, \ref{A:GCDwork}.}
 
 I'm feeling chatty, so I'll take this one. I claim that $g =
 \gcd(a,b)$ is the smallest positive integer that can be
@@ -1345,28 +1359,17 @@ Explain your reasoning.
   habits by cutting his hamburger consumption by $3/4$. How many
   pounds of hamburger a day did Bart eat on his new
   ``low-cholesterol'' diet?  Explain your reasoning.
-\fixnote{The following context is confusing.} 
-\item Courtney and Paolo are eating popcorn. Unfortunately, $1/3$rd of
-  the popcorn is poisoned. If Courtney eats $5/16$th of the bowl and
-  Paolo eats $5/13$ths of the bowl, did at least one of them eat
-  poisoned kernel? Also, at least how many kernels of popcorn are in
-  the bowl? Explain your reasoning.
+\item Courtney and Paolo are eating popcorn. Unfortunately, $1/3$rd 
+  of the popcorn kernels are poisoned. If Courtney eats exactly $5/16$th 
+  of the kernels and Paolo eats exactly $5/13$ths of the kernels, did at 
+  least one of them eat a poisoned kernel?  Explain your reasoning.  Also, 
+  at least how many kernels of popcorn are in the bowl? Again, explain 
+  your reasoning.
 \item Best of clocks, how much of the day is past if there remains
   twice two-thirds of what is gone? Explain what this strange question
   is asking and answer the question being sure to explain your
   reasoning---note this is an old problem from the \textit{Greek
     Anthology} compiled by Metrodorus around the year 500.
-\item Monica, Tessa, and Jim are grading papers. If it would take
-  Monica $2$ hours to grade them all by herself, Tessa $3$ hours to
-  grade them all by herself, and Jim $4$ hours to grade them all by
-  himself how long would it take them to grade the exams if they all
-  work together? Explain your reasoning.
-\item Say quickly, friend, in what portion of a day will four
-  fountains, being let loose together, fill a container which would
-  be filled by the individual fountains in one day, half a day, a
-  third of a day, and a sixth of a day respectively? Explain your
-  reasoning---note this is an old problem from the Indian text
-  \textit{Lilavati} written in the 1200s.
 \item John spent a fifth of his life as a boy growing up, another
   one-sixth of his life in college, one-half of his life as a bookie,
   and has spent the last six years in prison. How old is John now?
@@ -1443,7 +1446,14 @@ Explain your reasoning.
 
 \section{Decimal Representations}
 
-There are two ways that we usually write ``partial numbers'' (i.e., real numbers that aren't whole numbers):  fractions and decimals.  Let's explore the relationship between these two representations of numbers.  
+There are two ways that we usually write real numbers that aren't whole numbers:  as fractions and as decimals.  Let's explore the relationship between these two representations of numbers.  
+
+\begin{activitynote}
+Activities \ref{A:hundredthsGrids}, \ref{A:Shampoo}, and \ref{A:DecNotNice} are intended for this section. 
+% Hundredths Grid
+% Shampoo Rinse Repeat
+% Decimals Aren't So Nice
+\end{activitynote}
 
 \begin{question} How is a ``fraction'' different from a rational number?  
 \end{question}
@@ -1451,30 +1461,34 @@ There are two ways that we usually write ``partial numbers'' (i.e., real numbers
 
 First, let's work on translating fraction representations into decimal representations.  You probably already know from school that some numbers have decimal representations that end (these are called ``terminating'' decimals) and the rest of them have decimal representations that never end (these are ``non-terminating'').  Try to figure out what it would take for a fraction to have a terminating decimal representation.  
 
-\emph{Hint}:  Go backwards.  Start with a terminating representation (e.g., $0.00673$) and write it as a fraction.  Think about what would someone who doesn't know what you do figure it out?
-
-\emph{Second Hint}:  Write a bunch of fractions down and (using your calculator) separate them according to whether they appear to have a terminating or non-terminating decimal.  What do you notice about the denominators of the terminating decimals?
-
-\begin{question} Your calculator is not trustworthy for determining whether a number's decimal representation terminates or repeats.  Why?  
+\begin{question}
+Write $.465$, $0.72895$, $0.00673$, and $34.062$ as fractions of integers.  What do you notice about terminating decimals when they are written as fractions?  
 \end{question}
 \QM
 
-The rational numbers that have a terminating decimal are pretty boring:  There's not much to translating them back and forth.  The real action (and the intrigue) lies with the non-terminating ones.  Is there something special about the way these fractions go on and on and on like a bad comedian?  Let's investigate with a fraction that has a non-terminating representation:  4/7.  As you know, 4/7 is the same as ``4 divided by 7.''  So, use long division to find the decimal representation.\standard{7.NS.2d}Bring a pillow, because you already know that it will take an infinite number of steps to complete the work!
+\begin{question}
+Write $4/5$, $7/16$, $43/20$, and $3/6250$ as decimals.   What about these fractions makes the decimals terminate?
+\end{question}
+\QM
+
+\begin{question}
+Your calculator is not trustworthy for determining whether a number's decimal representation terminates or repeats.  Why?  How can you use your calculator carefully to judge whether a decimal terminates or repeats?  
+\end{question}
+\QM
+
+In Activity \ref{A:Shampoo}, you separate a bunch of fractions according to whether they appear to have a terminating or non-terminating decimals.  The rational numbers that have a terminating decimals are straighforward to describe, once you see the idea.  The real action (and the intrigue) lies with the non-terminating ones.  
+
+Let's investigate with a fraction that has a non-terminating representation:  4/7.  As you know, 4/7 is the same as ``4 divided by 7.''  So, use long division to find the decimal representation.\standard{7.NS.2d}Bring a pillow, because you already know that it will take an infinite number of steps to complete the work!
 
 Now that you've spent your life doing long division, can you carefully explain why the fraction's non-terminating representation will ``repeat''?  (Hint:  Think about remainders.)  Try a few others, like 2/13, 3/11, or 4/17.  Will the same sort of thing happen with, say, 3457/213678940753?  What can you say about how soon the process will repeat?  
 
 Here are some cool things you can investigate on the side:
 \begin{itemize}
-\item Some non-terminating decimals have a ``delay'' before they start repeating (most famous one is probably 1/6).  I happen to know 1/123750000 will have a delay of 7 places before the repeating starts.  Can you look at a fraction and predict whether it will or will not have a delay (and how long that delay will be)?   
+\item Some non-terminating decimals have a ``delay'' before they start repeating.  (The most famous one is probably $1/6$.)  I happen to know 1/123750000 will have a delay of 7 places before the repeating starts.  Can you look at a fraction and predict whether it will or will not have a delay (and how long that delay will be)?   
 \item What are the restrictions to the sizes of the ``blocks'' for the repeating decimal representation of a rational number?  For example, any fraction with denominator 37 can only possibly repeat in blocks of 1, 2, 3, 4, 6, 9, 12, 18, or 36.
 \end{itemize}
 
-Based on the ideas you have explored, you can prove that a non-terminating decimal representation of a rational number must repeat.  Is the converse true?  Can any repeating decimal be written as a fraction?  It turns out indeed to be the case, as can be found by taking advantage of a nice pattern involving the decimals representations of 1/9, 1/99, 1/999, etc., or by noting that each repeating decimal is a ``geometric series''.
-
-\begin{activitynote}
-Activities \ref{A:DecNotNice} and \ref{A:Shampoo} complement this section well. 
-%% Decimals Aren't So Nice & Shampoo, Rinse, ... 
-\end{activitynote}
+Based on the ideas you have explored, you can prove that a non-terminating decimal representation of a rational number must repeat.  Is the converse true?  Can any repeating decimal be written as a fraction?  It turns out indeed to be the case, as can be found by taking advantage of a nice pattern involving the decimals representations of 1/9, 1/99, 1/999, etc., or by noting that each repeating decimal is a ``geometric series,'' as we will explore later.  
 
 Thus, we have it that every rational number can be written as either a terminating or repeating decimal.\standard{8.NS.1}  Can every decimal be written as a fraction?  That is, we have that all fractions are decimals, but are all decimals fractions?  Have we let any decimals out in the cold here?
 
@@ -1649,11 +1663,15 @@ Compare the decimal representations of $\frac{1}{13}$, $\frac{2}{13}$, \dots,  $
 \begin{enumerate}
 \item Do this for all primes less than 15, and also for the primes 37, 41, 73, and 101.
 \item For each prime, compare the $n$ you found with the number of repeating digits in the decimal representation of $\frac{1}{p}$.  
-Make a conjecture about what you notice.  
+Make a conjecture about what you notice.  Provide a brief explanation of why your conjecture ought to be true. 
 \end{enumerate}
 
+% In the following two problems, keep in mind that you are trying to explain arithmetic of decimals, which you will teach in grade 5.  
+% So your explanations should NOT USE arithmetic of decimals.  Use fractions and the meanings of 
+% decimals instead.  And it would be better if you do not use %negative exponents, which is in grade 8.
+
 \item Explain $2.7\times 3.4$ in \textbf{two different ways}.  Be sure your explanations address two key questions:  (i) Why can you almost ignore the decimal point and multiply as though the digits described whole numbers?  And (ii) How do you know where to place the decimal point in the result?  Here are some ideas:  
-\begin{enumerate}
+\begin{itemize}
 \item Use behind the scenes algebra to explain why the digits in the  $27\times 34$ should be the same as the digits in the desired product $2.7\times 3.4$.  
 \item Convert the decimals to fractions, compute the product of the fractions, and then convert the result to a decimal.  
 \item Use the picture below to compute $2.7\times 3.4$ with neither an algorithm nor a calculator.  Explain your reasoning.  
@@ -1667,18 +1685,18 @@ Make a conjecture about what you notice.
 \draw [xstep=1mm,ystep=1mm] (3,-0.7) grid (3.4,0);
 \end{tikzpicture}
 \]
-\item Explain why the above picture can also represent either $27\times 34$.  Explain the lengths and areas for both calculations.  
+\item Explain why the above picture can also represent $27\times 34$.  Explain the lengths and areas for both calculations.  
 
-\end{enumerate}
+\end{itemize}
 
 \item Explain $3.96\div 2.4$ in \textbf{two different ways}.  Be sure your explanations address two key questions:  (i) Why can you almost ignore the decimal point and divide as though the digits described whole numbers?  And (ii) How do you know where to place the decimal point in the result?  Here are some ideas:  
-\begin{enumerate}
+\begin{itemize}
 \item Use the measurement model of division to reason how many groups of size $2.4$ are in $3.96$.
 \item Use bundles or base ten blocks where the single stick or unit block represents a quantity other than 1.  
-\item Multiply both the quotient and divisor by a suitable power of 10 and then divide.  
+\item Multiply both the dividend and the divisor by a suitable power of 10 and then divide.  
 \item Convert both decimals to fractions, divide the fractions, then convert the result back to a decimal.  
 \item Divide $396$ by $24$ and then use estimation to place the decimal point.  
-\end{enumerate}
+\end{itemize}
 
 \end{enumerate}
 \end{problems}
