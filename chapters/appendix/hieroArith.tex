@@ -94,11 +94,21 @@ Use the addition table to compute the following:
 
 \begin{prob} 
 Do you notice any patterns in the addition table? Tell us about them.
+\begin{teachingnote}
+Discuss \textbf{commutativity}, which can be seen by symmetry across the main diagonal of the table.  (This symmetry is much easier to see if these hieroglyphics are replaced by familiar symbols, such as Latin (or even Greek) letters.)  
+
+Discuss \textbf{closure}, which is demonstrated by the fact that every entry in the interior of the table appears as both a row and a column heading.  For comparison, in the operation table for single-digit addition, 13 appears in the interior of the table but not as a row or column heading.  
+
+For \textbf{associativity}, there is not a simple test in the table.  The naive approach requires checking that $(a + b) + c = a + (b + c)$ for all triples $a, b, c$.  
+\end{teachingnote}
 \end{prob}
 
 \begin{prob} 
 Can you tell me which glyph represents $0$? How did you arrive at this
 conclusion?
+\begin{teachingnote}
+Call $\lo$ the \textbf{additive identity} in this number system.
+\end{teachingnote}
 \end{prob}
 
 \begin{prob} 
@@ -110,11 +120,18 @@ Use the multiplication table to compute the following:
 
 \begin{prob} 
 Do you notice any patterns in the multiplication table? Tell us about them.
+\begin{teachingnote}
+Again discuss \textbf{commutativity} and \textbf{closure}.  And again note that \textbf{associativity} is tedious to check fully.  
+\end{teachingnote}
+
 \end{prob}
 
 \begin{prob} 
 Can you tell me which glyph represents $1$? How did you arrive at this
 conclusion?
+\begin{teachingnote}
+Call $\loo$ the \textbf{multiplicative identity}.  
+\end{teachingnote}
 \end{prob}
 
 
@@ -122,14 +139,40 @@ conclusion?
 \[
 \loo - \la \qquad\text{and}\qquad \ld - \lc
 \]
+\begin{teachingnote}
+Most students will do the computation by solving (i.e., finding the unknowns in) the equations  
+\[
+\la + x = \loo  \qquad\text{and}\qquad \lc + x = \ld
+\]
+And the answers are $\lc$ and $\lh$, respectively.  
+
+New questions and answers:  
+\begin{itemize}
+\item Q: Find $-\la$ and $-\lc$.  
+\item A: From the table, $-\la=\li$ and $-\lc=\lf$.  Call these \textbf{additive inverses}, and note that the sum of a value and its additive inverse is the additive identity.  
+\item Q: Use $-\la$ and $-\lc$ to make the computations $\loo - \la$ and $\ld - \lc$ directly. 
+\item A: First, $\loo - \la = \loo + \li =\lc$.  Then, $\ld - \lc = \ld + \lf = \lh$.  
+\end {itemize}
+
+The upshot is that there are (at least) two ways of thinking about subtraction:  Solving an addition equation, and adding an additive inverse.  
+
+Note: In the expression $\loo - \la$, the negative sign indicates a binary operation, subtraction.  In the expression $-\la$, the negative sign indicates a unary operation, negation.  This ``double use'' of the negative sign obscures some subtleties here.  
+\end{teachingnote}
 \end{prob}
-
-
 
 \begin{prob} Compute:
 \[
 \lf \div \lc \qquad\text{and}\qquad \lh \div \li
 \]
+\begin{teachingnote}
+Analogous to the previous problem, aim for two ways of thinking about division:  Solving a multiplication equation, and multiplying by multiplicative inverse. 
+\[
+\lf \div \lc = \ld \qquad\text{and}\qquad \lh \div \li = \li. \\
+\]
+It happens that $\lc$ are $\li$ multiplicative inverses of each other.  
+
+Note:  The notations $a^{-1}$ and $1/a$ are both confusing and also far from $1\div a$, upon which the ideas are based.  
+\end{teachingnote}
 \end{prob}
 
 \begin{prob} 
@@ -140,12 +183,18 @@ writes
 \]
 and shouts ``Weird!'' Why is she so surprised? Try repeated addition
 with other glyphs. What do you find? Can you explain this?
+\begin{teachingnote}
+Students might notice that for all elements in this set, the sum of three copies of an element is always the additive identity (i.e., $x + x + x = 0$).  This is a feature of this number system, which (for what its worth) is the field with 9 elements.  
+\end{teachingnote}
 \end{prob}
 
 
 \begin{prob}
 Can you find any other oddities of the arithmetic above? Hint: Try
 repeated multiplication!
+\begin{teachingnote}
+One possibility: Students might use the shorthand that $\loo = 1$ and $\lo = 0$, and then conclude that $\ld = -1$ because $\loo+\ld=\lo$.  Then they might notice that $\lh\cdot \lh = \ld$, so $\lh$ is like $i$, a ``square root of negative 1.''
+\end{teachingnote}
 \end{prob}
 
 

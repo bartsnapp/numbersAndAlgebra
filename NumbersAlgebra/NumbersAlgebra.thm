@@ -7,12 +7,12 @@
 \contentsline {question}{{Question}{7}{}}{15}{question.7}
 \contentsline {question}{{Question}{8}{}}{15}{question.8}
 \contentsline {question}{{Question}{9}{}}{16}{question.9}
-\contentsline {question}{{Question}{10}{}}{17}{question.10}
-\contentsline {question}{{Question}{11}{}}{18}{question.11}
+\contentsline {question}{{Question}{10}{}}{16}{question.10}
+\contentsline {question}{{Question}{11}{}}{17}{question.11}
 \contentsline {question}{{Question}{12}{}}{18}{question.12}
-\contentsline {question}{{Question}{13}{}}{19}{question.13}
+\contentsline {question}{{Question}{13}{}}{18}{question.13}
 \contentsline {question}{{Question}{14}{}}{19}{question.14}
-\contentsline {question}{{Question}{15}{}}{20}{question.15}
+\contentsline {question}{{Question}{15}{}}{19}{question.15}
 \contentsline {question}{{Question}{16}{}}{20}{question.16}
 \contentsline {question}{{Question}{17}{}}{21}{question.17}
 \contentsline {question}{{Question}{18}{}}{22}{question.18}
@@ -29,426 +29,422 @@
 \contentsline {question}{{Question}{28}{}}{30}{question.28}
 \contentsline {question}{{Question}{29}{}}{30}{question.29}
 \contentsline {theorem}{{Theorem}{1.3.{1}}{Division Theorem}}{30}{theorem.1.3.1}
-\contentsline {definition}{{Definition}{2}{}}{34}{definition.2}
-\contentsline {question}{{Question}{30}{}}{35}{question.30}
-\contentsline {question}{{Question}{31}{}}{35}{question.31}
-\contentsline {question}{{Question}{32}{}}{35}{question.32}
-\contentsline {question}{{Question}{33}{}}{36}{question.33}
-\contentsline {question}{{Question}{34}{}}{36}{question.34}
-\contentsline {question}{{Question}{35}{}}{36}{question.35}
-\contentsline {question}{{Question}{36}{}}{36}{question.36}
-\contentsline {question}{{Question}{37}{}}{37}{question.37}
-\contentsline {question}{{Question}{38}{}}{37}{question.38}
-\contentsline {question}{{Question}{39}{}}{37}{question.39}
-\contentsline {question}{{Question}{40}{}}{37}{question.40}
-\contentsline {question}{{Question}{41}{}}{38}{question.41}
-\contentsline {question}{{Question}{42}{}}{38}{question.42}
-\contentsline {definition}{{Definition}{3}{}}{39}{definition.3}
-\contentsline {definition}{{Definition}{4}{}}{39}{definition.4}
-\contentsline {definition}{{Definition}{5}{}}{39}{definition.5}
-\contentsline {question}{{Question}{43}{}}{39}{question.43}
-\contentsline {definition}{{Definition}{6}{}}{40}{definition.6}
-\contentsline {question}{{Question}{44}{}}{40}{question.44}
-\contentsline {question}{{Question}{45}{}}{41}{question.45}
-\contentsline {question}{{Question}{46}{}}{41}{question.46}
-\contentsline {question}{{Question}{47}{}}{41}{question.47}
-\contentsline {question}{{Question}{48}{}}{41}{question.48}
-\contentsline {question}{{Question}{49}{}}{41}{question.49}
-\contentsline {question}{{Question}{50}{}}{42}{question.50}
-\contentsline {question}{{Question}{51}{}}{42}{question.51}
-\contentsline {question}{{Question}{52}{}}{42}{question.52}
-\contentsline {theorem}{{Theorem}{2.1.{1}}{Division Theorem}}{42}{theorem.2.1.1}
-\contentsline {question}{{Question}{53}{}}{43}{question.53}
-\contentsline {question}{{Question}{54}{}}{47}{question.54}
-\contentsline {question}{{Question}{55}{}}{47}{question.55}
-\contentsline {lemma}{{Lemma}{2.2.{1}}{Euclid's Lemma}}{47}{lemma.2.2.1}
-\contentsline {theorem}{{Theorem}{2.2.{1}}{Unique Factorization}}{47}{theorem.2.2.1}
-\contentsline {proof}{{Proof}{1}{}}{48}{proof.1}
-\contentsline {question}{{Question}{56}{}}{48}{question.56}
-\contentsline {question}{{Question}{57}{}}{48}{question.57}
-\contentsline {question}{{Question}{58}{}}{49}{question.58}
-\contentsline {definition}{{Definition}{7}{}}{49}{definition.7}
-\contentsline {question}{{Question}{59}{}}{52}{question.59}
-\contentsline {question}{{Question}{60}{}}{53}{question.60}
-\contentsline {question}{{Question}{61}{}}{53}{question.61}
-\contentsline {question}{{Question}{62}{}}{53}{question.62}
-\contentsline {question}{{Question}{63}{}}{54}{question.63}
-\contentsline {question}{{Question}{64}{}}{54}{question.64}
-\contentsline {question}{{Question}{65}{}}{55}{question.65}
-\contentsline {definition}{{Definition}{8}{}}{57}{definition.8}
-\contentsline {warning}{{Warning}{1}{}}{57}{warning.1}
-\contentsline {question}{{Question}{66}{}}{57}{question.66}
-\contentsline {question}{{Question}{67}{}}{58}{question.67}
-\contentsline {question}{{Question}{68}{}}{58}{question.68}
-\contentsline {question}{{Question}{69}{}}{58}{question.69}
-\contentsline {question}{{Question}{70}{}}{58}{question.70}
-\contentsline {question}{{Question}{71}{}}{59}{question.71}
-\contentsline {question}{{Question}{72}{}}{59}{question.72}
-\contentsline {question}{{Question}{73}{}}{59}{question.73}
-\contentsline {question}{{Question}{74}{}}{60}{question.74}
-\contentsline {question}{{Question}{75}{}}{60}{question.75}
-\contentsline {question}{{Question}{76}{}}{60}{question.76}
-\contentsline {question}{{Question}{77}{}}{60}{question.77}
-\contentsline {question}{{Question}{78}{}}{63}{question.78}
-\contentsline {question}{{Question}{79}{}}{63}{question.79}
-\contentsline {question}{{Question}{80}{}}{63}{question.80}
-\contentsline {question}{{Question}{81}{}}{63}{question.81}
-\contentsline {question}{{Question}{82}{}}{65}{question.82}
-\contentsline {question}{{Question}{83}{}}{66}{question.83}
-\contentsline {warning}{{Warning}{2}{}}{66}{warning.2}
-\contentsline {definition}{{Definition}{9}{}}{72}{definition.9}
-\contentsline {question}{{Question}{84}{}}{72}{question.84}
-\contentsline {question}{{Question}{85}{}}{72}{question.85}
-\contentsline {definition}{{Definition}{10}{}}{75}{definition.10}
-\contentsline {definition}{{Definition}{11}{}}{75}{definition.11}
-\contentsline {question}{{Question}{86}{}}{76}{question.86}
-\contentsline {question}{{Question}{87}{}}{76}{question.87}
-\contentsline {question}{{Question}{88}{}}{76}{question.88}
-\contentsline {definition}{{Definition}{12}{}}{77}{definition.12}
-\contentsline {question}{{Question}{89}{}}{77}{question.89}
-\contentsline {question}{{Question}{90}{}}{77}{question.90}
-\contentsline {question}{{Question}{91}{}}{78}{question.91}
-\contentsline {question}{{Question}{92}{}}{78}{question.92}
-\contentsline {question}{{Question}{93}{}}{78}{question.93}
-\contentsline {question}{{Question}{94}{}}{78}{question.94}
-\contentsline {question}{{Question}{95}{}}{79}{question.95}
-\contentsline {question}{{Question}{96}{}}{79}{question.96}
-\contentsline {question}{{Question}{97}{}}{79}{question.97}
-\contentsline {definition}{{Definition}{13}{}}{81}{definition.13}
-\contentsline {question}{{Question}{98}{}}{81}{question.98}
-\contentsline {question}{{Question}{99}{}}{81}{question.99}
-\contentsline {question}{{Question}{100}{}}{82}{question.100}
-\contentsline {question}{{Question}{101}{}}{82}{question.101}
-\contentsline {definition}{{Definition}{14}{}}{82}{definition.14}
-\contentsline {question}{{Question}{102}{}}{82}{question.102}
-\contentsline {question}{{Question}{103}{}}{83}{question.103}
-\contentsline {question}{{Question}{104}{}}{83}{question.104}
-\contentsline {question}{{Question}{105}{}}{83}{question.105}
-\contentsline {definition}{{Definition}{15}{}}{86}{definition.15}
-\contentsline {question}{{Question}{106}{}}{87}{question.106}
-\contentsline {question}{{Question}{107}{}}{87}{question.107}
-\contentsline {question}{{Question}{108}{}}{87}{question.108}
-\contentsline {definition}{{Definition}{16}{}}{88}{definition.16}
-\contentsline {question}{{Question}{109}{}}{89}{question.109}
-\contentsline {question}{{Question}{110}{}}{89}{question.110}
-\contentsline {question}{{Question}{111}{}}{92}{question.111}
-\contentsline {question}{{Question}{112}{}}{92}{question.112}
-\contentsline {question}{{Question}{113}{}}{92}{question.113}
-\contentsline {question}{{Question}{114}{}}{92}{question.114}
-\contentsline {question}{{Question}{115}{}}{92}{question.115}
-\contentsline {question}{{Question}{116}{}}{93}{question.116}
-\contentsline {question}{{Question}{117}{}}{93}{question.117}
-\contentsline {question}{{Question}{118}{}}{93}{question.118}
-\contentsline {question}{{Question}{119}{}}{95}{question.119}
-\contentsline {question}{{Question}{120}{}}{95}{question.120}
-\contentsline {question}{{Question}{121}{}}{96}{question.121}
-\contentsline {definition}{{Definition}{17}{}}{99}{definition.17}
-\contentsline {question}{{Question}{122}{}}{100}{question.122}
-\contentsline {theorem}{{Theorem}{4.3.{1}}{Fundamental Theorem of Algebra}}{101}{theorem.4.3.1}
-\contentsline {question}{{Question}{123}{}}{101}{question.123}
-\contentsline {definition}{{Definition}{18}{}}{101}{definition.18}
-\contentsline {question}{{Question}{124}{}}{102}{question.124}
-\contentsline {question}{{Question}{125}{}}{102}{question.125}
-\contentsline {question}{{Question}{126}{}}{105}{question.126}
-\contentsline {question}{{Question}{127}{}}{106}{question.127}
-\contentsline {question}{{Question}{128}{}}{107}{question.128}
-\contentsline {question}{{Question}{129}{}}{107}{question.129}
-\contentsline {question}{{Question}{130}{}}{108}{question.130}
-\contentsline {question}{{Question}{131}{}}{108}{question.131}
-\contentsline {question}{{Question}{132}{}}{112}{question.132}
-\contentsline {question}{{Question}{133}{}}{113}{question.133}
-\contentsline {question}{{Question}{134}{}}{115}{question.134}
-\contentsline {question}{{Question}{135}{}}{116}{question.135}
-\contentsline {question}{{Question}{136}{}}{117}{question.136}
-\contentsline {question}{{Question}{137}{}}{117}{question.137}
-\contentsline {question}{{Question}{138}{}}{117}{question.138}
-\contentsline {question}{{Question}{139}{}}{117}{question.139}
-\contentsline {question}{{Question}{140}{}}{118}{question.140}
-\contentsline {question}{{Question}{141}{}}{118}{question.141}
-\contentsline {theorem}{{Theorem}{5.3.{1}}{Binomial Theorem}}{118}{theorem.5.3.1}
-\contentsline {question}{{Question}{142}{}}{118}{question.142}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{1}}{}}{121}{prob.A.1.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{2}}{}}{121}{prob.A.1.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{3}}{}}{121}{prob.A.1.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{4}}{}}{122}{prob.A.1.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{5}}{}}{122}{prob.A.1.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{6}}{}}{122}{prob.A.1.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{1}}{}}{124}{prob.A.2.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{2}}{}}{124}{prob.A.2.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{3}}{}}{124}{prob.A.2.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{4}}{}}{124}{prob.A.2.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{5}}{}}{124}{prob.A.2.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{6}}{}}{124}{prob.A.2.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{7}}{}}{124}{prob.A.2.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{8}}{}}{124}{prob.A.2.8}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{9}}{}}{124}{prob.A.2.9}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{10}}{}}{124}{prob.A.2.10}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{1}}{}}{125}{prob.A.3.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{2}}{}}{125}{prob.A.3.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{3}}{}}{125}{prob.A.3.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{4}}{}}{126}{prob.A.3.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{5}}{}}{127}{prob.A.3.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{6}}{}}{127}{prob.A.3.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{7}}{}}{128}{prob.A.3.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.4.{1}}{}}{130}{prob.A.4.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.4.{2}}{}}{131}{prob.A.4.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{1}}{}}{132}{prob.A.5.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{2}}{}}{132}{prob.A.5.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{3}}{}}{132}{prob.A.5.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{4}}{}}{133}{prob.A.5.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{5}}{}}{133}{prob.A.5.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{6}}{}}{133}{prob.A.5.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{7}}{}}{133}{prob.A.5.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{1}}{}}{134}{prob.A.6.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{2}}{}}{134}{prob.A.6.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{3}}{}}{134}{prob.A.6.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{4}}{}}{135}{prob.A.6.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{5}}{}}{135}{prob.A.6.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{6}}{}}{135}{prob.A.6.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{7}}{}}{135}{prob.A.6.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{8}}{}}{135}{prob.A.6.8}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.7.{1}}{}}{136}{prob.A.7.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.7.{2}}{}}{136}{prob.A.7.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.7.{3}}{}}{137}{prob.A.7.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{1}}{}}{139}{prob.A.8.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{2}}{}}{139}{prob.A.8.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{3}}{}}{139}{prob.A.8.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{4}}{}}{140}{prob.A.8.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{5}}{}}{140}{prob.A.8.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{6}}{}}{140}{prob.A.8.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{1}}{}}{141}{prob.A.9.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{2}}{}}{141}{prob.A.9.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{3}}{}}{141}{prob.A.9.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{4}}{}}{141}{prob.A.9.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{5}}{}}{141}{prob.A.9.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{6}}{}}{141}{prob.A.9.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{7}}{}}{141}{prob.A.9.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{8}}{}}{141}{prob.A.9.8}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.10.{1}}{}}{142}{prob.A.10.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.10.{2}}{}}{142}{prob.A.10.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.10.{3}}{}}{142}{prob.A.10.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.11.{1}}{}}{144}{prob.A.11.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.11.{2}}{}}{145}{prob.A.11.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{1}}{}}{147}{prob.A.12.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{2}}{}}{147}{prob.A.12.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{3}}{}}{147}{prob.A.12.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{4}}{}}{147}{prob.A.12.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{5}}{}}{147}{prob.A.12.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{1}}{}}{148}{prob.A.13.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{2}}{}}{148}{prob.A.13.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{3}}{}}{148}{prob.A.13.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{4}}{}}{148}{prob.A.13.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{5}}{}}{148}{prob.A.13.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{6}}{}}{148}{prob.A.13.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{7}}{}}{148}{prob.A.13.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{8}}{}}{148}{prob.A.13.8}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{1}}{}}{149}{prob.A.14.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{2}}{}}{149}{prob.A.14.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{3}}{}}{149}{prob.A.14.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{4}}{}}{149}{prob.A.14.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{5}}{}}{149}{prob.A.14.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{6}}{}}{149}{prob.A.14.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{7}}{}}{149}{prob.A.14.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{8}}{}}{149}{prob.A.14.8}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{9}}{}}{149}{prob.A.14.9}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{10}}{}}{150}{prob.A.14.10}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{1}}{}}{152}{prob.A.15.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{2}}{}}{152}{prob.A.15.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{3}}{}}{152}{prob.A.15.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{4}}{}}{152}{prob.A.15.4}
-\contentsline {definition}{{Definition}{19}{}}{153}{definition.19}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{5}}{}}{153}{prob.A.15.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{6}}{}}{153}{prob.A.15.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{7}}{}}{153}{prob.A.15.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{1}}{}}{155}{prob.A.16.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{2}}{}}{155}{prob.A.16.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{3}}{}}{155}{prob.A.16.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{4}}{}}{155}{prob.A.16.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{5}}{}}{155}{prob.A.16.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.17.{1}}{}}{156}{prob.A.17.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.17.{2}}{}}{156}{prob.A.17.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.17.{3}}{}}{156}{prob.A.17.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{1}}{}}{157}{prob.A.18.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{2}}{}}{157}{prob.A.18.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{3}}{}}{157}{prob.A.18.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{4}}{}}{158}{prob.A.18.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{5}}{}}{158}{prob.A.18.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.19.{1}}{}}{159}{prob.A.19.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.19.{2}}{}}{159}{prob.A.19.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{1}}{}}{160}{prob.A.20.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{2}}{}}{160}{prob.A.20.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{3}}{}}{160}{prob.A.20.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{4}}{}}{161}{prob.A.20.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{5}}{}}{161}{prob.A.20.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{6}}{}}{161}{prob.A.20.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{1}}{}}{162}{prob.A.21.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{2}}{}}{162}{prob.A.21.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{3}}{}}{162}{prob.A.21.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{4}}{}}{162}{prob.A.21.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{5}}{}}{162}{prob.A.21.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.22.{1}}{}}{163}{prob.A.22.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{1}}{}}{164}{prob.A.23.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{2}}{}}{164}{prob.A.23.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{3}}{}}{165}{prob.A.23.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{4}}{}}{165}{prob.A.23.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{5}}{}}{165}{prob.A.23.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{6}}{}}{165}{prob.A.23.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{7}}{}}{166}{prob.A.23.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{1}}{}}{167}{prob.A.24.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{2}}{}}{167}{prob.A.24.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{3}}{}}{167}{prob.A.24.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{4}}{}}{167}{prob.A.24.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{5}}{}}{167}{prob.A.24.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.25.{1}}{}}{168}{prob.A.25.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.25.{2}}{}}{168}{prob.A.25.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.25.{3}}{}}{169}{prob.A.25.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.25.{4}}{}}{169}{prob.A.25.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{1}}{}}{171}{prob.A.26.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{2}}{}}{171}{prob.A.26.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{3}}{}}{171}{prob.A.26.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{4}}{}}{172}{prob.A.26.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{5}}{}}{172}{prob.A.26.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{6}}{}}{173}{prob.A.26.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{7}}{}}{173}{prob.A.26.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.27.{1}}{}}{174}{prob.A.27.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.27.{2}}{}}{174}{prob.A.27.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.27.{3}}{}}{175}{prob.A.27.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.27.{4}}{}}{176}{prob.A.27.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{1}}{}}{177}{prob.A.28.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{2}}{}}{178}{prob.A.28.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{3}}{}}{178}{prob.A.28.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{4}}{}}{179}{prob.A.28.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{5}}{}}{179}{prob.A.28.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{6}}{}}{180}{prob.A.28.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.29.{1}}{}}{181}{prob.A.29.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{1}}{}}{184}{prob.A.30.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{2}}{}}{184}{prob.A.30.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{3}}{}}{185}{prob.A.30.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{4}}{}}{185}{prob.A.30.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{5}}{}}{186}{prob.A.30.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.31.{1}}{}}{187}{prob.A.31.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.31.{2}}{}}{187}{prob.A.31.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.31.{3}}{}}{188}{prob.A.31.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.32.{1}}{}}{189}{prob.A.32.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.32.{2}}{}}{190}{prob.A.32.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{1}}{}}{191}{prob.A.33.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{2}}{}}{191}{prob.A.33.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{3}}{}}{191}{prob.A.33.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{4}}{}}{191}{prob.A.33.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{5}}{}}{192}{prob.A.33.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{6}}{}}{192}{prob.A.33.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{1}}{}}{193}{prob.A.34.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{2}}{}}{193}{prob.A.34.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{3}}{}}{193}{prob.A.34.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{4}}{}}{194}{prob.A.34.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{5}}{}}{194}{prob.A.34.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{6}}{}}{194}{prob.A.34.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{7}}{}}{194}{prob.A.34.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{1}}{}}{195}{prob.A.35.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{2}}{}}{195}{prob.A.35.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{3}}{}}{195}{prob.A.35.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{4}}{}}{195}{prob.A.35.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{5}}{}}{195}{prob.A.35.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{6}}{}}{196}{prob.A.35.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{7}}{}}{196}{prob.A.35.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{1}}{}}{198}{prob.A.36.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{2}}{}}{198}{prob.A.36.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{3}}{}}{198}{prob.A.36.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{4}}{}}{198}{prob.A.36.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{5}}{}}{198}{prob.A.36.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{6}}{}}{198}{prob.A.36.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{1}}{}}{199}{prob.A.37.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{2}}{}}{200}{prob.A.37.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{3}}{}}{200}{prob.A.37.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{4}}{}}{201}{prob.A.37.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{5}}{}}{201}{prob.A.37.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{1}}{}}{202}{prob.A.38.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{2}}{}}{202}{prob.A.38.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{3}}{}}{202}{prob.A.38.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{4}}{}}{202}{prob.A.38.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{5}}{}}{204}{prob.A.38.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{6}}{}}{204}{prob.A.38.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{7}}{}}{204}{prob.A.38.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{8}}{}}{205}{prob.A.38.8}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{9}}{}}{205}{prob.A.38.9}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{10}}{}}{205}{prob.A.38.10}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{11}}{}}{205}{prob.A.38.11}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{12}}{}}{206}{prob.A.38.12}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{13}}{}}{206}{prob.A.38.13}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{14}}{}}{206}{prob.A.38.14}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{1}}{}}{208}{prob.A.39.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{2}}{}}{208}{prob.A.39.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{3}}{}}{208}{prob.A.39.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{4}}{}}{208}{prob.A.39.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{5}}{}}{208}{prob.A.39.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{1}}{}}{209}{prob.A.40.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{2}}{}}{209}{prob.A.40.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{3}}{}}{209}{prob.A.40.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{4}}{}}{209}{prob.A.40.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{5}}{}}{209}{prob.A.40.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{6}}{}}{209}{prob.A.40.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{7}}{}}{210}{prob.A.40.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{8}}{}}{210}{prob.A.40.8}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{9}}{}}{210}{prob.A.40.9}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{10}}{}}{210}{prob.A.40.10}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.41.{1}}{}}{211}{prob.A.41.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.41.{2}}{}}{211}{prob.A.41.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.41.{3}}{}}{211}{prob.A.41.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.41.{4}}{}}{212}{prob.A.41.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{1}}{}}{213}{prob.A.42.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{2}}{}}{213}{prob.A.42.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{3}}{}}{213}{prob.A.42.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{4}}{}}{213}{prob.A.42.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{5}}{}}{214}{prob.A.42.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{6}}{}}{214}{prob.A.42.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.43.{1}}{}}{215}{prob.A.43.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.43.{2}}{}}{215}{prob.A.43.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.43.{3}}{}}{215}{prob.A.43.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.43.{4}}{}}{216}{prob.A.43.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{1}}{}}{217}{prob.A.44.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{2}}{}}{218}{prob.A.44.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{3}}{}}{219}{prob.A.44.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{4}}{}}{220}{prob.A.44.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{5}}{}}{220}{prob.A.44.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.45.{1}}{}}{221}{prob.A.45.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.45.{2}}{}}{221}{prob.A.45.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.45.{3}}{}}{221}{prob.A.45.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.45.{4}}{}}{221}{prob.A.45.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{1}}{}}{222}{prob.A.46.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{2}}{}}{222}{prob.A.46.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{3}}{}}{222}{prob.A.46.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{4}}{}}{222}{prob.A.46.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{5}}{}}{223}{prob.A.46.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{6}}{}}{223}{prob.A.46.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{7}}{}}{223}{prob.A.46.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{8}}{}}{223}{prob.A.46.8}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{9}}{}}{223}{prob.A.46.9}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.47.{1}}{}}{224}{prob.A.47.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.47.{2}}{}}{224}{prob.A.47.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.47.{3}}{}}{224}{prob.A.47.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{1}}{}}{227}{prob.A.49.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{2}}{}}{227}{prob.A.49.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{3}}{}}{227}{prob.A.49.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{4}}{}}{227}{prob.A.49.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{5}}{}}{227}{prob.A.49.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{6}}{}}{228}{prob.A.49.6}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{7}}{}}{228}{prob.A.49.7}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{8}}{}}{228}{prob.A.49.8}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{9}}{}}{228}{prob.A.49.9}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{1}}{}}{229}{prob.A.50.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{2}}{}}{230}{prob.A.50.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{3}}{}}{230}{prob.A.50.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{4}}{}}{230}{prob.A.50.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{5}}{}}{230}{prob.A.50.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.51.{1}}{}}{231}{prob.A.51.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.51.{2}}{}}{231}{prob.A.51.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{1}}{}}{232}{prob.A.52.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{2}}{}}{232}{prob.A.52.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{3}}{}}{233}{prob.A.52.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{4}}{}}{233}{prob.A.52.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{5}}{}}{233}{prob.A.52.5}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{1}}{}}{234}{prob.A.53.1}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{2}}{}}{234}{prob.A.53.2}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{3}}{}}{234}{prob.A.53.3}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{4}}{}}{234}{prob.A.53.4}
-\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{5}}{}}{234}{prob.A.53.5}
+\contentsline {definition}{{Definition}{2}{}}{33}{definition.2}
+\contentsline {question}{{Question}{30}{}}{34}{question.30}
+\contentsline {question}{{Question}{31}{}}{34}{question.31}
+\contentsline {question}{{Question}{32}{}}{34}{question.32}
+\contentsline {question}{{Question}{33}{}}{34}{question.33}
+\contentsline {question}{{Question}{34}{}}{35}{question.34}
+\contentsline {question}{{Question}{35}{}}{35}{question.35}
+\contentsline {question}{{Question}{36}{}}{35}{question.36}
+\contentsline {question}{{Question}{37}{}}{35}{question.37}
+\contentsline {question}{{Question}{38}{}}{35}{question.38}
+\contentsline {question}{{Question}{39}{}}{36}{question.39}
+\contentsline {question}{{Question}{40}{}}{36}{question.40}
+\contentsline {question}{{Question}{41}{}}{36}{question.41}
+\contentsline {question}{{Question}{42}{}}{36}{question.42}
+\contentsline {definition}{{Definition}{3}{}}{37}{definition.3}
+\contentsline {definition}{{Definition}{4}{}}{37}{definition.4}
+\contentsline {definition}{{Definition}{5}{}}{37}{definition.5}
+\contentsline {question}{{Question}{43}{}}{38}{question.43}
+\contentsline {definition}{{Definition}{6}{}}{38}{definition.6}
+\contentsline {question}{{Question}{44}{}}{39}{question.44}
+\contentsline {question}{{Question}{45}{}}{39}{question.45}
+\contentsline {question}{{Question}{46}{}}{39}{question.46}
+\contentsline {question}{{Question}{47}{}}{39}{question.47}
+\contentsline {question}{{Question}{48}{}}{39}{question.48}
+\contentsline {question}{{Question}{49}{}}{40}{question.49}
+\contentsline {question}{{Question}{50}{}}{40}{question.50}
+\contentsline {question}{{Question}{51}{}}{40}{question.51}
+\contentsline {question}{{Question}{52}{}}{40}{question.52}
+\contentsline {theorem}{{Theorem}{2.1.{1}}{Division Theorem}}{41}{theorem.2.1.1}
+\contentsline {question}{{Question}{53}{}}{41}{question.53}
+\contentsline {question}{{Question}{54}{}}{45}{question.54}
+\contentsline {question}{{Question}{55}{}}{45}{question.55}
+\contentsline {lemma}{{Lemma}{2.2.{1}}{Euclid's Lemma}}{45}{lemma.2.2.1}
+\contentsline {theorem}{{Theorem}{2.2.{1}}{Unique Factorization}}{45}{theorem.2.2.1}
+\contentsline {proof}{{Proof}{1}{}}{46}{proof.1}
+\contentsline {question}{{Question}{56}{}}{46}{question.56}
+\contentsline {question}{{Question}{57}{}}{46}{question.57}
+\contentsline {question}{{Question}{58}{}}{47}{question.58}
+\contentsline {definition}{{Definition}{7}{}}{47}{definition.7}
+\contentsline {question}{{Question}{59}{}}{50}{question.59}
+\contentsline {question}{{Question}{60}{}}{51}{question.60}
+\contentsline {question}{{Question}{61}{}}{51}{question.61}
+\contentsline {question}{{Question}{62}{}}{51}{question.62}
+\contentsline {question}{{Question}{63}{}}{52}{question.63}
+\contentsline {question}{{Question}{64}{}}{52}{question.64}
+\contentsline {question}{{Question}{65}{}}{53}{question.65}
+\contentsline {definition}{{Definition}{8}{}}{55}{definition.8}
+\contentsline {warning}{{Warning}{1}{}}{55}{warning.1}
+\contentsline {question}{{Question}{66}{}}{55}{question.66}
+\contentsline {question}{{Question}{67}{}}{56}{question.67}
+\contentsline {question}{{Question}{68}{}}{56}{question.68}
+\contentsline {question}{{Question}{69}{}}{56}{question.69}
+\contentsline {question}{{Question}{70}{}}{56}{question.70}
+\contentsline {question}{{Question}{71}{}}{57}{question.71}
+\contentsline {question}{{Question}{72}{}}{57}{question.72}
+\contentsline {question}{{Question}{73}{}}{57}{question.73}
+\contentsline {question}{{Question}{74}{}}{57}{question.74}
+\contentsline {question}{{Question}{75}{}}{58}{question.75}
+\contentsline {question}{{Question}{76}{}}{58}{question.76}
+\contentsline {question}{{Question}{77}{}}{58}{question.77}
+\contentsline {question}{{Question}{78}{}}{61}{question.78}
+\contentsline {question}{{Question}{79}{}}{61}{question.79}
+\contentsline {question}{{Question}{80}{}}{61}{question.80}
+\contentsline {question}{{Question}{81}{}}{61}{question.81}
+\contentsline {question}{{Question}{82}{}}{63}{question.82}
+\contentsline {question}{{Question}{83}{}}{64}{question.83}
+\contentsline {warning}{{Warning}{2}{}}{64}{warning.2}
+\contentsline {definition}{{Definition}{9}{}}{70}{definition.9}
+\contentsline {question}{{Question}{84}{}}{70}{question.84}
+\contentsline {question}{{Question}{85}{}}{70}{question.85}
+\contentsline {definition}{{Definition}{10}{}}{73}{definition.10}
+\contentsline {definition}{{Definition}{11}{}}{73}{definition.11}
+\contentsline {question}{{Question}{86}{}}{74}{question.86}
+\contentsline {question}{{Question}{87}{}}{74}{question.87}
+\contentsline {question}{{Question}{88}{}}{74}{question.88}
+\contentsline {definition}{{Definition}{12}{}}{75}{definition.12}
+\contentsline {question}{{Question}{89}{}}{75}{question.89}
+\contentsline {question}{{Question}{90}{}}{75}{question.90}
+\contentsline {question}{{Question}{91}{}}{76}{question.91}
+\contentsline {question}{{Question}{92}{}}{76}{question.92}
+\contentsline {question}{{Question}{93}{}}{76}{question.93}
+\contentsline {question}{{Question}{94}{}}{76}{question.94}
+\contentsline {question}{{Question}{95}{}}{77}{question.95}
+\contentsline {question}{{Question}{96}{}}{77}{question.96}
+\contentsline {question}{{Question}{97}{}}{77}{question.97}
+\contentsline {definition}{{Definition}{13}{}}{79}{definition.13}
+\contentsline {question}{{Question}{98}{}}{79}{question.98}
+\contentsline {question}{{Question}{99}{}}{79}{question.99}
+\contentsline {question}{{Question}{100}{}}{80}{question.100}
+\contentsline {question}{{Question}{101}{}}{80}{question.101}
+\contentsline {definition}{{Definition}{14}{}}{80}{definition.14}
+\contentsline {question}{{Question}{102}{}}{80}{question.102}
+\contentsline {question}{{Question}{103}{}}{81}{question.103}
+\contentsline {question}{{Question}{104}{}}{81}{question.104}
+\contentsline {question}{{Question}{105}{}}{81}{question.105}
+\contentsline {definition}{{Definition}{15}{}}{84}{definition.15}
+\contentsline {question}{{Question}{106}{}}{84}{question.106}
+\contentsline {question}{{Question}{107}{}}{85}{question.107}
+\contentsline {question}{{Question}{108}{}}{85}{question.108}
+\contentsline {definition}{{Definition}{16}{}}{86}{definition.16}
+\contentsline {question}{{Question}{109}{}}{87}{question.109}
+\contentsline {question}{{Question}{110}{}}{87}{question.110}
+\contentsline {question}{{Question}{111}{}}{90}{question.111}
+\contentsline {question}{{Question}{112}{}}{90}{question.112}
+\contentsline {question}{{Question}{113}{}}{90}{question.113}
+\contentsline {question}{{Question}{114}{}}{90}{question.114}
+\contentsline {question}{{Question}{115}{}}{90}{question.115}
+\contentsline {question}{{Question}{116}{}}{91}{question.116}
+\contentsline {question}{{Question}{117}{}}{91}{question.117}
+\contentsline {question}{{Question}{118}{}}{91}{question.118}
+\contentsline {question}{{Question}{119}{}}{93}{question.119}
+\contentsline {question}{{Question}{120}{}}{93}{question.120}
+\contentsline {question}{{Question}{121}{}}{94}{question.121}
+\contentsline {definition}{{Definition}{17}{}}{97}{definition.17}
+\contentsline {question}{{Question}{122}{}}{98}{question.122}
+\contentsline {theorem}{{Theorem}{4.3.{1}}{Fundamental Theorem of Algebra}}{98}{theorem.4.3.1}
+\contentsline {question}{{Question}{123}{}}{99}{question.123}
+\contentsline {definition}{{Definition}{18}{}}{99}{definition.18}
+\contentsline {question}{{Question}{124}{}}{100}{question.124}
+\contentsline {question}{{Question}{125}{}}{100}{question.125}
+\contentsline {question}{{Question}{126}{}}{103}{question.126}
+\contentsline {question}{{Question}{127}{}}{104}{question.127}
+\contentsline {question}{{Question}{128}{}}{105}{question.128}
+\contentsline {question}{{Question}{129}{}}{105}{question.129}
+\contentsline {question}{{Question}{130}{}}{106}{question.130}
+\contentsline {question}{{Question}{131}{}}{106}{question.131}
+\contentsline {question}{{Question}{132}{}}{110}{question.132}
+\contentsline {question}{{Question}{133}{}}{111}{question.133}
+\contentsline {question}{{Question}{134}{}}{113}{question.134}
+\contentsline {question}{{Question}{135}{}}{114}{question.135}
+\contentsline {question}{{Question}{136}{}}{115}{question.136}
+\contentsline {question}{{Question}{137}{}}{115}{question.137}
+\contentsline {question}{{Question}{138}{}}{115}{question.138}
+\contentsline {question}{{Question}{139}{}}{115}{question.139}
+\contentsline {question}{{Question}{140}{}}{116}{question.140}
+\contentsline {question}{{Question}{141}{}}{116}{question.141}
+\contentsline {theorem}{{Theorem}{5.3.{1}}{Binomial Theorem}}{116}{theorem.5.3.1}
+\contentsline {question}{{Question}{142}{}}{116}{question.142}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{1}}{}}{119}{prob.A.1.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{2}}{}}{119}{prob.A.1.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{3}}{}}{119}{prob.A.1.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{4}}{}}{119}{prob.A.1.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{5}}{}}{120}{prob.A.1.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.1.{6}}{}}{120}{prob.A.1.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{1}}{}}{122}{prob.A.2.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{2}}{}}{122}{prob.A.2.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{3}}{}}{122}{prob.A.2.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{4}}{}}{122}{prob.A.2.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{5}}{}}{122}{prob.A.2.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{6}}{}}{122}{prob.A.2.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{7}}{}}{122}{prob.A.2.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{8}}{}}{122}{prob.A.2.8}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{9}}{}}{122}{prob.A.2.9}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.2.{10}}{}}{122}{prob.A.2.10}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{1}}{}}{123}{prob.A.3.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{2}}{}}{123}{prob.A.3.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{3}}{}}{123}{prob.A.3.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{4}}{}}{124}{prob.A.3.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{5}}{}}{125}{prob.A.3.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{6}}{}}{125}{prob.A.3.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.3.{7}}{}}{126}{prob.A.3.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.4.{1}}{}}{127}{prob.A.4.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.4.{2}}{}}{127}{prob.A.4.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{1}}{}}{129}{prob.A.5.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{2}}{}}{129}{prob.A.5.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{3}}{}}{129}{prob.A.5.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{4}}{}}{129}{prob.A.5.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{5}}{}}{130}{prob.A.5.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{6}}{}}{130}{prob.A.5.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.5.{7}}{}}{130}{prob.A.5.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{1}}{}}{131}{prob.A.6.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{2}}{}}{131}{prob.A.6.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{3}}{}}{131}{prob.A.6.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{4}}{}}{132}{prob.A.6.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{5}}{}}{132}{prob.A.6.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{6}}{}}{132}{prob.A.6.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{7}}{}}{132}{prob.A.6.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.6.{8}}{}}{132}{prob.A.6.8}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.7.{1}}{}}{133}{prob.A.7.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.7.{2}}{}}{133}{prob.A.7.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.7.{3}}{}}{134}{prob.A.7.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{1}}{}}{135}{prob.A.8.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{2}}{}}{135}{prob.A.8.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{3}}{}}{135}{prob.A.8.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{4}}{}}{135}{prob.A.8.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{5}}{}}{135}{prob.A.8.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.8.{6}}{}}{135}{prob.A.8.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{1}}{}}{136}{prob.A.9.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{2}}{}}{136}{prob.A.9.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{3}}{}}{136}{prob.A.9.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{4}}{}}{136}{prob.A.9.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{5}}{}}{136}{prob.A.9.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{6}}{}}{136}{prob.A.9.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{7}}{}}{136}{prob.A.9.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.9.{8}}{}}{136}{prob.A.9.8}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.10.{1}}{}}{137}{prob.A.10.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.10.{2}}{}}{137}{prob.A.10.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.10.{3}}{}}{137}{prob.A.10.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.11.{1}}{}}{139}{prob.A.11.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.11.{2}}{}}{140}{prob.A.11.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{1}}{}}{141}{prob.A.12.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{2}}{}}{141}{prob.A.12.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{3}}{}}{141}{prob.A.12.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{4}}{}}{141}{prob.A.12.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.12.{5}}{}}{141}{prob.A.12.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{1}}{}}{142}{prob.A.13.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{2}}{}}{142}{prob.A.13.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{3}}{}}{142}{prob.A.13.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{4}}{}}{142}{prob.A.13.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{5}}{}}{142}{prob.A.13.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{6}}{}}{142}{prob.A.13.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{7}}{}}{142}{prob.A.13.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.13.{8}}{}}{142}{prob.A.13.8}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{1}}{}}{143}{prob.A.14.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{2}}{}}{143}{prob.A.14.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{3}}{}}{143}{prob.A.14.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{4}}{}}{143}{prob.A.14.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{5}}{}}{143}{prob.A.14.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{6}}{}}{143}{prob.A.14.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{7}}{}}{143}{prob.A.14.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{8}}{}}{143}{prob.A.14.8}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{9}}{}}{143}{prob.A.14.9}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.14.{10}}{}}{143}{prob.A.14.10}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{1}}{}}{144}{prob.A.15.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{2}}{}}{144}{prob.A.15.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{3}}{}}{144}{prob.A.15.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{4}}{}}{144}{prob.A.15.4}
+\contentsline {definition}{{Definition}{19}{}}{145}{definition.19}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{5}}{}}{145}{prob.A.15.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{6}}{}}{145}{prob.A.15.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.15.{7}}{}}{145}{prob.A.15.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{1}}{}}{146}{prob.A.16.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{2}}{}}{146}{prob.A.16.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{3}}{}}{146}{prob.A.16.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{4}}{}}{146}{prob.A.16.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.16.{5}}{}}{146}{prob.A.16.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.17.{1}}{}}{147}{prob.A.17.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.17.{2}}{}}{147}{prob.A.17.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.17.{3}}{}}{147}{prob.A.17.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{1}}{}}{148}{prob.A.18.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{2}}{}}{148}{prob.A.18.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{3}}{}}{148}{prob.A.18.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{4}}{}}{149}{prob.A.18.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.18.{5}}{}}{149}{prob.A.18.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.19.{1}}{}}{150}{prob.A.19.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.19.{2}}{}}{150}{prob.A.19.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{1}}{}}{151}{prob.A.20.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{2}}{}}{151}{prob.A.20.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{3}}{}}{151}{prob.A.20.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{4}}{}}{151}{prob.A.20.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{5}}{}}{152}{prob.A.20.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.20.{6}}{}}{152}{prob.A.20.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{1}}{}}{153}{prob.A.21.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{2}}{}}{153}{prob.A.21.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{3}}{}}{153}{prob.A.21.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{4}}{}}{153}{prob.A.21.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.21.{5}}{}}{153}{prob.A.21.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.22.{1}}{}}{154}{prob.A.22.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{1}}{}}{155}{prob.A.23.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{2}}{}}{155}{prob.A.23.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{3}}{}}{156}{prob.A.23.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{4}}{}}{156}{prob.A.23.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{5}}{}}{156}{prob.A.23.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{6}}{}}{156}{prob.A.23.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.23.{7}}{}}{156}{prob.A.23.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{1}}{}}{157}{prob.A.24.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{2}}{}}{157}{prob.A.24.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{3}}{}}{157}{prob.A.24.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{4}}{}}{157}{prob.A.24.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.24.{5}}{}}{157}{prob.A.24.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.25.{1}}{}}{158}{prob.A.25.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.25.{2}}{}}{158}{prob.A.25.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.25.{3}}{}}{158}{prob.A.25.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.25.{4}}{}}{159}{prob.A.25.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{1}}{}}{160}{prob.A.26.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{2}}{}}{160}{prob.A.26.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{3}}{}}{160}{prob.A.26.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{4}}{}}{161}{prob.A.26.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{5}}{}}{161}{prob.A.26.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{6}}{}}{162}{prob.A.26.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.26.{7}}{}}{162}{prob.A.26.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.27.{1}}{}}{163}{prob.A.27.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.27.{2}}{}}{163}{prob.A.27.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.27.{3}}{}}{164}{prob.A.27.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.27.{4}}{}}{164}{prob.A.27.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{1}}{}}{165}{prob.A.28.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{2}}{}}{165}{prob.A.28.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{3}}{}}{165}{prob.A.28.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{4}}{}}{165}{prob.A.28.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{5}}{}}{165}{prob.A.28.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.28.{6}}{}}{165}{prob.A.28.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.29.{1}}{}}{166}{prob.A.29.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{1}}{}}{167}{prob.A.30.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{2}}{}}{167}{prob.A.30.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{3}}{}}{168}{prob.A.30.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{4}}{}}{168}{prob.A.30.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.30.{5}}{}}{168}{prob.A.30.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.31.{1}}{}}{170}{prob.A.31.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.31.{2}}{}}{170}{prob.A.31.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.31.{3}}{}}{171}{prob.A.31.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.32.{1}}{}}{172}{prob.A.32.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.32.{2}}{}}{172}{prob.A.32.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{1}}{}}{174}{prob.A.33.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{2}}{}}{174}{prob.A.33.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{3}}{}}{174}{prob.A.33.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{4}}{}}{174}{prob.A.33.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{5}}{}}{175}{prob.A.33.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.33.{6}}{}}{175}{prob.A.33.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{1}}{}}{176}{prob.A.34.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{2}}{}}{176}{prob.A.34.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{3}}{}}{176}{prob.A.34.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{4}}{}}{176}{prob.A.34.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{5}}{}}{177}{prob.A.34.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{6}}{}}{177}{prob.A.34.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.34.{7}}{}}{177}{prob.A.34.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{1}}{}}{178}{prob.A.35.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{2}}{}}{178}{prob.A.35.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{3}}{}}{178}{prob.A.35.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{4}}{}}{178}{prob.A.35.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{5}}{}}{178}{prob.A.35.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{6}}{}}{179}{prob.A.35.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.35.{7}}{}}{179}{prob.A.35.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{1}}{}}{181}{prob.A.36.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{2}}{}}{181}{prob.A.36.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{3}}{}}{181}{prob.A.36.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{4}}{}}{181}{prob.A.36.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{5}}{}}{181}{prob.A.36.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.36.{6}}{}}{181}{prob.A.36.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{1}}{}}{182}{prob.A.37.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{2}}{}}{183}{prob.A.37.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{3}}{}}{183}{prob.A.37.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{4}}{}}{183}{prob.A.37.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.37.{5}}{}}{183}{prob.A.37.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{1}}{}}{184}{prob.A.38.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{2}}{}}{184}{prob.A.38.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{3}}{}}{184}{prob.A.38.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{4}}{}}{184}{prob.A.38.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{5}}{}}{185}{prob.A.38.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{6}}{}}{185}{prob.A.38.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{7}}{}}{185}{prob.A.38.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{8}}{}}{185}{prob.A.38.8}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{9}}{}}{186}{prob.A.38.9}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{10}}{}}{186}{prob.A.38.10}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{11}}{}}{186}{prob.A.38.11}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{12}}{}}{187}{prob.A.38.12}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{13}}{}}{187}{prob.A.38.13}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.38.{14}}{}}{187}{prob.A.38.14}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{1}}{}}{189}{prob.A.39.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{2}}{}}{189}{prob.A.39.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{3}}{}}{189}{prob.A.39.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{4}}{}}{189}{prob.A.39.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.39.{5}}{}}{189}{prob.A.39.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{1}}{}}{190}{prob.A.40.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{2}}{}}{190}{prob.A.40.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{3}}{}}{190}{prob.A.40.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{4}}{}}{190}{prob.A.40.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{5}}{}}{190}{prob.A.40.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{6}}{}}{190}{prob.A.40.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{7}}{}}{191}{prob.A.40.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{8}}{}}{191}{prob.A.40.8}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{9}}{}}{191}{prob.A.40.9}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.40.{10}}{}}{191}{prob.A.40.10}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.41.{1}}{}}{192}{prob.A.41.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.41.{2}}{}}{192}{prob.A.41.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.41.{3}}{}}{192}{prob.A.41.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.41.{4}}{}}{192}{prob.A.41.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{1}}{}}{194}{prob.A.42.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{2}}{}}{194}{prob.A.42.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{3}}{}}{194}{prob.A.42.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{4}}{}}{194}{prob.A.42.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{5}}{}}{195}{prob.A.42.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.42.{6}}{}}{195}{prob.A.42.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.43.{1}}{}}{196}{prob.A.43.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.43.{2}}{}}{196}{prob.A.43.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.43.{3}}{}}{196}{prob.A.43.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.43.{4}}{}}{197}{prob.A.43.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{1}}{}}{198}{prob.A.44.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{2}}{}}{199}{prob.A.44.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{3}}{}}{200}{prob.A.44.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{4}}{}}{201}{prob.A.44.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.44.{5}}{}}{201}{prob.A.44.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.45.{1}}{}}{202}{prob.A.45.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.45.{2}}{}}{202}{prob.A.45.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.45.{3}}{}}{202}{prob.A.45.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.45.{4}}{}}{202}{prob.A.45.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{1}}{}}{203}{prob.A.46.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{2}}{}}{203}{prob.A.46.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{3}}{}}{203}{prob.A.46.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{4}}{}}{203}{prob.A.46.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{5}}{}}{204}{prob.A.46.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{6}}{}}{204}{prob.A.46.6}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{7}}{}}{204}{prob.A.46.7}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{8}}{}}{204}{prob.A.46.8}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.46.{9}}{}}{204}{prob.A.46.9}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.47.{1}}{}}{205}{prob.A.47.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.47.{2}}{}}{205}{prob.A.47.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.47.{3}}{}}{205}{prob.A.47.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{1}}{}}{208}{prob.A.49.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{2}}{}}{208}{prob.A.49.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{3}}{}}{208}{prob.A.49.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{4}}{}}{208}{prob.A.49.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.49.{5}}{}}{208}{prob.A.49.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{1}}{}}{209}{prob.A.50.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{2}}{}}{210}{prob.A.50.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{3}}{}}{210}{prob.A.50.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{4}}{}}{210}{prob.A.50.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.50.{5}}{}}{210}{prob.A.50.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.51.{1}}{}}{211}{prob.A.51.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.51.{2}}{}}{211}{prob.A.51.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{1}}{}}{212}{prob.A.52.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{2}}{}}{213}{prob.A.52.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{3}}{}}{214}{prob.A.52.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{4}}{}}{215}{prob.A.52.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.52.{5}}{}}{215}{prob.A.52.5}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{1}}{}}{216}{prob.A.53.1}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{2}}{}}{216}{prob.A.53.2}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{3}}{}}{216}{prob.A.53.3}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{4}}{}}{216}{prob.A.53.4}
+\contentsline {prob}{{\protect \MakeUppercase {p}rob}{A.53.{5}}{}}{216}{prob.A.53.5}
