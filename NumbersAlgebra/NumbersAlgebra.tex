@@ -15,13 +15,15 @@
 \usepackage{framed}
 \usepackage{comment}
 
-\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
-\newcommand{\teachingnotes}{With Teaching Notes}
-%\excludecomment{teachingnote}
-%\newcommand{\teachingnotes}{}
+%\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
 
-\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
-%\def\fixnote#1{}
+%\newenvironment{teachingnote}{\begin{framed}\noindent \textbf{Teaching Note:}}{\end{framed}}
+%\newcommand{\teachingnotes}{With Teaching Notes}
+\excludecomment{teachingnote}
+\newcommand{\teachingnotes}{}
+
+%\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
+\def\fixnote#1{}
 
 %%% This sets how the enumerate command works
 \renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
@@ -30,7 +32,7 @@
 
 \title{Numbers \\ and Algebra}
 \author{\teachingnotes}
-\publisher{Math 1165: Autumn 2015 \\ This document was typeset on \today.}
+\publisher{Math 1165: Autumn 2017 \\ This document was typeset on \today.}
 
 \begin{document}
 
@@ -120,15 +122,19 @@
 
 \input{../chapters/appendix/crossMult.tex}
 
-\input{../chapters/appendix/decimals.tex}
+\input{../chapters/appendix/hundredthsGrid}
 
 \input{../chapters/appendix/repeat.tex}
+
+\input{../chapters/appendix/decimals.tex}
+
+\input{../chapters/appendix/ratioLaunch.tex}
 
 \input{../chapters/appendix/ratios.tex}
 
 \input{../chapters/appendix/ratioAddition.tex}
 
-\input{../chapters/appendix/solved.tex}
+%\input{../chapters/appendix/solved.tex}
 
 \input{../chapters/appendix/triathlete.tex}
 
@@ -140,7 +146,9 @@
 
 \input{../chapters/appendix/constantRatio.tex}
 
-\input{../chapters/appendix/exponentRules.tex}
+%\input{../chapters/appendix/exponentRules.tex}  Replaced by Meanings of Exponents
+
+\input{../chapters/appendix/meaningsOfExponents}
 
 %\input{../chapters/appendix/gardenVariety.tex}  Moved to problems;   
 
@@ -160,17 +168,17 @@
 
 \input{../chapters/appendix/otherSide.tex}
 
+\input{../chapters/appendix/solvingQuadratics}
+
+\input{../chapters/appendix/solvingCubics}
+
 \input{../chapters/appendix/vertex.tex}
 
-\input{../chapters/appendix/leastSquares.tex}
+%\input{../chapters/appendix/leastSquares.tex}
 
 \input{../chapters/appendix/otherCurves.tex}
 
 \input{../chapters/appendix/sketchRoots.tex}
-
-\input{../chapters/appendix/solvingQuadratics}
-
-\input{../chapters/appendix/solvingCubics}
 
 \input{../chapters/appendix/complexAddition.tex}
 
@@ -190,7 +198,7 @@
 
 \input{../chapters/appendix/factOrFiction.tex}
 
-\input{../chapters/appendix/pyramid.tex}
+%\input{../chapters/appendix/pyramid.tex}
 
 \input{../chapters/appendix/countOnIt.tex}
 
