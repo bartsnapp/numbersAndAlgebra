@@ -9,92 +9,92 @@
 \indexentry{multiplication algorithm!standard|hyperpage}{17}
 \indexentry{division algorithm!long, with remainder|hyperpage}{19}
 \indexentry{long division|hyperpage}{19}
-\indexentry{division algorithm!without remainder|hyperpage}{20}
-\indexentry{addition algorithm!column|hyperpage}{23}
+\indexentry{division algorithm!without remainder|hyperpage}{21}
+\indexentry{addition algorithm!column|hyperpage}{24}
 \indexentry{addition algorithm!banker's|hyperpage}{24}
 \indexentry{subtraction algorithm!standard|hyperpage}{24}
 \indexentry{subtraction algorithm!by addition|hyperpage}{24}
 \indexentry{subtraction algorithm!Austrian|hyperpage}{24}
-\indexentry{multiplication algorithm!partial-products|hyperpage}{24}
-\indexentry{partial products algorithm|hyperpage}{24}
+\indexentry{multiplication algorithm!partial-products|hyperpage}{25}
+\indexentry{partial products algorithm|hyperpage}{25}
 \indexentry{division algorithm!partial-quotients|hyperpage}{25}
 \indexentry{division algorithm!partial-quotients|hyperpage}{25}
 \indexentry{multiplication algorithm!standard|hyperpage}{25}
 \indexentry{polynomial|hyperpage}{28}
 \indexentry{Division Theorem!for polynomials|hyperpage}{30}
-\indexentry{division algorithm!polynomial|hyperpage}{31}
-\indexentry{integers|hyperpage}{33}
-\indexentry{Z@$\Z$|hyperpage}{33}
-\indexentry{divides|hyperpage}{37}
-\indexentry{multiple|hyperpage}{37}
-\indexentry{factor|hyperpage}{37}
-\indexentry{prime number|hyperpage}{37}
-\indexentry{composite number|hyperpage}{37}
-\indexentry{factor tree|hyperpage}{38}
-\indexentry{GCD|hyperpage}{38}
-\indexentry{greatest common divisor|hyperpage}{38}
-\indexentry{LCM|hyperpage}{39}
-\indexentry{least common multiple|hyperpage}{39}
-\indexentry{long division|hyperpage}{40}
-\indexentry{forgotten foes|hyperpage}{40}
-\indexentry{divisor|hyperpage}{40}
-\indexentry{dividend|hyperpage}{40}
-\indexentry{quotient|hyperpage}{40}
-\indexentry{remainder|hyperpage}{40}
-\indexentry{Division Theorem!for integers|hyperpage}{41}
-\indexentry{Fundamental Theorem!of arithmetic|hyperpage}{45}
-\indexentry{lemma|hyperpage}{45}
-\indexentry{Euclid's Lemma|hyperpage}{45}
-\indexentry{Unique Factorization Theorem|hyperpage}{45}
-\indexentry{Fundamental Theorem!of Arithmetic|hyperpage}{45}
-\indexentry{Diophantine equation|hyperpage}{47}
-\indexentry{Euclidean algorithm|hyperpage}{50}
-\indexentry{Euclid|hyperpage}{51}
-\indexentry{Knuth|hyperpage}{51}
-\indexentry{rational numbers|hyperpage}{55}
-\indexentry{Q@$\Q$|hyperpage}{55}
-\indexentry{e@$\in$|hyperpage}{55}
-\indexentry{sequence|hyperpage}{73}
-\indexentry{function|hyperpage}{73}
-\indexentry{domain|hyperpage}{73}
-\indexentry{range|hyperpage}{73}
-\indexentry{root|hyperpage}{84}
-\indexentry{Unique Factorization Theorem|hyperpage}{85}
-\indexentry{sqrt2@$\sqrt{2}$|hyperpage}{86}
-\indexentry{sqrt2@$\sqrt{2}$|hyperpage}{86}
-\indexentry{R@$\R$|hyperpage}{86}
-\indexentry{real numbers|hyperpage}{86}
-\indexentry{e@$e$|hyperpage}{87}
-\indexentry{pi@$\pi$|hyperpage}{87}
-\indexentry{completing the square|hyperpage}{89}
-\indexentry{Ferro-Tartaglia   method|hyperpage}{92}
-\indexentry{wolf in sheep's clothing|hyperpage}{93}
-\indexentry{Cardano's formula|hyperpage}{94}
-\indexentry{Abel|hyperpage}{94}
-\indexentry{Galois|hyperpage}{94}
-\indexentry{C@$\C$|hyperpage}{97}
-\indexentry{complex!numbers|hyperpage}{97}
-\indexentry{Gauss|hyperpage}{98}
-\indexentry{Fundamental Theorem!of Algebra|hyperpage}{98}
-\indexentry{complex!plane|hyperpage}{99}
-\indexentry{complex!conjugate|hyperpage}{101}
-\indexentry{modular arithmetic|hyperpage}{104}
-\indexentry{steering!wheel|hyperpage}{109}
-\indexentry{steering!column|hyperpage}{109}
-\indexentry{UPC|hyperpage}{110}
-\indexentry{check digits|hyperpage}{110}
-\indexentry{varna-sangita|hyperpage}{113}
-\indexentry{Pascal's!triangle|hyperpage}{114}
-\indexentry{nchoosek@$\binom{n}{k}$|hyperpage}{115}
-\indexentry{nck@$_nC_k$|hyperpage}{115}
-\indexentry{Binomial Theorem|hyperpage}{116}
-\indexentry{base-ten blocks|hyperpage}{123}
-\indexentry{subtraction algorithm!standard|hyperpage}{124}
-\indexentry{base-ten blocks|hyperpage}{127}
-\indexentry{Euclidean Algorithm|hyperpage}{143}
-\indexentry{repeating decimal|hyperpage}{155}
-\indexentry{terminating decimal|hyperpage}{155}
-\indexentry{Division Theorem!for integers|hyperpage}{156}
-\indexentry{paradox!1=0.9@$1 = 0.999\dots$|hyperpage}{157}
-\indexentry{Louie Llama|hyperpage}{196}
-\indexentry{Louie Llama|hyperpage}{198}
+\indexentry{division algorithm!polynomial|hyperpage}{32}
+\indexentry{integers|hyperpage}{34}
+\indexentry{Z@$\Z$|hyperpage}{34}
+\indexentry{divides|hyperpage}{39}
+\indexentry{multiple|hyperpage}{39}
+\indexentry{factor|hyperpage}{39}
+\indexentry{prime number|hyperpage}{39}
+\indexentry{composite number|hyperpage}{39}
+\indexentry{factor tree|hyperpage}{40}
+\indexentry{GCD|hyperpage}{40}
+\indexentry{greatest common divisor|hyperpage}{40}
+\indexentry{LCM|hyperpage}{41}
+\indexentry{least common multiple|hyperpage}{41}
+\indexentry{long division|hyperpage}{42}
+\indexentry{forgotten foes|hyperpage}{42}
+\indexentry{divisor|hyperpage}{42}
+\indexentry{dividend|hyperpage}{42}
+\indexentry{quotient|hyperpage}{42}
+\indexentry{remainder|hyperpage}{42}
+\indexentry{Division Theorem!for integers|hyperpage}{42}
+\indexentry{Fundamental Theorem!of arithmetic|hyperpage}{47}
+\indexentry{lemma|hyperpage}{47}
+\indexentry{Euclid's Lemma|hyperpage}{47}
+\indexentry{Unique Factorization Theorem|hyperpage}{47}
+\indexentry{Fundamental Theorem!of Arithmetic|hyperpage}{47}
+\indexentry{Diophantine equation|hyperpage}{49}
+\indexentry{Euclidean algorithm|hyperpage}{52}
+\indexentry{Euclid|hyperpage}{53}
+\indexentry{Knuth|hyperpage}{53}
+\indexentry{rational numbers|hyperpage}{57}
+\indexentry{Q@$\Q$|hyperpage}{57}
+\indexentry{e@$\in$|hyperpage}{57}
+\indexentry{sequence|hyperpage}{76}
+\indexentry{function|hyperpage}{76}
+\indexentry{domain|hyperpage}{76}
+\indexentry{range|hyperpage}{76}
+\indexentry{root|hyperpage}{87}
+\indexentry{Unique Factorization Theorem|hyperpage}{89}
+\indexentry{sqrt2@$\sqrt{2}$|hyperpage}{89}
+\indexentry{sqrt2@$\sqrt{2}$|hyperpage}{89}
+\indexentry{R@$\R$|hyperpage}{89}
+\indexentry{real numbers|hyperpage}{89}
+\indexentry{e@$e$|hyperpage}{90}
+\indexentry{pi@$\pi$|hyperpage}{90}
+\indexentry{completing the square|hyperpage}{92}
+\indexentry{Ferro-Tartaglia   method|hyperpage}{95}
+\indexentry{wolf in sheep's clothing|hyperpage}{96}
+\indexentry{Cardano's formula|hyperpage}{97}
+\indexentry{Abel|hyperpage}{97}
+\indexentry{Galois|hyperpage}{97}
+\indexentry{C@$\C$|hyperpage}{100}
+\indexentry{complex!numbers|hyperpage}{100}
+\indexentry{Gauss|hyperpage}{101}
+\indexentry{Fundamental Theorem!of Algebra|hyperpage}{102}
+\indexentry{complex!plane|hyperpage}{102}
+\indexentry{complex!conjugate|hyperpage}{104}
+\indexentry{modular arithmetic|hyperpage}{107}
+\indexentry{steering!wheel|hyperpage}{112}
+\indexentry{steering!column|hyperpage}{112}
+\indexentry{UPC|hyperpage}{113}
+\indexentry{check digits|hyperpage}{113}
+\indexentry{varna-sangita|hyperpage}{116}
+\indexentry{Pascal's!triangle|hyperpage}{117}
+\indexentry{nchoosek@$\binom{n}{k}$|hyperpage}{118}
+\indexentry{nck@$_nC_k$|hyperpage}{118}
+\indexentry{Binomial Theorem|hyperpage}{119}
+\indexentry{base-ten blocks|hyperpage}{128}
+\indexentry{subtraction algorithm!standard|hyperpage}{129}
+\indexentry{base-ten blocks|hyperpage}{132}
+\indexentry{Euclidean Algorithm|hyperpage}{153}
+\indexentry{repeating decimal|hyperpage}{169}
+\indexentry{terminating decimal|hyperpage}{169}
+\indexentry{Division Theorem!for integers|hyperpage}{170}
+\indexentry{paradox!1=0.9@$1 = 0.999\dots$|hyperpage}{172}
+\indexentry{Louie Llama|hyperpage}{217}
+\indexentry{Louie Llama|hyperpage}{219}

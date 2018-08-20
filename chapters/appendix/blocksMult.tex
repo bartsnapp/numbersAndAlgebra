@@ -7,33 +7,6 @@
 %\includegraphics{../graphics/baseTenBlocks.pdf}
 %\]
 
-\begin{teachingnote}
-In each of the following problems, use the blocks to explain each step in the algorithm.  Then show the ``behind the scenes algebra.''
-
-
-\begin{itemize}
-\item Three copies of four blocks makes 12 longs.  Regroup as 1 long and 2 blocks. Write 2 below in blocks column and 1 above in longs column.
-\item Three copies of three longs makes 9 longs.  Plus 1 long (from regrouping) makes 10 longs.  Regroup as 1 flat and 0 longs.  Write 0 below in the longs column and 1 above in the flats column.  
-\item Three copies of 2 flats makes 6 flats.  Plus 1 flat (from regrouping) makes 7 flats.  Write 7 below in the flats column.  
-\end{itemize}
-
-\begin{align*}
-234 \times 3 & = (2\cdot 10^2 + 3\cdot 10 + 4)\times 3 \\
-&= 3\cdot 2\cdot 10^2 + 3\cdot 3\cdot 10 + 3\cdot 4 \\
-&= 3\cdot 2\cdot 10^2 + 3\cdot 3\cdot 10 + 12 \\
-&= 3\cdot 2\cdot 10^2 + 3\cdot 3\cdot 10 + 10 + 2\\
-&= 3\cdot 2\cdot 10^2 + (3\cdot 3 + 1)\cdot 10 + 2\\
-&= 3\cdot 2\cdot 10^2 + 10 \cdot 10 + 2\\
-&= (3\cdot 2 + 1) \cdot 10^2 + 0 \cdot 10 + 2\\
-&= 7\cdot 10^2 + 0 \cdot 10 + 2\\
-&=702
-\end{align*}
-
-\end{teachingnote}
-
-
-
-
 \begin{prob}
 Now Oscar is modeling the basic multiplication algorithm:
 \[
@@ -47,11 +20,35 @@ $\times$~~3\\ \hline
 \[
 \includegraphics[scale=0.9]{../graphics/oscarMult.pdf}
 \]
-Can you explain what is going on? What do you think of his model?
+Can you explain what is going on?  Does his model illustrate the algorithm?  If so, explain how.  If not, describe how to use base ten blocks to explain the algorithm.  
 \end{prob}
 
-\fixnote{Maybe fix the pictures to show missing steps.}
+\begin{teachingnote}
+This model doesn't show the separate steps in the algorithm.  It creates the three copies of 243 all at once rather than one place value at a time.  
 
+The standard algorithm can be explained with blocks:  
+\begin{itemize}
+\item Three copies of four blocks makes 12 blocks.  Regroup as 1 long and 2 blocks. Write 2 below in blocks column and 1 above in longs column.
+\item Three copies of three longs makes 9 longs.  Plus 1 long (from regrouping) makes 10 longs.  Regroup as 1 flat and 0 longs.  Write 0 below in the longs column and 1 above in the flats column.  
+\item Three copies of 2 flats makes 6 flats.  Plus 1 flat (from regrouping) makes 7 flats.  Write 7 below in the flats column.  
+\end{itemize}
+
+And here is the ``behind the scenes algebra.''
+
+\begin{align*}
+234 \times 3 & = (2\cdot 10^2 + 3\cdot 10 + 4)\times 3 \\
+&= 3\cdot 2\cdot 10^2 + 3\cdot 3\cdot 10 + 3\cdot 4 \\
+&= 3\cdot 2\cdot 10^2 + 3\cdot 3\cdot 10 + 12 \\
+&= 3\cdot 2\cdot 10^2 + 3\cdot 3\cdot 10 + 10 + 2\\
+&= 3\cdot 2\cdot 10^2 + (3\cdot 3 + 1)\cdot 10 + 2\\
+&= 3\cdot 2\cdot 10^2 + 10 \cdot 10 + 2\\
+&= (3\cdot 2 + 1) \cdot 10^2 + 0 \cdot 10 + 2\\
+&= 7\cdot 10^2 + 0 \cdot 10 + 2\\
+&=702
+\end{align*}
+\end{teachingnote}
+
+ 
 \begin{prob}
 Here is an example of the basic division algorithm:
 \[

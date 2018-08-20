@@ -14,16 +14,17 @@
 
 \usepackage{framed}
 \usepackage{comment}
+%\RequirePackage{xcolor,colortbl}% http://ctan.org/pkg/xcolor.  % Needed for secondDifferences activity. 
 
 %\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
 
-%\newenvironment{teachingnote}{\begin{framed}\noindent \textbf{Teaching Note:}}{\end{framed}}
-%\newcommand{\teachingnotes}{With Teaching Notes}
-\excludecomment{teachingnote}
-\newcommand{\teachingnotes}{}
+\newenvironment{teachingnote}{\begin{framed}\noindent \textbf{Teaching Note:}}{\end{framed}}
+\newcommand{\teachingnotes}{With Teaching Notes}
+%\excludecomment{teachingnote}
+%\newcommand{\teachingnotes}{}
 
-%\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
-\def\fixnote#1{}
+\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
+%\def\fixnote#1{}
 
 %%% This sets how the enumerate command works
 \renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
@@ -32,7 +33,7 @@
 
 \title{Numbers \\ and Algebra}
 \author{\teachingnotes}
-\publisher{Math 1165: Autumn 2017 \\ This document was typeset on \today.}
+\publisher{Math 1165: Autumn 2018 \\ This document was typeset on \today.}
 
 \begin{document}
 
@@ -41,6 +42,43 @@
 %%%% Front matter
 \input{../chapters/front}
 %%%%
+
+\vspace{1in}
+
+\begin{teachingnote}
+Activities to be added or revised:  
+\begin{itemize}
+\item Beckmann 1G
+\item Product Puzzle from Connected Mathematics Project 
+\item A.13. There are many factors to consider.  Needs revision. 
+\item A.20. Picture Yourself Dividing.  Include $1\frac{3}{4 }\div \frac{1}{2}$. 
+\item A.26. Poor Old Horatio.  Need new ratio table problems.
+\item A.54  Second Differences.  Current version won't compile within notes.  
+\end{itemize}
+\end{teachingnote}
+
+% Fixnote summary and other needs
+%
+% Highlight Deep Insights, such as
+%  * The point-slope form of a line turns a non-proportional situation into a proportional one. 
+%  * The sequence of partial sums of an arithmetic series is a quadratic function. 
+%  * With common denominators, division of fractions ? 
+%
+% Fix the footnotes
+%
+%More problems needed: 
+% 1.1. Other bases
+% 1.2. Doubling and halving algorithm for multiplication 
+%         Mysterious base two game
+% 2.1. Models of integer arithmetic
+% 3.1. Easy problems on ratio and proportional reasoning
+% 	Ratio tables, going through 1, tables that aren?t ratio tables
+% 3.2. More problem on quadratics, exponentials?  (Some in LaTeX comments.)
+%
+% Discussion:  Meaning of the equals sign somewhere
+%
+
+
 \newpage
 %\pagenumbering{arabic}
 %\pagestyle{fancy}
@@ -66,16 +104,6 @@
 \renewcommand{\labelenumi}{\theenumi}
 \chapter{Activities}
 %\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
-
-% Things to be added
-% *  Deep insights
-%  * hundredths grid
-%  * linear, quadratic, exponential
-%  * meaning of exponents
-%  * Beckmann 1G
-%  * Product Puzzle
-%  * Something from notes about garden variety
-% and fix the footnotes 
 
 
 %\input{../chapters/appendix/shemp.tex} 
@@ -150,8 +178,6 @@
 
 \input{../chapters/appendix/meaningsOfExponents}
 
-%\input{../chapters/appendix/gardenVariety.tex}  Moved to problems;   
-
 %\input{../chapters/appendix/doesntAddUp.tex}  Replaced by arithmetic series
 
 %\input{../chapters/appendix/worldSeries.tex}  Moved to problems
@@ -164,19 +190,23 @@
 
 \input{../chapters/appendix/geometicSeries}
 
+%\input{../chapters/appendix/secondDifferences}   % Requires \RequirePackage{xcolor,colortbl}, but then some of the Euclidean Algorithm sections won't compile.  
+
 \input{../chapters/appendix/hieroAlg.tex}
 
 \input{../chapters/appendix/otherSide.tex}
 
 \input{../chapters/appendix/solvingQuadratics}
 
-\input{../chapters/appendix/solvingCubics}
+\input{../chapters/appendix/completeSquares}
 
 \input{../chapters/appendix/vertex.tex}
 
 %\input{../chapters/appendix/leastSquares.tex}
 
-\input{../chapters/appendix/otherCurves.tex}
+\input{../chapters/appendix/solvingCubics}
+
+%\input{../chapters/appendix/otherCurves.tex}
 
 \input{../chapters/appendix/sketchRoots.tex}
 
@@ -184,13 +214,13 @@
 
 \input{../chapters/appendix/complexMultiplication.tex}
 
-\input{../chapters/appendix/deg2Ext.tex}
+%\input{../chapters/appendix/deg2Ext.tex}
 
 %\input{../chapters/appendix/inverseFunctions.tex}
 
 %\input{../chapters/appendix/gaussianInt.tex}
 
-\input{../chapters/appendix/orderMod.tex}
+%\input{../chapters/appendix/orderMod.tex}
 
 %\input{../chapters/appendix/closeButNoCigar.tex}
 
