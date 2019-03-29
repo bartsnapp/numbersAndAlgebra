@@ -1,3 +1,4 @@
 \contentsline {chapter}{\numberline {A}Supplemental Activities}{3}{appendix.A}
-\contentsline {section}{\numberline {A.54}Second Differences}{4}{section.A.54}
+\contentsline {section}{\numberline {A.52}There Are Many Factors to Consider}{4}{section.A.52}
+\contentsline {section}{\numberline {A.53}Second Differences}{6}{section.A.53}
 \contentsfinish 
