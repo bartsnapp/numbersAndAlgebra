@@ -18,13 +18,13 @@
 
 %\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
 
-\newenvironment{teachingnote}{\begin{framed}\noindent \textbf{Teaching Note:}}{\end{framed}}
-\newcommand{\teachingnotes}{With Teaching Notes}
-%\excludecomment{teachingnote}
-%\newcommand{\teachingnotes}{}
+%\newenvironment{teachingnote}{\begin{framed}\noindent \textbf{Teaching Note:}}{\end{framed}}
+%\newcommand{\teachingnotes}{With Teaching Notes}
+\excludecomment{teachingnote}
+\newcommand{\teachingnotes}{}
 
-\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
-%\def\fixnote#1{}
+%\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
+\def\fixnote#1{}
 
 %%% This sets how the enumerate command works
 \renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
@@ -33,7 +33,7 @@
 
 \title{Numbers \\ and Algebra}
 \author{\teachingnotes}
-\publisher{Math 1165: Autumn 2018 \\ This document was typeset on \today.}
+\publisher{Math 1165: Autumn 2019 \\ This document was typeset on \today.}
 
 \begin{document}
 
@@ -50,10 +50,9 @@ Activities to be added or revised:
 \begin{itemize}
 \item Beckmann 1G
 \item Product Puzzle from Connected Mathematics Project 
-\item A.13. There are many factors to consider.  Needs revision. 
 \item A.20. Picture Yourself Dividing.  Include $1\frac{3}{4 }\div \frac{1}{2}$. 
 \item A.26. Poor Old Horatio.  Need new ratio table problems.
-\item A.54  Second Differences.  Current version won't compile within notes.  
+\item A.52  Second Differences.  Current version won't compile within notes.  
 \end{itemize}
 \end{teachingnote}
 

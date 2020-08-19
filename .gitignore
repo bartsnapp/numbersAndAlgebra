@@ -1,5 +1,8 @@
 *~
 *.aux
+*.idx
+*.synctex.gz
+*.thm
 *.pdf
 *.log
 *.out
