@@ -1,4 +1,6 @@
 *~
+*.bbl
+*.blg
 *.aux
 *.idx
 *.synctex.gz
